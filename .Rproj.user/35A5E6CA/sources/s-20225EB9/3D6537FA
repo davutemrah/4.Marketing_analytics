@@ -3,7 +3,7 @@
     "path": "~/Desktop/GITHUB/4.Marketing_analytics/01-intro.Rmd",
     "project_path": "01-intro.Rmd",
     "type": "r_markdown",
-    "hash": "1576796000",
+    "hash": "1859682898",
     "contents": "",
     "dirty": false,
     "created": 1659720443983.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "34,147",
-        "scrollLine": "31"
+        "cursorPosition": "143,218",
+        "scrollLine": "135"
     },
     "folds": "",
-    "lastKnownWriteTime": 1659720972,
+    "lastKnownWriteTime": 1659734668,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1659720972594,
+    "last_content_update": 1659734668485,
     "read_only": false,
     "read_only_alternatives": []
 }
