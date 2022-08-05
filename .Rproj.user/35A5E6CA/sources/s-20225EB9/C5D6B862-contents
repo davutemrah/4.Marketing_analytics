@@ -1,6 +1,6 @@
 --- 
 title: "Marketing Analytics Notebook"
-#author: ""
+author: "DEA"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -11,3 +11,7 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources "
 ---
+
+# Acknowledgement
+
+This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources.
