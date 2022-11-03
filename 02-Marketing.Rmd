@@ -1,0 +1,148 @@
+# Marketing Analytics
+
+Coursera: Marketing Analytics
+
+-	Marketing is both an art and science
+-	Analytics provides marketing managers the opportunity to test intuition about marketing.  
+-	More and more data are collected every second. More data is collecting on consumer choices. We better understand how and what consumers are interested in.
+
+Data can be used to maximize profits.
+
+Data is used to develop businesses decision support system. 
+
+Data driven decisions.
+
+Data can be used to improve marketing process. You can use reviews, price, other factors that may affect customer decisions.
+
+My advance education in economics has helped me with business understanding.
+
+Marketing Process
+
+Start with objectives: customer, company, competitor, collaborator, context. 
+Strategy: segmentation, targeting, positioning
+Tactics: product, price, place, promotion
+Financials: Margin, ROI, CLV How do company make money?
+
+How to improve customer experience?
+Sharing economy context
+
+Objectives: University of Kansas: students are the customers, campus, other colleges, faculty, education
+
+Strategy: When setting the strategy, first step is segmentation to determine which customers are align with your objective.
+Segmentation: we want to cluster our customers into segments. Segmentation can be based on location, adventure, price, vacation, family, students. Segmentation divides a potential market into groups with similar characteristics that will be targeted in the marketing campaign. 
+In order to determine where you will focus your marketing strategy, you will need to segment your customer base into subgroups that share similar characteristics.
+
+
+Targeting: 
+
+Positioning: Positioning is an element of strategy where you distinguish your product from similar products on the market.
+
+
+Marketing analytics includes descriptive, predictive, and prescriptive analytics.
+
+-	Predictive analytics will allow you to predict the impact of each marketing campaign and estimate the likelihood of future outcomes. Predictive analytics give you insight into the future; in this case, how the market will likely respond to the ad campaign. 
+-	
+
+-	Descriptive analytics tell you about what happened in the past or the current state, but do not help you figure out next steps. You will be analyzing the survey data from customers about what happened in the past to gain insights about customer preferences. 
+
+-	You will want to conduct prescriptive analytics to determine what your company should do to assure your customers about the high salt content. Prescriptive analytics yields insight about which actions to take to achieve your goal. 
+
+
+
+AIRBNB EXAMPLE
+
+Strategic challenge: how do we improve rental prospects for our hosts and identify better rental options for our guests?
+
+Mental Model: 
+Profit per Property  Gross Margin (%)
+Profit per Property <- Price, # of rentals, minimum stay
+
+
+What is the value of brands?
+
+
+Brand is not just a name, color, shape or logo. It is a complex entity.
+
+-	Brand personality is part of larger concept of brand architecture. Analytics help us identify how marketing affects brand architecture.
+
+-	Marketers use data to tweak features and benefits to create a stronger connection between customers and the brand 
+
+
+-	Marketers analyze data around marketing campaigns and their impact on all the components of brand architectures. 
+
+Product attributes: features of the product.
+
+-	What a brand means to a consumer. 
+
+Customers buy benefits, not features. When building up brand architecture, knowing the benefits helps with consistent messaging to consumers.
+
+Brand personality contributes to the strength of a brand, but isn't used to determine brand strength.
+
+The architecture of a brand is not part of calculating brand value, but it is important to understanding what the brand means to consumers.
+
+Brand Asset Valuator matrix
+Top left quadrant: Your brand's strength as measured by differentiation and relevance is already quite high, so you should focus your efforts towards improving other dimensions of the brand. 
+
+
+Measuring Brand Value
+
+-	Y&R goes beyond financials to provide diagnostics which can allow marketers to improve the brand 
+
+-	Y&R measures brand strength and stature, while Interbrand also looks at financials. 
+
+-	Y&R is helpful for improving brands; Interbrand is helpful during a merger & acquisition. 
+
+While you would want to look at many models to value the brand, the most important when acquiring a brand is the Interbrand model, since it gives a dollar measure of the brand's strength, financial performance, and influence on customer decisions.
+
+The Revenue Premium as a Measure of Brand Equity model should be used for items found in a typical grocery store, since it compares generic items against private labels using data from receipts. 
+
+
+Measures of Brand Equity:
+
+1.	Intrabrand brand ranking
+2.	Y&R Brand Asset Valuator
+3.	Revenue Premium
+
+Revenue Premium: This method assumes that branded and private label products are similar in all aspects except their brand names. The revenue premium model looks at how much revenue a brand generates by comparing the branded product to private label products and assumes that the only difference between the two products is the brand (which is generally true of supermarket items). 
+
+Risk is a component of the long-term multiplier, not the entire equation. 
+
+The long-term multiplier is (1+D)/(1+D-R), where R is the stability factor. If R increases, (1+D-R) decreases, so the long-term multiplier increases. 
+
+Revenue premium: (0.35 * 1.50 * 7 - 12% * 0.80 * 7) = 3
+Additional variable cost: (0.35-0.12) * 0.75 * 0.80 * 7
+
+Brand Equity = Revenue premium - Additional variable cost = [(0.35 * 1.50 * 7 - 12% * 0.80 * 7) - (0.35-0.12) * 0.75 * 0.80 * 7] * 125 million = 253.75 million
+
+Annual brand equity   
+
+The difference in the annual revenue premium and the variable cost for multiplied by all the households in the market 
+
+   
+
+
+
+When calculating brand equity, what does the long-term multiplier represent? Wrong A way to determine the risk of a brand in the future 
+What does the revenue premium as measure of brand equity quantify? 
+Wrong The expected additional demand generated by a branded product over an equivalent unbranded product 
+
+
+Your company is concerned that its brand power is eroding. What model would be most useful in determining how to improve the brand? Y & R Brand Asset Valuator Model 
+
+According to the Y&R Brand Asset Valuator, what are the key differences in knowledge and differentiation between a new brand and a declining brand? New brands are lower in stature than a declining brand.
+
+If your brand is in the top left quadrant of the Brand Asset Valuator matrix, what should be your strategic priority?
+Wrong  Enhancing brand strength
+
+Why do marketers focus so much time on developing a brand's architecture? 
+Wrong To determine brand value 
+
+Which of the following is a product benefit for a Honda Civic car? Comfortable
+Why do marketers spend so much time creating brand personalities? 
+Wrong To determine the brand strength 
+
+
+
+
+
+

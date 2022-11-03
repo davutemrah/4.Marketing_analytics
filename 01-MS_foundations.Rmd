@@ -1,0 +1,459 @@
+
+# Marketing Analytics Foundation
+
+## How to be Successful in this Program
+Learning new skills takes courage. You must be willing to be a beginner, to experience the awkwardness of not knowing how things work. We are wired to seek comfort and avoid failure. It may seem counter intuitive, but the faster you fail, adjust and try again, the faster you succeed. 
+As a learner, if you are willing to step outside of your comfort zone, work through your fears and keep going as you acquire each new skill, apply what you learn, eventually you’ll become a pro!
+
+### Make a Plan
+
+Know Your 'Why'
+
+Think about why you decided to register for this course. Maybe you are curious about what’s new in marketing analytics, or you are looking for a career change and want to add the certification to your resume, or maybe you are thinking of starting a freelance marketing analytics service or are thinking about adding marketing analytics to your current offerings.
+What’s your why? Write it down and post where you can see it every day. Post it by your desk or on your screen. Set it as your wallpaper on your computer or phone.
+
+### Set Goals
+Knowing what you’re trying to accomplish and having a plan can:   
+- Help keep connected the reason you chose. Reasons can be such as new skills, job requirement.  
+- Provide a clear path to reach the result you desire, which allows you to know your next step and know if you’ve achieved it.     
+-	Boost your self-confidence by providing you a framework to come back to when you are frustrated or tired. Knowing why you are working so hard and how you are going to reach your goals can see you through moments you may feel like throwing in the towel.    
+
+How to set goals:
+- Set a completion date and work backward
+-	Set your deadlines
+
+**Find the Time**
+   
+Before you set regular study times, it is helpful to understand how you spend your time. Try to capture everything you do in a typical week. Your hour spent at work, family obligations, classes or clubs, time spent on hobbies, exercise and socializing. If you want to get really detailed you can even capture the time you spend on social media or watching television.
+
+## Role of marketer
+
+If you spend some time online, you've probably noticed that quite a few of the **ads** you see are for products you're genuinely interested in and some of these ads may have prompted you to buy.  Well, that's no coincidence. **You likely saw these ads because some underlying data and marketing analysis made the advertiser understand that you might be interested in the product advertised.**   
+
+That's just one of the many ways in which marketing analytics powers marketing. In fact, it's fair to say that all marketing benefits from `data` and `analytics.` 
+
+Marketing is responsible for promoting and selling the products that a company makes. And that usually involves the following steps: 
+First, the marketers identify the `right customers` for the product. `They think about and research who might be interested in buying the product.` They may interview people and use questionnaires to understand their **needs** better and whether these needs might be met by the product they sell. 
+
+They will also try to form a better picture of the lives of the people that may want their product. All this is referred to as `market` or `consumer research` and it's an important part of marketing. Marketing analytics is essential in this phase to help analyze the data from the research. Based on this research, marketers will create a message and a story about the products they sell. They will also decide where that message should go so it can reach the customers who may be interested. This may mean creating a website, a Facebook page, or an Instagram account. 
+And in some cases, creating ads that could be put in magazines, on TV, on the web, and so on. This is the creative part of the marketer's job. 
+
+Many companies will rely on advertising or creative agencies to help them. Coming up with the right message and the right imagery to complement that message is a real art. But marketing analytics is used in this phase as well. 
+
+Often `marketers will test their messages out and gather data about the ads or promotions they run to try and understand what works best for their audience.` To get marketing messages out, marketers need a plan. Marketers will carefully select the different places where they talk about their product. 
+
+And if they plan to advertise, they will work on strategies that help them to most effectively spend their advertising budgets. Marketing analysts have an important role to play here. By using data and analytics to create their plan, marketers can save time and money. 
+
+Once campaigns and promotions start to run, marketers will watch them carefully and focus on evaluating the results they see, like clicks on ads from campaigns, sales resulting from ads, and so on. Based on that information, marketers will adapt their advertising and their marketing plans. Given that a large share of marketing budget is spent online these days, `real-time updates are possible` and good marketers will make use of the opportunity by optimizing in real-time as well. But to do it effectively, they need marketing analytics. 
+
+After an advertising campaign runs its course, marketers will want to evaluate whether their money was well spent. And they will have to report back to other people in the business on the success of their efforts, so they perform more analysis. And while reporting is essential, this analysis will also help the marketer get better and optimize their message and strategy for their next campaign.The better you are at marketing analytics, the better you'll be able to optimize and get your message out to the right people in a more efficient way.   
+
+Analytics plays a crucial role in marketing. A marketer equipped with good data and analytics, will be a better marketer. Online actions generate loads of data that can be a goldmine for marketers if used well. As a result, marketing analytics skills are in high demand, and all great marketers today rely on analytics to make decisions. 
+
+### What is marketing analytics? 
+
+It is the practice of measuring and analyzing data to inform, evaluate, and improve the performance of your marketing initiatives. Marketing analytics is all about gathering and analyzing data to make your marketing better. 
+
+5 Main Uses of Marketing Analytics
+
+1.	 Identifying the target audience
+2.	 Planning and forecasting
+3.	 Evaluate marketing effectiveness
+4.	 Marketing optimization
+5.	 Optimizing the sales funnel
+
+Now let's take a look at where the role of the marketing analyst comes in, or how marketing analytics can support and improve marketing. 
+
+**1. Identifying the target audience:** Marketers have limited budgets, so they want to make sure that their marketing message reaches a `receptive` audience. Or in other words, they want to talk to people that may have an interest in buying their product. In marketing, they refer to that as your target audience. So how do marketers find that audience? Well, they use research. 
+Imagine a marketer for a mattress company. They could use surveys to get a better understanding of when people buy mattresses, what they find important when buying a mattress, how much they would spend on a mattress, and so on. They might also use some databases that exist about mattress sales, and the demographics of the people who buy them. All of this will help describe who the best target audience is for the mattresses.    
+
+- What are their characteristics?   
+- Where do they live? 
+- What phase of their life are they in, and so on? 
+
+All the information the marketer gathers comes in the form of data. And marketing analytics will help to make sense of that data and paint the detailed picture of the target audience the marketer needs to create the marketing message and get in front of the interested people. 
+
+**2. Planning and forecasting:**  Marketing and advertising can be expensive. So before marketers spend their budgets, they evaluate where and when they should put their marketing message. They will carefully think about how much of their time and how much of their budgets should be spent on social media, ads on TV, radio, search engines, and so on. Often, marketers will take a look back at their previous marketing efforts, and on the basis of the success they have had with campaigns in all of these different places, they may decide to spend more or less money in some of them this time around.    
+
+The mattress company may use data from the previous year to determine the mix of advertising for the coming year. They may have learned, for instance, that advertising on TV and social media really worked for them, but that there was little payoff from the ads on the radio. Often, this exercise comes with a detailed forecast of the sales they can expect based on the budget they plan to spend. This is where marketing analytics comes in. The more a marketer can rely on data and analysis in this phase, the better the results of their marketing will be. After marketing campaign is over, marketers will take a look back and ask themselves whether their campaign was effective. It helps them to learn more about what worked and what didn't work. But they're also doing it to report back to other people in the company.   
+
+**3. Evaluate marketing effectiveness:**  They're given a budget, and management typically expects a report on how the budget was spent and how successful the marketing was. For our mattress marketer, there may be a quarterly management meeting in which the marketer reports the sales that resulted from the marketing campaign. The marketer may also use this opportunity to show data on the ads that worked best, the placement of these ads that generated the largest audience and sales, and so on.     
+
+
+Showing that the marketing was effective is crucial for most marketers, as it will help them to get the budget they need for success in the future. 
+
+**4. Marketing optimization:** Even after very careful planning and forecasting, things can always be improved. This is true with marketing too. Once a marketing campaign is up and running and you collect or gather data on how it is performing, there is an opportunity to optimize. And the more data you have, and the more you know about analytics, the better you'll be able to fine-tune and optimize your marketing. As soon as you get some information on how your ads are performing, you can use that information to adjust your marketing. 
+
+Say for our mattress company, if you learn from the initial data that certain search engine ads are delivering more sales than others, you could decide to spend a bit more money on the ads that perform well, and less on the ads that don't. If you can take these kinds of actions, you optimize how your money is spent. Data and analytics are really powerful that way, and can save you quite a bit of money. 
+
+**5. Optimizing the sales funnel:** Finally, there's a specific task of making sure that people who want to purchase a product or have shown an interest can easily do so. Marketers will refer to that as optimizing the sales funnel. That is because they think of the sales process in a few steps. For instance, you could think of the sales process in four steps. 
+
+**Awareness** – **Interest** – **Decision** – **Action**   
+
+Awareness; or when a person first hears about a product. Then Interest; which is when a person is interested in the product and may try to learn a bit more about it. Then there is the Decision step when a person decides that they want to get your product. And then there is the Action step, when they buy your product.   
+
+Marketers described this process as a funnel, because as people go through this process, some people drop-off and don't take the next step. So when you draw the group of people that go through the four steps, the groups get gradually smaller. 
+
+And when you put these groups together, it looks like a funnel. When marketers talk about optimizing the funnel, they really talk about reducing the number of people that drop out. 
+
+Say for our mattress marketer, it's important that as many people as possible who are aware of the mattress become interested. And of the people who are interested, you want as many as possible to decide that they want your mattress. And then you want them to take action and buy your mattress. Since the marketer spends money on getting people to consider the mattress, they want as many people as possible to take all four steps and check out. 
+
+Data and analytics will help inform marketers about how healthy their sales funnel is, how many people drop out and don't take the next step, and why that may be. 
+
+## The Future of Marketing is Data
+
+The future of marketing will be defined by analytics. Marketers must use data to more accurately understand who their customer is and predict what their future behavior will be.
+
+Marketing is all about personal connection. `It's about filling a need or desire a customer has with a product or service you offer, and providing value to that customer while doing so.` Marketing connects people with a problem they want solved to the business that can solve it. But too often, companies are simply guessing at who may need their product or service, and may advertise the features of their products without articulating any of the benefits to their customer. Or, they may just assume that everyone will want their product and never put the effort into identifying a target audience of those who will not only benefit from the product or service they offer, but who can become brand ambassadors in the future. Additionally, consumers today expect personalized experiences with the brands they interact with, from unique online and brick-and-mortar experiences, to customized product offerings, to a personable voice on social media. Just as a blanket advertising approach doesn't work for organizations, a one-size-fits-all experience doesn't work for customers.
+
+But marketers don't just need better awareness about making personal connections with their audience, they need tools to do it as well. **There's a shift in looking at how well each product performs to how valuable each customer is**, and marketers can only get to know their customer and create that personal connection with data. 
+
+With data, marketers can learn:   
+- what products each customer has bought in the past       
+- what social media content is resulting in the most purchases          
+- what keywords customers are searching for     
+- age, gender, and location     
+- what their interests are      
+- how to market to those customer in the future       
+ 
+This is why the future of marketing will be defined by analytics, or using data in order to more accurately understand who the customer is, what their past behavior has been, and what their future behavior will be. The future of business growth and success will belong to organizations who will use data in smart, insightful, applicable ways.
+
+### Marketing Trends for a Data-Driven Future
+
+As we see an increase in data-driven customer connections, here are some trends we'll see in the future of marketing.
+
+**Smarter use of data**   
+
+Marketing teams will increase their use of data in order to learn more about their customers, which will create better targeting, personalization, and connection. More personalized marketing means more returns, as 80% of consumers say they'd be more likely to purchase from a brand that offers personalized experiences, and 72% say they only engage with marketing messages that are specific to their interests.
+
+**Growth of AI** 
+
+There will be an increase in use of AI, machine learning, and algorithms in marketing, as it can predict patterns and make recommendations based on the insights it sees. Already, algorithms choose 70% of what viewers watch on YouTube and 75% of what viewers watch on Netflix, and recommendation algorithms drive 35% of sales on Amazon. Additionally, automation will increase as well, with Gartner predicting that "By 2023, autonomous marketing systems will issue 55% of multichannel marketing messages based on marketer criteria and real-time consumer behavior, resulting in a 25% increase in response rates."
+
+**Shift to first-party data** 
+
+As Google is phasing out its use of cookies, organizations will shift from third-party data to first- and second-party data, which will help them understand their customer more precisely.   
+
+Giving customers transparency into how data is collected will be a priority as well. According to Kevin Cochrane, the CMO of SAP Customer Experience, "*To initiate a more trustworthy relationship, organizations must start by eliminating internal processes of acquiring third-party data. They must use only data that they have earned through explicit customer consent. ... Moving forward, consumers should (and will) have full visibility into how extensively their personal data is being monetized.*"    
+
+**More online data**  
+
+As the COVID-19 pandemic shifted life online, organizations suddenly saw an increase in new data they could collect about their customers, and the trend will only increase. "In the absence of the face-to-face, we had to lean in on digital, and that allowed us to have the information, the data, to then better serve our customers," notes Kevin Warren, CMO of UPS. "This year really has revealed that strategic importance of analytics that maybe wasn't quite there pre-COVID." 
+
+**Better budget optimization** 
+
+As marketing teams are able to better target their customers, they'll be able to better optimize their budgets. In wanting to optimize its marketing budget, `DoorDash first looked at which ads brought in new customers`, drew channel-level cost curves based on the data, and created better ways to deliver. "Accurate, timely, and fine-grained attribution data is the key to understanding and optimizing our marketing," they explain.
+
+
+## An Application
+
+We are going to refer to an imaginary company, DCB Cleaning Services. They are a company that provides office cleaning services in the San Francisco Bay Area. James manages marketing for the company. Recently he presented an idea for a new product to his management, Snackwall. It's a service where the company installs a snack wall in an office. Customers subscribe to the service and select their snacks and refills through an app. Management was very excited about his idea and developed the product. James was given a marketing budget to launch the new service. We'll follow James and look at some of the decisions he needs to make.
+
+### Audience
+
+James at DCB Cleaning is excited to bring Snackwall to market and he's gearing up to launch. With a quickly approaching launch date and limited budget, James knows that it is essential to get the message about Snackwall in front of the **right audience;** people who may be interested in the service. Given his limited budget, he wants to make sure not to waste any of his money on people in offices where Snackwall would likely not be a good fit. 
+
+James needs to define his target audience. James believes that it will be best to promote Snackwall among the **existing** DCB Cleaning clients. But he does not think all the clients will be interested. 
+
+To get a better understanding of who may have an interest, James decides to create a **survey.** He divides his survey in three parts. 
+
+In the 1st part, he asks questions about the office space.     
+- How many people work in the office? \
+- Is most of the work desk work? \
+- Where's the office located? \
+- How far is the office from the convenience stores? \
+- Does the office provide lunch, etc.? \
+
+In the 2nd part, James asks about the employees and the work they do.   
+- What is the average age of the employees at the location?\
+- What's the education level?\
+- What industry is the company in?  
+   
+In the final part of the questionnaire, James describes Snackwall and asks the level of interest in the product, from not at all interested to very interested. James' survey goes out to all 300 clients of DCB Cleaning. It's an online survey and 200 clients fill it out. Now that James has the answers to his questions, he goes to his marketing analyst, Alia, who had suggested to survey in the first place and who will help James analyze the results. Alia sorts all the responses in a spreadsheet. Then, she runs the segmentation analysis on the data. Segmentation is a technique we will learn more about later in this program. It's a way to sort people in groups based on characteristics they have in common. In this case, Alia uses segmentation to get a better understanding of the characteristics that people who are interested in Snackwall have in common. After Alia runs her analysis, she finds that there are two distinct groups that have a very high interest in Snackwall. She presents her results to James. The 1st group she named "Focused Tech". This group includes companies that have over 30 employees, provide lunch on-site, are active in the tech industry, and are primarily employing engineers and have a young workforce. The 2nd group Alia refers to as "Isolated Office". This group includes companies with between 30 and 50 employees located outside of the urban areas with little access to food. They don't provide lunch for their workers. They are in various industries and their workforce is young. Alia also tells James that the Focused Tech segment is quite a bit larger than the Isolated Office group. This information is super helpful for James. Using the information provided in the survey responses, James does a bit more work on describing these two audience groups. He plans to target his first advertising campaign to the Focused Tech audience. He will advertise to his current clients, but he will also use this information to find more companies that are similar to the audience in the Focused Tech segment.
+
+
+The segmentation that James' marketing analyst Alia did for him helped James define his target audience. He knows that narrowing his advertising to this target audience will help him spend his budget wisely since it will increase the chance that his ads will be seen by people who are interested in his product. For any marketer who's trying to define their target audience, marketing analytics is crucial.
+
+
+Segmentation helps to group the people interested in Snackwall and describe their common characteristics 
+
+
+### Planning and Forecasting
+
+A second crucial task where marketing analytics supports marketing is in the planning and forecasting phase. James has a budget that he can use to market Snackwall. He has identified a target audience, but now he needs to come up with a marketing plan. He needs to make sure that he makes the best possible use of his budget. On top of that, his management would like to get a sense of the expected sales. There are a few things James needs to consider in his plan. First, he needs to select the platforms he will use to advertise. James believes that social media would be great, but he needs to decide which platforms to include. Alia, who runs marketing analytics for DCB cleaning and the Snack Wall product, has access to comScore data, a database with information about the different online media people use, people's browsing behavior and demographics. Alia shows James how the age group of the focused text segment he is targeting uses Facebook and LinkedIn a lot, more so than Instagram, for instance. James agrees that these would be good platforms for his ads. Now he needs to decide how much of his money should be spent in each platform, should it be 50-50? Alia advises against that. She shows James how based on the company's advertising experience, they found that Facebook tends to be cheaper if you target your ads well, or in other words, if you put the right message in front of the right people. But she has also found that LinkedIn helps to generate awareness among professionals. Even if they see less sales coming from the ads directly, they tend to create good leads. Based on this historical information, Alia has created a formula that she can use to help James divide up his budget. James ends up putting 70 percent of his ad budget in Facebook and 30 percent in LinkedIn. Now, James has one more step to take. He needs to present his plan to his management and his boss expects to see a forecast of the sales. Alia suggests that James rely on the historical data they have about the results of the campaigns the company ran for its cleaning services. They both know that this product is different, but since the product is new, this is the best data they have. Alia shows James how she can use the data to predict the number of people that will click on his ads in Facebook, and how many of those people will then go on to subscribe to the service. She can do the same for LinkedIn. This sounds simple enough, but in fact, the model Alia uses to forecast is a bit more complex. It also involves factors like the types of ads James is planning to use, how many video ads, single image ads, etc. The time of year when the campaign will run to people, James will target and so on. All of this information helps Alia build a better model to help James forecast the sales for Snack Wall.
+
+
+As you can see from this example, data and analytics play an important role into planning and forecasting phase. Of course, James could decide how to spend his budget without using analytics, but the more data and information James uses to plan, the better his strategy will be. Alia used what a company learned from the past, and that helps James to build his marketing approach and forecast sales. If you don't have data from the past that can help guide you, marketing analytics will often use data they can purchase, like the comScore data about browsing behavior we referred to. In any case, using marketing analytics will make your strategy and forecasts better.
+
+
+
+Historical data for similar events in the past can help predict events in the future and can thus guide the planning process
+
+
+### Evaluate Advertising Effectiveness
+
+
+Marketing analysts play an important role in helping to evaluate marketing effectiveness. Or another way to think about this is whether or not the marketing budget was spent well. And an important part of that is evaluating the effectiveness of advertising. 
+
+Marketing analysts will try to answer the question: did the advertising campaign payoff? A good starting point to answer that question is by looking at `return on Ad spent or ROAS.` **ROAS** is simply a way to find out how much `revenue` you made on your advertising versus what you spent on it. The calculation for ROAS is revenue made from the ads divided by advertising costs of those ads. For example, if you spent $1 on advertising and made $10 off of that advertising, your ROAS as is 10. 
+Or can be expressed as 10 to 1 or 10x. So this advertising made 10 times what we spent on it, which would be pretty good.
+
+
+Marketing analysts will use ROAS to compare how ads on different platforms perform. Or they may use it to compare campaigns they ran in the past with new campaigns and so on. All of this will help them evaluate whether they are getting the most for the advertising dollars they're spending. Or whether there is room for improvement. Let's go back again to James and his campaigns for SnackWall. After is campaign ran for two weeks, he finds that ROAS on his facebook ads is 12. This means that for every dollar he spends on advertising on Facebook, he sees 12 dollars in revenue for the Snack Wall product. That doesn't sound too bad. But James knows that the advertising campaigns he ran on facebook in the past for the cleaning service had a ROAS of 23. So now James is a bit worried, he doesn't think that the product is less attractive, but he thinks he could optimize his campaign. He decides to create new ads with more images and a clearer explanation of the service. Two weeks later, James sees that ROAS for his ads is up to 19. James feels a lot better about that. He thinks there's still some room for improvement, but this is definitely going in the right direction. Marketing analysts will use different data and tools to calculate ROAS. Most advertising platforms provide detailed reports to calculate and track the effectiveness of ads. Of course, the example we walked through here is a bit simpler than what analysts encounter in real life, as there are a few more considerations that go into evaluating the effectiveness of ads. In this program, we will cover several techniques that you can use to evaluate whether your campaigns paid off. As you'll find throughout these courses, ad effectiveness evaluation is a crucial task for marketing analysts
+
+
+### Optimize your Marketing Strategy
+
+We discussed that a lot of planning goes into marketing from identifying the right audience, to creating the right message, to selecting the right channels for that message. But once you actually start your marketing, you get a lot more data that provides you with helpful information that you can use to adjust your plan and further optimize. 
+
+
+Actually I find that that's the beauty of digital marketing in particular, as soon as you start running campaigns online, you get data. And you can use that data to change course and adjust in real time. That's super powerful especially if you know marketing analytics. Here are some of the things marketing analytics can help with when it comes to optimizing your marketing campaigns.     
+
+* First, if you're running ads in different channels like Facebook, YouTube, Twitter, Google, and so on, you may find that as the initial data on the effectiveness of your ads come back that some of the ads work better than others. Some channels may be more effective for your message and for your target audience than others. That insight can help you adjust your marketing mix. You may decide to shift some of your remaining budget to the channels that perform best. 
+
+* Second, you may see that within a channel your ads aren't exactly delivering the results you were expecting. That may prompt you to change your advertising a bit or in other words, optimize within a channel. You could change your message or the ad creative you're using or you may adjust who you're targeting your ads to, in other words, the audience that will get to see your ad. 
+
+* And third, while you make these changes in your ad strategy, you may decide to test your new ads or the new audience that you will target. You can do that by running your new ads as well as the initial ads and test them against one another. That way, you can see whether your new ad does indeed work better than the old ad. Testing is a powerful way to make your decision and adapt your marketing based on data rather than intuition. Let's go back to James. Remember how Alia had suggested, based on historical data, that he put 70% of his budget in Facebook ads and 30% in LinkedIn. Well, after the ads ran for two weeks, James noticed that he got better results from LinkedIn than he and Alia expected. So, he decided to put a little bit of the Facebook budget into LinkedIn instead. And when James saw that the ads in Facebook did deliver less results than he had hoped for in the first three weeks, he decided to change the ads to include a clearer message and more images. However, instead of just stopping the first campaign altogether and switching to these new ads, James decided to run both ads and see which one delivered the best results. Based on the data, he learned that the new ad with a clearer message and more images was the better one. So he decided to put all his Facebook budget towards this new ad and stop the old version from running. This type of fine tuning your marketing strategy based on data can have huge payoffs. It helps you to get the most results for your budget. And that can mean big savings and a big difference in the payoff from your marketing. Because a larger share of the marketing budgets these days is spent on digital marketing, and because digital marketing makes this type of optimization possible, marketing analytics has become increasingly important over the past decade. Businesses have learned that if you let the data speak, you get a lot more out of the marketing budget.
+
+### Optimize the Sales Funnel
+
+ We discussed how marketers will pay close attention to the sales funnel and how they might split the purchase process in four different steps; 
+ 
+* awareness,    
+* interest,   
+* decision,   
+* and action.   
+
+As you can imagine, getting people to the awareness stage usually involves quite a bit of time and effort and often budget. If you are introducing a new product, for instance, you need to get a word out to an audience that may have an interest in your product. Often that involves developing an ad, buying advertising space, and so on. It's no wonder then that marketers want to closely study what happens next. That's where marketing analytics comes in to help them understand if and how people make it through the sales funnel. Specifically, they want to identify points of friction or points where people stop moving or leave the funnel altogether. Friction can happen at different points of the funnel. For instance, people may be aware of your product, but it may be hard to get them to become interested. That could happen if you just don't get your message across or don't explain the benefits of your product very well. That may mean you have to change your advertising message. You may also find that people who have become interested don't bite the bullet and decide to buy your product. That could be because a competitor may have a more attractive offer, or they may have a better message and people may decide to buy their product instead. In some cases, you may see people who've decided to get your product, but they failed to take action, and that could be because there's friction in the checkout process for instance, like on a website that's hard to navigate or that does not work well on a mobile phone. By studying the data on the number of people that make it from one stage to the next, or by evaluating the flow of how people navigate your website, these points of friction come to light and that's what shows a marketer where they should focus their efforts and adjust their marketing strategy, or in some cases, parts of the product or the sales process.
+
+Indeed, anything that hampers the online checkout process or leaves the user with questions during the process can cause friction. 
+
+When James was evaluating the sales funnel for SnackWall, he saw that there was a substantial drop-off from the decision to the action phase. Of the people that made it to the SnackWall website, only 11 percent ended up enrolling and thus purchasing the product. While James figures that some drop-off is natural, he and Aaliyah did a little bit more digging. In fact, they turned to Google Analytics and evaluated how people flow through the different pages in the online checkout process. This is the type of report they were studying. We will learn more about these reports and Google Analytics later in this program. They saw that people who landed on the website did click on the "Enroll Now" button, but they did not submit their information when they landed on the next page. This puzzled James and Aaliyah and they decided to interview a few target customers. They interviewed five people and had them go through the checkout process with them. As they were going through the website, all five of them told James and Aaliyah that they did not feel comfortable providing their name and company information without a clear idea about what a SnackWall subscription would cost them. As a result, James and Aaliyah created a quick cost calculator. Instead of the "Enroll Now" button, they now have a "Learn More" button. That leads people to a page where they are asked how many employees they have and they get a quick calculation of the estimated costs of the SnackWall subscription. Then there is an "Enroll Now" button. After making this change to the website, James saw the enrollment percentage go up to 20 percent. As I'm sure you can imagine, James was glad he did some digging into the sales funnel data. Analyzing the sales funnel can highlight weak links in your sales and marketing process and give you clues as to what part of the process may warrant more research and where there may be opportunities for optimization.
+
+
+### Discussion: Friction in the purchase funnel
+
+While browsing online or on social media have you noticed an ad campaign that caused too much friction and resulted in you abandoning the sales funnel. 
+
+Was it an aspect of the campaign that caused you to lose interest? If so, describe what caused you to lose interest.
+
+Did a competitor have a better offer or perhaps a better message? Who and why?
+
+Was their website difficult to navigate? If so, describe what made it difficult. 
+
+### Review
+
+ You now have a good understanding of what a marketing analyst's role entails and how a marketer uses marketing analytics.   
+ 
+In the second lesson, you learned how marketing analytics plays a role in the five main tasks marketing focuses on:   
+
+1. identify a target audience,    
+2. planning and forecasting,    
+3. evaluate marketing effectiveness, 
+4. marketing optimization, 
+5. and the optimization of the purchase funnel. 
+
+Then in the third lesson, we followed how James at DCB Cleaning uses marketing analytics when he and his colleagues go through these five marketing steps as they launched Snackwall, their new subscription product. Now, 
+
+you'll be able to recognize the points in marketing where data can come in handy and you have a good idea of how marketing analysts can help lead to marketing success. Next, we're going to explore the different data sources marketing analysts get to access. 
+
+
+
+## Introduction: What Data do Marketers use?
+
+Marketing analytics can help you plan your marketing efforts, evaluate your effectiveness, and optimize your marketing and your purchase funnel, but none of that can be done without data. Data can come from different sources, can be of varying quality and can be helpful or unhelpful to you depending on what it is, but without data and the ability to understand and analyze it, marketing efforts can only go so far. 
+
+This week we will cover what kind of data marketing analytics use and where the data comes from. Then we'll take a closer look at how digital data is collected. As you know, all our online interactions generate data, but depending on the device you use to go online, the way data is collected differs. You may have heard of **cookies** and **pixels** used to track online behavior for instance. It's important to understand the mechanics of how this works as it will help you understand the nature of the digital data you're working with and the limitations. 
+
+In the third lesson this week, we'll walk through an example of how a marketing team collects digital data and uses it for their campaigns. Let's get started with the first lesson and learn more about the different offline and online data that marketing analysts use.
+
+
+### Data Related to Offline Behavior
+
+Where does the data marketers use come from? Since we're such a digital world, you may think collecting data only happens online, and we'll talk about online data in our next video. But there's plenty of useful customer data that can be found offline too which can help give you a complete picture of who your customers are and how they behave. 
+
+While the **customer journey** is shifting more and more online, there's still a significant part of that journey that happens in a physical location, whether it be a store purchase or engaging in a service. In fact, according to Statista, only 14.1% of retail sales in 2019 were made online, which means that 86% of customer purchases are happening in a physical location. Additionally, a report by Google shows that very few people do their purchasing wholly online or wholly offline, but use a mix of both. They either do research online and buy offline, or do research offline and buy online. This is why it's crucial to engage with both offline data and online data to truly understand customer behavior and use those insights to influence your marketing approach. 
+
+What do we mean when we say offline data? It's simply data you gather about a customer that isn't through an online channel. This could be information collected through `a physical contact form`, signing up for a loyalty program, filling out a survey, or giving customer feedback. Offline data can also be tracked through point of sale information, when your customers make a purchase. You learn what product they bought, the date, any amount they spent. `Point of sales data` is often referred to as POS. Offline data can also include call center tracking or focus group participation as well. You can also track in-store visits and behavior through Wi-Fi logins, app usage in the store, and Beacons, which are little devices placed in the store that communicate with smartphones through Bluetooth signals. 
+
+Let's look at an example of a bookstore. On a Wednesday afternoon, a customer stops by, browses around and comes to the counter with two bestsellers they want to purchase. The bookseller asks if they want to sign up for a frequent buyer card and the customer gives their name and address to the bookseller who enters them into their POS database. They also give their email address to sign up for the newsletter. The customer pays for their books and is on their way. This is the type of transaction that happens all the time. But now, the bookstore has all of this new data to help them better understand who's shopping at their store, not just a name but where their customer lives, their shopping habits, and sometimes age and gender.   
+
+Offline data is typically rich with demographic information about customers, and it's often information that you may not be able to collect online. Offline data can also show how much each customer purchased, which can help determine their lifetime value, what they purchased, and when. The bookstore can now better understand its customer demographic, which will help with marketing efforts. 
+
+The bookstore can also understand what times of the week are busiest, which will help them at staffing. It will also help them understand what inventory to keep in stock in order to increase sales. Now, because they have a name and email address attached to the purchase, they can target customers with book recommendations. And since they've collected this information directly from their customer, they can ensure that it's accurate and represents their current customer base. Since it was given directly to them, it mitigates any privacy concerns as well. 
+
+All of the insights you can gather from this offline data can help you tailor your marketing strategy, better target your customer base, and see the context of your customers journey. But collecting offline data at point of sale isn't the only place where you can obtain it. Businesses can purchase third party data from companies who collect offline insights. This could include demographic information, purchasing behavior, and even information on offline media consumption that can help businesses gain further insights into their customers' behaviors.
+
+You've probably heard of the `Nielsen TV` ratings or heard of someone who has a Nielsen box. Nielsen is a company that monitors media consumption across a variety of devices, including TVs and smartphones. `Comscore` is a similar company that also tracks media consumption across devices. This is another type of offline behavior. Businesses can then purchase their data to better understand customer behavior around media engagement, including when they watch and what they watch. 
+
+`The better you can understand your customer, the better you can target them with advertising for your product or service.`
+
+There are many other third party data sets you can buy. There are data from supermarket loyalty cards and credit card transactions, for instance, that provide information on the purchases of different products and brands. There are industry specific data like data for the pharmaceutical sector or data on car sales, etcetera. 
+
+While most brands have access to their own sales data, these third party datasets help them with competitive analysis as they give them some insights into the sales for other brands as well.
+
+
+### Data Related to Online Behavior
+
+With society today becoming more and more digital, marketers have a vast number of tools they can use that will help them gain insights from **customers' online behavior.** Those insights can better inform marketing efforts, `make advertising more personalized`, and engagement more meaningful. 
+
+Here are some of the ways that marketers can track customers as they move through their journey to a purchase.
+
+Brand engagement may begin by interacting with a brand's content or posts on social media for instance. Platforms like Facebook, Instagram, and Twitter have insights or analytics dashboards that can reveal a lot about an account's followers, including the number of followers, where they're from, what their age is, their gender breakdown, when they're most frequently online, and what languages they speak. This can help a business understand who their audience is on social media, and if the audience they're targeting is indeed the one following them. Social media insights can also provide information on which pieces of content are being interacted with the most, which is also helpful knowledge about your audience. 
+
+User engagement may also begin when someone sees an ad on social media for a product or service you offer. This is different from the kind of organic engagement a business would build with original content in the way of posts and videos. Instead, the business would create ads targeted to a specific audience with specific characteristics and demographics. When someone clicks on the ad, the business can track the interaction and further interactions with business. 
+
+Businesses who created ad campaigns through a platform like Facebook Ads Manager, can see when people interact with their ad and what consumers do as a result of seeing the ad. Do they visit a website or app, sign up on the email list or buy a product or service? This data, so knowing whether an ad campaign results in a full purchase or just a website visit, is incredibly valuable to have in order to better understand the impact of your marketing efforts. 
+
+Website insights produced by dashboards like `Google Analytics` or `Adobe Analytics`, are also able to give you a lot of rich audience data that you can use to inform your marketing strategies. Similar to social media insights, website analytics will tell you how many people are visiting your site, where they're from, what language they speak, their age, and their gender breakdown. It will also tell you where they're entering or leaving your site, how long they're staying on your site, and which pages they're drawn to the most. You can use website data to see how well you're doing on `website engagement,` content areas to fix, and if your efforts to drive your audience to your site are working. 
+
+Keep in mind that these insights from social media dashboards and Google Analytics are going to be anonymous to you. You'll know, for example, that 1,000 people between the ages of 30 and 40 living in New York City, clicked on your ad, but you won't know who they are. 
+
+If you sell products online, you can track not only purchases, but names and information of your customers, like the point of sales data collection we saw in the last video. Here's an overview dashboard from Shopify, a popular e-commerce software tool. Purchasing information will give you a lot of demographic data, product preference data, and customer purchasing behavior insights to use for your future strategies. 
+
+You could also, more actively, collect customer information through something as simple as a sign-up form for a newsletter, a free e-book, or a rewards or loyalty program. Or you can also gather customer information through feedback questionnaires and surveys that can give you insights on how a customer feels about your brand, uses your products, or how likely they would be to recommend you to others.   
+
+So far we've talked about data that can be gathered **online** for a specific website, app, or online business. However, there are instances where marketers want to collect information about the competition as well. They may want to know what audience a competitor attracts, or they may want to get more insights into how they stack up versus the competition. 
+  
+Marketers can leverage third-party databases to gather data about competitors. These third-party databases provide data collected and reported by someone else, namely a third party. In most cases, marketers will have to pay for that data. As with offline data, there are many third-party databases available related to online behavior. Marketers use tools that provide data on online browsing behavior, as well as data gathered from social media posts. **Comscore** and **Nielsen** are two prominent providers of data on online behavior. Both report on which websites and apps people use, how much time they spend on them, the demographics of the people who use them, and so on. Together with their data on offline media usage, they provide marketers with a good picture of how users spend their media time. 
+
+Another type of data tools that can be useful to marketers are social listening tools. They can help marketers understand what people outside their audience are saying about their brand online. They monitor how often different brands are mentioned in social media posts and they provide insights on whether these mentions are mostly positive or negative. As with any type of data you collect, the impact on your marketing strategy and overall revenue generation and brand awareness doesn't come from simply collecting the data. It comes from analyzing it, gaining insights in what it's saying and using those insights to inform your future strategy. 
+
+
+### Sampled or non-Sampled Data
+
+Learn what types of data are going to be useful to your business, what your best methods are for tracking data, how to interpret data points to provide you with insights and how to interpret raw data. One more item to be aware of is understanding if you want to use sampled or unsampled data. 
+
+Sampled data is exactly what it sounds like, a sample or selection of the larger data set that represents the whole of the data set. Why would you use sampled data? If you want to get insights about your customers, you'd ideally want to ask all of them, but often that's not possible. So, you may take a sample of your customer base knowing that their insights and feedback will represent the whole. 
+
+For example, a movie theater launches a new self service kiosk for tickets and 1000 people use it on the first day. The manager wants to get a sense of how the experience went, but it's too big of a job to talk to all 1000 people who used the Kiosk. What the manager would do is talk to a few users, or a sample, to get their feedback. The movie theater would get the data and insights they want from the sample without needing to ask every single person. From the sample, the movie theater is able to make inferences on how to leverage and promote the new self service kiosk. 
+
+Here's another example: do you remember the media consumption data from Nielsen we refer to in an earlier video? This is a good example of a data set that uses sampling. To monitor people's tv viewing habits, Nielsen recruits households whose tv viewing behavior it will monitor. These people agree to be monitored and they also fill out a questionnaire that provides Nielsen with demographic and interest data. Nielsen then uses the information they gather from those households to build a data set that represents the total population. 
+
+You may also use sampling when your data set is too large to handle, which would slow down generating any insights. Using a sample of the data would give you a more manageable data set with faster analysis time. And since the sample represents the whole, it should give you the same insights. 
+
+For example, a marketer collects customer data but finds that they have thousands and thousands of entries to analyze. Working with that many pieces of data will take a lot of time and effort yet pulling out a sample of that data, only 1000 entries or a few 100 for instance, would give the same insights, just at a smaller scale, and would be much easier to work with.
+
+Marketers use this tool to monitor people's browsing behavior on their website or app. If you use Google Analytics on a very large website that is visited by many people, then Google Analytics will use sampling, so it can give you access to your data and reports faster.
+
+What is non sampled data? Well, it's simply the whole population or data set in its raw state and there are certainly times when you use the entire population for your analysis purposes. For instance, if you're looking for events that don't occur frequently, a sample may not be a good way to go as you may not catch the event you were looking for, if you only look at a small selection of data. 
+
+You probably noticed when I talk about sampled data that I refer to the sample as a data selection that represents the total data set. It means that we assume that the characteristics of the sample are the same as the characteristics of my total data set. And thus it's okay to look at the sample and draw conclusions about the total data set. 
+
+There are a few different methods you can use to get a representative sample. We will take a closer look at them later in this program when we dive into statistics. For now, I will just mention the most common method: **random sampling**, which simply involves picking members or entries at random. This can be done using a random number generator and gives everyone a fair chance of being chosen.
+
+**Selecting a representative sample is important.** Let's go back to our movie theater example and their self service kiosk. If I want to know what people think of the self service kiosk experience and I plan to take a sample of 20 people, it's not a great idea to select the first 20 people in line. By doing that, I may, for instance, pick only families with kids who are catching the morning show of a Disney movie. The self service experience may be different for them than for the crowd that shows up later at night to see a romantic comedy. By randomly selecting 20 people throughout the entire day, I have a better chance of selecting a group that represents the full spectrum of theater visitors.
+
+
+### First party - Second Party - Third party Data
+
+The different types and quality of data you may use as a marketer or analyst, as determined by how you collect it. If you ever had to write a report for school that involved research, you know that using primary sources like journals or firsthand accounts were always the best sources to use, because they got you the closest to what actually happened. Secondary or tertiary sources were fine, but weren't as factual, or helpful as primary sources. The same is true when you're working with first-party, second-party, and third-party data. 
+
+Not all data is equally as useful or helpful. So it's important to know the difference between the three, how you obtained each, and when you would use each one to help in your marketing efforts.
+
+We'll start with first-party data, since that type of data is going to be the most valuable and relevant to you. First-party data is simply data you've collected about your customers directly from your customers.
+
+  * Rewards sign up   
+  * Unique visitors   
+  * Newsletter interests   
+  * Ad click   
+  * Purchase data   
+  
+  This can be through the offline and online sources we mentioned in previous videos, like tracking site visits, social media follows, or via sign up in store. Examples of first-party data could be the name and address of a customer who signs up for a rewards card at a store location. The amount of unique visitors your homepage received last year, the information a customer fills in about their interests when they fill out a newsletter sign-up form. The average age of Facebook users who clicked on one of your ads, or the customers who purchased a specific item last month. 
+  
+  Because first-party data directly reflects your audience or customer base, it will show you customers' behavior and actions, purchase history, and how your audience engages with your brand. This kind of information can help you plan campaigns and new strategies, and continue deepening the relationship with your current audience. Additionally, because first-party data is data directly collected from your customers, you know that it's going to be accurate, and provide a lot of rich insights. 
+  
+  But one of the drawbacks is that it's only *limited to your audience*, so you aren't necessarily getting insights from potential audiences, or able to engage with new customers. 
+  
+  Still, first-party data is going to be the most useful to you, and the most accurate representation of your audience. 
+  
+  Second-party data is essentially second hand data, or data you did not collect yourself. Think of it as another businesses' first-party data that they're sharing with you. Or, if you share your first-party data with another business, that would be their second-party data. Why would businesses willingly share data with one another? If two businesses cater to a similar demographic or audience, they may partner in sharing their data, which may give insights into potential new audiences or trends. 
+  
+  For example, there's a coffee shop on one block, and a bakery on the next block, and the owners are friends. The coffee shop only focuses on coffee, no baked goods. But sometimes, people come in with bags from the bakery. Similarly, the bakery just focuses on baked goods, and doesn't want to branch into coffee. But they often see customers come in with cups from the coffee shop. Even though there is some overlap, there are still bakery customers that may not yet have tried the coffee shop, but may enjoy it. And there are coffee shop customers that may not yet have tried the bakery. The businesses then share their first-party data with each other, so that each business can now target more people who may be interested in their products, and bringing more new customers.
+  
+  Businesses may also choose to purchase second-party data they believe could help them in their marketing efforts. This approach is certainly easier, but unless you're able to preview the data first, you may not be getting a hold of useful data for your business. You may also run into privacy issues, based on how the data was originally collected. 
+  
+  Finally, third-party data is collected not by you or another business you partnered with, but by a third party not directly linked to the end customer. That data is then sold to businesses who can use it to expand their targeting efforts. Third-party data is collected using similar approaches to first-party data, like through customer surveys, feedback, or tracking of online behavior. 
+  
+  But the data is typically collected through random sampling. In other words, it won't be your particular audience, but across the general population. For example, a new restaurant opens in a neighborhood, and they want to target an audience within a specific zip code. They may buy data about everyone within that particular area. They, of course, wouldn't know if the population on the list would even like their restaurant, or be in their target audience. But they can use the data to do an all encompassing campaign, or add the data to their current customer data to increase their reach.
+  
+  When you buy third-party data, you may not have as much insight into how the data was collected. And the data may be incomplete, or of lower quality than first-party data. 
+  
+  Additionally, any organization can purchase the data, so it wouldn't be uniquely yours. There may also be further privacy risk around how third-party data was collected as well. While third-party data may not be the primary data set a marketer uses, third-party data can be useful to round out first or second-party data, or for comparison. 
+  
+  So acquiring third-party data may be worth it. What data will be best for you? You will probably find reasons to use all three in your marketing efforts and planning. But it's going to be best to emphasize first-party data, since that will give you the most accurate reflection of who your customers are, and provide you the most accurate insight into their behaviors.
+
+
+## Sources of Digital Data
+
+There are different types of data marketers and marketing analysts work with, and how these days, a lot of data is related to the use of digital media. 
+
+We get data about different websites people visit, the way they navigate on websites, the products they purchase online, apps they download, ads they see, and so on. In order to get the most out of the data that's available to you as a marketer, **it's important to understand how this data is collected.** 
+
+First, we'll go over how online interactions generate data. Then, we'll take a look at data collection on websites using cookies. We will also look at the use of tags or pixels. Then, we'll take a closer look at the use of software developer kits or SDKs for data collection for mobile apps. We'll also discuss the use of Platform APIs to help connect data that a company may already have to the advertising platforms they may want to use. Finally, we will look at the use of UIDs.
+
+### How Online Interactions Generate Data
+
+To understand how data fuels digital marketing and how data and advertising are connected, it's important to have a closer look at where the data comes from. How does that come about when you visit content online? Let's look at how interactions happen online. 
+
+As an example, let's look at what happens when someone interacts with the publisher's website. Every publisher's website starts as a blank canvas made of code and stored on a web server. Think of your favorite news site, for instance. In your mind, strip away all of the content. The shell that's left is the blank canvas the website started with. To fill this blank canvas with content, the publisher uses a tool known as a content management system, or short: CMS. Publishers use their CMS to store, create and manage content on their websites. So, imagine your favorite news site, they use such a CMS. It's typically a system that makes it possible for many people to easily create and manage the content without needing to know how to code. Or in other words, it's an easy system to write a news article that you will see appear on the new site.
+
+The publisher will leave some space on the website for advertising. A separate server will place the ads. This server is referred to as the ad server. So note that two different systems handle the content and the ads. The ads come from advertisers. To get the right ad in front of the right people, the publisher sends a signal to connect with the advertiser's ad server and retrieve the creative for the ad that needs to be displayed. Again, when we think about our favorite news website, the people who are writing the articles that you see aren't deciding on the ads that you see on the site. The ads you get to see are coming in from the Ad server. To publish, this website will connect with the Ad server and the Ad server fills the advertising spaces. Now let's look at what happens when someone accesses a website. As soon as the person's browser requests a web page from the publisher, some data about a person is sent to the publisher. That information is used to bring the right content to the person, but it's also sent to the Ad server to make sure a relevant Ad is displayed. So, data is exchanged between the person and both the publisher and the advertisers' servers. The publisher and the advertiser both store data. Every interaction like accessing a page, clicking on a link, clicking on an ad or making a purchase leaves a record. The publisher and the advertiser categorize and store some of that information to personalize the content and adapt the ads people see.
+
+So we now know that a lot of data is generated as people interact with online content. But what do we really mean when we talk about data? As you probably know, every website is made of code. That code is stored on a publisher server. Every time you interact with the website, you tell its server which piece of the code to display. Every request you make for a piece of code or elements of the website, leaves a record in the server. That record is referred to as the web server log. A web server log consists of strings of code like this one. This code may look foreign to us but it's not too difficult to understand its components. First, you see a series of numbers. That's the person's IP address. It tells the server where to send the data. Next is a unique identifier. This is how the server recognizes who is asking for the information. This identifier is typically pulled from the person's browser and is usually a sequence of characters. Note, that this is not personally identifiable information also referred to as PII. So, no names or physical addresses are stored here. Next, if the website requires the person to log in, there may be a user name here. Next, there's a date and a time stamp of when the information was requested from the server. After that is the string of code that identifies what information the person is requesting. This is how the server finds the right piece of data to return. This string of code is embedded in the links on websites so that you can click on a link and give an instruction to the server at the same time. Next, you'll see a number that tells us whether the information was successfully provided to the person. 200 means successfully delivered, while 404 means error. Finally, another number reflects the size of the content filed a person received. While every interaction leaves a trace in the publisher and advertiser servers, the servers often also send some information back to the user and store it in their browser as a cookie, which is what we will cover in our next video.
+
+
+### Use of Browser Cookies
+
+Above, we saw how those interactions leave a trace in the publishers' and the advertisers' servers in the form of web server logs. But the interactions you have with websites and ads can also leave a **trace in your browser** in the form of cookies. I bet you've heard about them before, so let's explore what they are and how marketers use them. 
+
+Web and ad servers can store some information about your interaction in a special storage area in your browser. When you interact with content from the same publisher or advertiser later, the publisher can call up the information it's stored in your browser to help it remember a few things about you and your previous interactions. So you can think of cookies as the **browser memory**, and publishers and advertisers can ask it to be reminded of relevant things.
+
+A cookie is a formatted piece of text that gets stored in a person's browser. Cookies contain information on when the person accessed a website, saw an ad and where they clicked. Sometimes, **login information** is stored as well.
+
+This information makes it possible for websites to remember a person's log in info for instance, remember what someone had put in a shopping cart or what content a user seemed interested in. 
+
+Cookies allow a server to connect multiple interactions from the same person. Here's how they work. The person requests a page through the browser. To the server, it looks like a browser requesting a page. When the server gets this request, it sends the page the person asked for back. But alongside the page it also sends a tiny text file that's placed inside the person's browsers. The next time the person requests a page from the same server, the request will come with a cookie attached. So now the server has a little bit of information about a browser that's asking for the page.
+
+Following is made possible through the use of cookies:
+   
+   * Give you locally relevant content
+   * Keep you signed in on a website
+   * Adjust the content you see on a site based on your preferences
+
+In the previous lesson, we distinguished between 1st, 2nd and 3rd party data. Actually, that distinction is also very relevant when we talk about cookies, Especially 1st and 3rd party cookies. 
+
+**First party cookies** are the text files stored in your browser by the sites that you're actually visiting. For instance when you visit your favorite news site, they will store a text file in your browser that helps this new site to remember some of your preferences. When you come back to that news site, your experience may be personalized on the basis of the information the site has stored in your browser. 
+
+By visiting your favorite news site, you have an implicit or explicit agreement that the site can store these cookies in your browser. You've probably had to accept the use of cookies for many sites you visit. When you accept, you give the site you are on permission to add cookies to your browser. 
+
+**Third party cookies** are text files stored in your browser by a third party with whom you don't have a direct relationship. In the case of your favorite news site, there may be an advertiser who stores some information in your browser while you visit a news site. The advertisers can do that because it has an ad showing on the news site you are visiting. For that ad to load, your browser interacts with the ad server, and the ad server can send a cookie to your browser in that interaction. But, you did not intentionally seek out a relationship with that advertiser. Hence, the cookie they store is considered a third party cookie. 
+
+**Third party cookies** are used for tracking and advertising targeting purposes. Advertisers can use this third party cookie to build a **user profile** on you, tracking the different websites you visit and which ads you click. Thus getting a better understanding of your interests. **That understanding will help them tailor ads to you.** 
+
+Since users have less control over 3rd party cookies and how they're used, they have raised **privacy** concerns. **Users** and **browsers** increasingly block these cookies from being stored. 
+
+Later, we'll take a closer look at data and privacy and we will cover this in more detail. But for now it's good to keep in mind that **third party cookies are harder to rely on as they're slowly phased out as a result of these concerns.**
+
+While cookies in general can be a great way to connect a person's interaction with the server and pass some information back and forth, they have some challenges. Ideally, the **cookie would function as the memory of the interactions between a website and a person.** 
+
+With that memory intact, navigation would be smoother for the person. The website would know what actions they took or it might remember settings they like or pages and ads they saw, but people don't use just one browser for all their interactions with the website. They may use different computers, different browsers and mobile devices. **Cookies don't work across devices and memory trace is lost.** 
+
+People can also **erase cookies** from their browsers, which erases the memory from the publisher and the advertiser. Users can also change the privacy settings in their browsers and prevent cookies from being stored. You should also keep in mind that many browsers today don't allow the use of 3rd party cookies by default. 
+
+One of the major complications with cookies is that **they don't work on mobile apps.** As a result, it's hard for a publisher to link behavior from a person on its website to behavior on its app. But even with those limitations, cookies play an important role in how data is stored and used online.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,6 +12,15 @@ github-repo: rstudio/bookdown-demo
 description: "This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources "
 ---
 
+<style> 
+body {text-align: justify} 
+</style>
+
 # Acknowledgement
 
-This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources.
+<div class="boxy">
+This is collection of notes from Coursera Marketing Analytics Certificate Program by META and some other sources.
+</div>
+
+
+[Marketing Analytics Foundation from META](https://www.coursera.org/learn/marketing-analytics-foundation/home/week/1)

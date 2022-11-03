@@ -12,3 +12,9 @@ pre {
 pre code {
   white-space: inherit;
 }
+##################################
+# justify text
+
+body {
+  text-align: justify;
+}
