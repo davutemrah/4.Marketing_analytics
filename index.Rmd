@@ -16,7 +16,7 @@ description: "This is collection of notes from Coursera META Marketing Analytics
 body {text-align: justify} 
 </style>
 
-# Acknowledgement
+# Acknowledgement {-}
 
 <div class="boxy">
 This is collection of notes from Coursera Marketing Analytics Certificate Program by META and some other sources.

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Some Concepts and Analysis Types | Marketing Analytics Notebook</title>
+  <meta name="description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Some Concepts and Analysis Types | Marketing Analytics Notebook" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Some Concepts and Analysis Types | Marketing Analytics Notebook" />
+  
+  <meta name="twitter:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  
+
+<meta name="author" content="DEA" />
+
+
+<meta name="date" content="2023-12-05" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="marketing-analytics.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Marketing Analytics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Acknowledgement</a></li>
+<li class="chapter" data-level="1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html"><i class="fa fa-check"></i><b>1</b> Marketing Analytics Foundation</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#how-to-be-successful-in-this-program"><i class="fa fa-check"></i><b>1.1</b> How to be Successful in this Program</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#make-a-plan"><i class="fa fa-check"></i><b>1.1.1</b> Make a Plan</a></li>
+<li class="chapter" data-level="1.1.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#set-goals"><i class="fa fa-check"></i><b>1.1.2</b> Set Goals</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#role-of-marketer"><i class="fa fa-check"></i><b>1.2</b> Role of marketer</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#what-is-marketing-analytics"><i class="fa fa-check"></i><b>1.2.1</b> What is marketing analytics?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#the-future-of-marketing-is-data"><i class="fa fa-check"></i><b>1.3</b> The Future of Marketing is Data</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#marketing-trends-for-a-data-driven-future"><i class="fa fa-check"></i><b>1.3.1</b> Marketing Trends for a Data-Driven Future</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#an-application"><i class="fa fa-check"></i><b>1.4</b> An Application</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#audience"><i class="fa fa-check"></i><b>1.4.1</b> Audience</a></li>
+<li class="chapter" data-level="1.4.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#planning-and-forecasting"><i class="fa fa-check"></i><b>1.4.2</b> Planning and Forecasting</a></li>
+<li class="chapter" data-level="1.4.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#evaluate-advertising-effectiveness"><i class="fa fa-check"></i><b>1.4.3</b> Evaluate Advertising Effectiveness</a></li>
+<li class="chapter" data-level="1.4.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#optimize-your-marketing-strategy"><i class="fa fa-check"></i><b>1.4.4</b> Optimize your Marketing Strategy</a></li>
+<li class="chapter" data-level="1.4.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#optimize-the-sales-funnel"><i class="fa fa-check"></i><b>1.4.5</b> Optimize the Sales Funnel</a></li>
+<li class="chapter" data-level="1.4.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#discussion-friction-in-the-purchase-funnel"><i class="fa fa-check"></i><b>1.4.6</b> Discussion: Friction in the purchase funnel</a></li>
+<li class="chapter" data-level="1.4.7" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#review"><i class="fa fa-check"></i><b>1.4.7</b> Review</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#introduction-what-data-do-marketers-use"><i class="fa fa-check"></i><b>1.5</b> Introduction: What Data do Marketers use?</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-related-to-offline-behavior"><i class="fa fa-check"></i><b>1.5.1</b> Data Related to Offline Behavior</a></li>
+<li class="chapter" data-level="1.5.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-related-to-online-behavior"><i class="fa fa-check"></i><b>1.5.2</b> Data Related to Online Behavior</a></li>
+<li class="chapter" data-level="1.5.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#sampled-or-non-sampled-data"><i class="fa fa-check"></i><b>1.5.3</b> Sampled or non-Sampled Data</a></li>
+<li class="chapter" data-level="1.5.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#first-party---second-party---third-party-data"><i class="fa fa-check"></i><b>1.5.4</b> First party - Second Party - Third party Data</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#sources-of-digital-data"><i class="fa fa-check"></i><b>1.6</b> Sources of Digital Data</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#how-online-interactions-generate-data"><i class="fa fa-check"></i><b>1.6.1</b> How Online Interactions Generate Data</a></li>
+<li class="chapter" data-level="1.6.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#use-of-browser-cookies"><i class="fa fa-check"></i><b>1.6.2</b> Use of Browser Cookies</a></li>
+<li class="chapter" data-level="1.6.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#tags-and-pixels"><i class="fa fa-check"></i><b>1.6.3</b> Tags and Pixels</a></li>
+<li class="chapter" data-level="1.6.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#software-developer-kit-sdks-for-mobile-apps"><i class="fa fa-check"></i><b>1.6.4</b> Software Developer Kit (SDK)s for mobile Apps</a></li>
+<li class="chapter" data-level="1.6.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#connecting-data-through-apis"><i class="fa fa-check"></i><b>1.6.5</b> Connecting Data Through APIs</a></li>
+<li class="chapter" data-level="1.6.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#use-of-uids"><i class="fa fa-check"></i><b>1.6.6</b> Use of UIDs</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="marketing-analytics.html"><a href="marketing-analytics.html"><i class="fa fa-check"></i><b>2</b> Marketing Analytics</a></li>
+<li class="chapter" data-level="3" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html"><i class="fa fa-check"></i><b>3</b> Some Concepts and Analysis Types</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#customer-lifetime-value"><i class="fa fa-check"></i><b>3.1</b> Customer Lifetime Value</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#from-forbes-magazine"><i class="fa fa-check"></i><b>3.1.1</b> From Forbes Magazine</a></li>
+<li class="chapter" data-level="3.1.2" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#chatgpt"><i class="fa fa-check"></i><b>3.1.2</b> Chatgpt</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://davutemrah.github.io" target="blank">Back to Home Page</li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Marketing Analytics Notebook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="some-concepts-and-analysis-types" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Some Concepts and Analysis Types<a href="some-concepts-and-analysis-types.html#some-concepts-and-analysis-types" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="customer-lifetime-value" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Customer Lifetime Value<a href="some-concepts-and-analysis-types.html#customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="from-forbes-magazine" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> From Forbes Magazine<a href="some-concepts-and-analysis-types.html#from-forbes-magazine" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><a href="https://www.forbes.com/advisor/business/customer-lifetime-value/#:~:text=Customer%20lifetime%20value%20(CLV)%20is%20a%20business%20metric%20used%20to,lifetime%2C%20their%20CLV%20is%20%2490%2C000.">Source 1: Forbes</a></p>
+<p><strong>Customer lifetime value</strong> is a business metric used to determine the amount of money a customer will spend throughout the business relationship. It helps businesses determine customer acquisition costs, improve forecasting and increase profits over time. It also serves as a guide for decisions about their overall business strategy.</p>
+<p>A <code>higher</code> CLV indicates customers spend more money on your product or service <code>throughout the business relationship.</code> When customers spend more and purchase frequently, your business is more successful and profitable.</p>
+<p>The industries with the highest customer lifetime value are architecture firms for $1,129,000, followed by business operations consulting firms for $385,800 and healthcare consulting firms priced at $328,600. These firms generate high amounts of revenue for hourly fees, consultation fees, material costs and projects.</p>
+<p>The estimated value of each customer can play an integral role when making business decisions, such as whether to invest more in customer acquisition or retention.</p>
+<div id="what-is-customer-lifetime-value-clv" class="section level4 hasAnchor" number="3.1.1.1">
+<h4><span class="header-section-number">3.1.1.1</span> What Is Customer Lifetime Value (CLV)?<a href="some-concepts-and-analysis-types.html#what-is-customer-lifetime-value-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Customer lifetime value (CLV) is a business metric used to determine the amount of money customers will spend on your products or service over time.</p>
+<p>For example, if someone is loyal to an auto brand whose vehicles average at $30,000 and the customer buys three cars from them in their lifetime, their CLV is $90,000.</p>
+<p>Whereas, someone who visits their local coffee chain five days a week and spends $4 on a coffee, will have a CLV of $10,400 over the course of 10 years.</p>
+<p>Understanding CLV is crucial for businesses because it helps determine how much money to invest in acquiring and retaining customers.</p>
+</div>
+<div id="reasons-to-know-your-clv" class="section level4 hasAnchor" number="3.1.1.2">
+<h4><span class="header-section-number">3.1.1.2</span> Reasons To Know Your CLV<a href="some-concepts-and-analysis-types.html#reasons-to-know-your-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Let’s take a look at several reasons why CLV matters.</p>
+<p><strong>1. Determine customer acquisition cost</strong></p>
+<p>How much should you invest in hiring a new customer? When you can determine the amount a customer will spend on your business, you can gauge the amount of money to spend on marketing campaigns.</p>
+<p>For example, when you find out a customer spends an average of $1,000 on your business over time⁠—you might have the budget to spend more on advertising and targeting campaigns. Not only that, but you have room to invest more money to personalize your email marketing strategy or content strategy.</p>
+<p>Alternatively, if the estimated CLV is $1,000, you would only invest this much in convincing a customer to stay. Otherwise, you wouldn’t profit from the relationship.</p>
+<p><strong>2. Improve profitability consistently over time</strong></p>
+<p>Optimizing CLV helps you focus on ensuring consistent profitability over time. If you only invest in acquisition and closing new deals, it won’t be easy to remain profitable during slow seasons.</p>
+<p>In contrast, a high CLV means you can rely on enough people to return to your store throughout the year.</p>
+<p><strong>3. More accurate forecasting</strong></p>
+<p>Customer lifetime value (CLV) can help you make better production, workforce and inventory decisions.</p>
+<p>It helps pinpoint the types of clients you have, the best-selling products you buy and the factors that drive customer loyalty. Otherwise, you may spend more on producing products with insufficient demand.</p>
+<p><strong>4. Improve overall business strategy</strong></p>
+<p>Understanding CLV helps you determine the most effective strategy for your business growth.</p>
+<p>If your CLV is low, you may need to invest more in loyalty programs and initiatives to boost customer retention.</p>
+<p>In contrast, a high CLV means you may need to look into the best-selling products and campaigns driving growth to keep the momentum going.</p>
+<p>Over time, this strategy will help you create more cost-effective strategies around customer acquisition, marketing and sales.</p>
+<p><strong>5. Better understand loyal customers</strong></p>
+<p>Customer lifetime value helps you understand the <strong>most loyal</strong> brand advocates. How often do they shop from your business? What items are they more likely to purchase? Answering these questions can help you brainstorm ways to engage with your most loyal customers.</p>
+</div>
+<div id="how-to-calculate-customer-lifetime-value-in-4-steps" class="section level4 hasAnchor" number="3.1.1.3">
+<h4><span class="header-section-number">3.1.1.3</span> How To Calculate Customer Lifetime Value in 4 Steps<a href="some-concepts-and-analysis-types.html#how-to-calculate-customer-lifetime-value-in-4-steps" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>There are four essential steps to calculate CLV.</p>
+<p><strong>1. Determine the average order value</strong></p>
+<p>Determine the average amount customers spend on your business. To get this information get an estimate based on customer transactions in the last few months.</p>
+<p>this is the average spending per order.</p>
+<p><strong>2. Identify frequency of transactions</strong></p>
+<p>Next, identify how often customers come to your store. How many times do they come back, given a specific period? Do they return weekly, monthly or annually?</p>
+<p><strong>3. Measure customer retention</strong></p>
+<p>Figure out how long an average customer remains loyal to your business.</p>
+<p>Some industries, including restaurants and retail, tend to have a lower CLV because customers tend to go to establishments that offer a better deal.</p>
+<p>Meanwhile, industries such as technology and travel have a higher CLV because customers seek updated product features and personalized holiday experiences.</p>
+<p><strong>4. Calculate CLV</strong></p>
+<p>Once you have all this information, calculate CLV with this formula:</p>
+<pre><code>X = average order value
+Y = number of transactions
+Z = average length of the customer relationship (in years)</code></pre>
+<p><span class="math inline">\(CLV = X x Y x Z\)</span></p>
+<p>Using this information, we can assume a father that regularly purchases smartphones for his family might be worth:</p>
+<p><span class="math inline">\(\$1,000 (per smartphone) × 2 (smartphones per year) × 10 (years) = \$20,000\)</span></p>
+<p>The CLV is $20,000.</p>
+</div>
+<div id="examples-of-clv" class="section level4 hasAnchor" number="3.1.1.4">
+<h4><span class="header-section-number">3.1.1.4</span> 3 Examples of CLV<a href="some-concepts-and-analysis-types.html#examples-of-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>CLV varies based on the nature of the product or service. Let’s examine various industries to show how CLV could affect your bottom line.</p>
+<p><strong>1. Grocery Shop</strong></p>
+<p>Grocery stores inspire loyalty among residents within the vicinity. Let’s say a shopper frequents a grocery in New York every week. He spends around $100 per visit. He returned every week, 52 weeks a year, for an average of three years.</p>
+<p><span class="math inline">\(\$100 (purchase per visit) × 52 (visits per year) × 3 (years) = \$15,600 (CLV)\)</span></p>
+<p><strong>2. SaaS Service</strong></p>
+<p>A UX designer uses a cloud-based subscription service to conceptualize mobile apps. He spends $70 per month for 10 years on the software. In this example, the SaaS product is a necessary job-related expense, so the subscription lasted a long time.</p>
+<p><span class="math inline">\(\$70 (subscription fee per month) × 12 (payments per year) × 10 (years) = \$8,400 (CLV)\)</span></p>
+<p><strong>3. Interior Design</strong></p>
+<p>The interior design agency has higher average order values. For example, a homeowner spends $100,000 to renovate their home. Because they liked the initial experience, they became a patron of the interior design firm and renovated their property every 10 years within 20 years.</p>
+<p><span class="math inline">\(\$100,000 (per renovation) × 0.1 (annual purchase) × 20 (years) = \$200,000 (CLV)\)</span></p>
+<p>These examples show CLV varies across industries.</p>
+<p>While day-to-day products such as coffee are bought more frequently, you need to get customers to purchase often to get a high CLV.</p>
+<p>In contrast, some products such as houses, automobiles or interior design agencies have a lower purchase frequency. But due to the nature of the product or service, they rack up thousands of dollars with only a few transactions.</p>
+</div>
+<div id="how-to-improve-your-customer-lifetime-value" class="section level4 hasAnchor" number="3.1.1.5">
+<h4><span class="header-section-number">3.1.1.5</span> How To Improve Your Customer Lifetime Value<a href="some-concepts-and-analysis-types.html#how-to-improve-your-customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Improving your CLV can enhance your business’s profitability over time. To that end, here are a few ways to improve customer loyalty and retention.</p>
+<p><strong>1. Create a loyalty and rewards program</strong></p>
+<p>A growing body of research proves rewards programs effectively drive loyalty and retention. Gamify the experience by offering discounts and perks every time customers complete a milestone (e.g., making their first order and spending a specific amount).</p>
+<p>For example, Victoria’s Secret Pink Nation loyalty program lets customers receive members-only perks such as exclusive content, early access to sales, mental health tips and playlists.</p>
+<p><strong>2. Increase average order value</strong></p>
+<p>Making customers spend more in your store can boost CLV. Offer free shipping or freebies for customers who reach a specific order amount, such as $50 or $100. Alternatively, you can bundle related products and sell them at a discounted price.</p>
+<p>For SaaS businesses, you can give temporary upgrades such as seven-day or 14-day trials. Not only does this allow your customers to see the advanced features they’re missing out on, but it may also persuade them to upgrade and make the transition.</p>
+<p><strong>3. Launch post-purchase email campaigns</strong></p>
+<p>Offer next-order coupons or discounts to encourage customers to shop again. A good tip is to place them on order confirmation emails because they have a high open rate of around 65%, which is nearly four times higher than an average email. Another way is to deliver post-purchase emails seeking reviews to encourage customers to shop again.</p>
+<p><strong>4. Place product recommendations</strong></p>
+<p>Product recommendations matter. A study found 92.4% of consumers are influenced by reviews when purchasing. Nearly 90% of consumers believe in product reviews as much as advice from family and friends.</p>
+<p>Having product recommendations lets customers evaluate whether or not a product is worth buying. So, recommendations are another way to get customers to buy more, which increases customer lifetime value.</p>
+<p>Amazon’s algorithm selects product recommendations based on users’ past purchases and browsing behavior. Using this information, it can make suggestions such as “similar items viewed” or “frequently bought together” by consumers with the same interests or preferences. That’s why 35% of Amazon.com’s revenue comes from its recommendation engine. Judging by the numbers, recommendations are crucial to increasing CLV.</p>
+<p><strong>5. Create personalized experiences</strong></p>
+<p>Businesses that want to retain customers should focus on increasing their value and relevance. That’s why creating personalized experiences relevant to shoppers’ interests is essential. A survey of 1,000 U.S. adults by Epsilon and GBH Insights found that 80% of respondents want personalization from retailers. Likewise, McKinsey predicts shopping will feel incredibly personalized by 2030.</p>
+<p>Moving forward, businesses must be able to segment customers based on their demographics, interests and purchasing behaviors. This could mean tailoring content recommendations based on browsing behavior.</p>
+<p><strong>6. Offer quality customer service</strong></p>
+<p>Good customer service is essential to encourage customers to be long-time patrons. It only takes one bad experience to prompt a customer to switch to your competitors. A Qualtrics study found 80% of customers have changed brands because of a poor customer experience.</p>
+<p>A good tip is to increase communication channels for customer support. Ideally, it would help if you looked into the channels your consumers use the most and created touchpoints there. A study found companies with solid <strong>omnichannel customer engagement</strong> retain 89% of their buyers.</p>
+<p><strong>7. Create unified customer experiences</strong></p>
+<p>Thanks to the evolution of technology, most consumers adopt a hybrid approach when purchasing. They may discover a product on Facebook, visit the brand’s website and go to an in-store outlet to examine the physical product—and this won’t stop soon.</p>
+<p>While brands can create different touchpoints, ensuring these experiences are streamlined is essential. For example, Timberland lets people stand in front of augmented reality mirrors to envision how apparel fits before going to the fitting room. Similarly, IKEA’s app allows shoppers to browse products online and use their smartphone’s camera to see how it looks in a room.</p>
+<p><strong>8. Make returns easy (and ideally, free)</strong></p>
+<p>Sometimes customers aren’t delighted with the product—and that’s perfectly okay. Just make it easy for customers to return products and services. A fast and easy return process will encourage customers to return to your online store and give it a try again.</p>
+<p><strong>9. Create actionable surveys</strong></p>
+<p>Understand your customers by creating actionable surveys. This information will help you understand customers’ level of satisfaction with your products or services. Not only that, but it will help you determine the most effective strategies to drive higher CLV while growing your customer base.</p>
+<p>For example, Sephora collected consumer data and found that 70% of customers that visited its website within 24 hours before visiting the store spent 13% more than other customers.</p>
+<p>After realizing the importance of online customer journeys, it launched online campaigns that improved in-store engagement. The results? It found a higher return on ad spend (ROAS) by 3.9 times and a threefold increase in conversion rates.</p>
+</div>
+<div id="common-mistakes-around-clv" class="section level4 hasAnchor" number="3.1.1.6">
+<h4><span class="header-section-number">3.1.1.6</span> Common Mistakes Around CLV<a href="some-concepts-and-analysis-types.html#common-mistakes-around-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>CLV isn’t a magical metric that will solve all your problems. If not used wisely, businesses can fall prey to costly pitfalls. Remember these mistakes when examining your CLV.</p>
+<p><strong>No Segmentation</strong></p>
+<p>Sure, it’s excellent to increase CLV for your entire customer base—but it’s not an effective strategy. Marketing to everyone will lead you to invest more resources in low CLV customers.</p>
+<p>Examine cohorts with a high CLV—which could be your top 20% spenders. Ideally, it would be best if you focused on increasing CLV among valuable customers who are likely to spend more on your products and services based on data. Identify, understand and engage with them to understand their preferences, lifestyle, attitudes and behaviors.</p>
+<p><strong>Wrong Segmentation</strong></p>
+<p>You can also identify CLV within a customer cohort or segment. A segment is a group of customers with similar characteristics, attitudes and behavior. Proper segmentation provides an overview of consumer behavior and what makes them distinct.</p>
+<p>Creating campaigns that target specific segments is more effective due to personalization. However, incorrect segmentation may lead to a waste of precious company resources.</p>
+<p><strong>Targeting an Unrealistic CLV</strong></p>
+<p>Some customers will abandon your product or service no matter how hard you try. Only some people will pay thousands of dollars to transact with your business over time. There’s also no point in investing hundreds of dollars on low-value prospects.</p>
+<p>As with any business objective, you have to be realistic. Think of ways to appeal to your target demographic but do not expect everyone to end up with a high CLV.</p>
+<p><strong>Failure To Be Flexible</strong></p>
+<p>Turning your small business into an empire is ideal—but things aren’t always smooth sailing. Sometimes recessions or inflation could decrease your CLV. Or, you may have to increase the prices of your products and services based on production costs and uncontrollable market forces. Be flexible when unpredictable situations arise and don’t be afraid to change your CLV based on these trends.</p>
+<p><strong>Bottom Line</strong></p>
+<p>Customer lifetime value (CLV) can help determine how much customers will spend on your business in the long term. It helps inform customer loyalty, acquisition, marketing and sales decisions.</p>
+<p>Improving CLV can be done through various tactics such as creating a loyalty and rewards program, creating personalized experiences and offering quality customer service. Staying aware of common pitfalls when aiming for high CLV can also help prevent errors that could make your company waste valuable resources.</p>
+</div>
+</div>
+<div id="chatgpt" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Chatgpt<a href="some-concepts-and-analysis-types.html#chatgpt" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Calculating Customer Lifetime Value (CLV) for a Consumer Packaged Goods (CPG) brand involves estimating the total value a customer is expected to bring to the brand over the course of their relationship. The CLV formula typically takes into account the average purchase value, purchase frequency, and customer lifespan. Here’s a basic formula for calculating CLV:</p>
+<p><span class="math display">\[ CLV = \frac{{\text{Average Purchase Value} \times \text{Purchase Frequency} \times \text{Customer Lifespan}}}{\text{Discount Rate}} \]</span></p>
+<p>Here’s a breakdown of the components:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Average Purchase Value (APV):</strong></p>
+<ul>
+<li>This is the average amount of money a customer spends on each purchase. To calculate APV, sum up the total revenue from all purchases and divide it by the number of purchases.</li>
+</ul>
+<p><span class="math display">\[ APV = \frac{{\text{Total Revenue}}}{{\text{Number of Purchases}}} \]</span></p></li>
+<li><p><strong>Purchase Frequency (PF):</strong></p>
+<ul>
+<li>This represents how often a customer makes a purchase within a given time frame. Calculate it by dividing the total number of purchases by the number of unique customers.</li>
+</ul>
+<p><span class="math display">\[ PF = \frac{{\text{Total Number of Purchases}}}{{\text{Number of Unique Customers}}} \]</span></p></li>
+<li><p><strong>Customer Lifespan (CL):</strong></p>
+<ul>
+<li>This is the average number of years a customer is expected to remain engaged with the brand. It can be challenging to predict, but you can estimate it based on historical data or industry benchmarks.</li>
+</ul></li>
+<li><p><strong>Discount Rate:</strong></p>
+<ul>
+<li>The discount rate is used to adjust future values to their present value, considering the time value of money. It’s typically the interest rate or the rate of return the brand expects from its investments. Choose a discount rate that reflects the company’s cost of capital or the desired rate of return.</li>
+</ul></li>
+</ol>
+<p>Once you have these values, plug them into the CLV formula:</p>
+<p><span class="math display">\[ CLV = \frac{{\text{APV} \times \text{PF} \times \text{CL}}}{{\text{Discount Rate}}} \]</span></p>
+<p>By calculating CLV, CPG brands can better understand the long-term value of their customers and make informed decisions about marketing strategies, customer retention efforts, and resource allocation. Keep in mind that CLV calculations are estimates and may be subject to adjustments based on changing market conditions and customer behaviors.</p>
+<p>The Customer Lifetime Value (CLV) formula provided is typically calculated on a per-customer basis, representing the expected value of an average customer over their entire relationship with a brand. The formula considers the average purchase value, purchase frequency, and customer lifespan for an individual customer.</p>
+<p><span class="math display">\[ CLV = \frac{{\text{Average Purchase Value} \times \text{Purchase Frequency} \times \text{Customer Lifespan}}}{{\text{Discount Rate}}} \]</span></p>
+<p>So, each customer will have their own CLV based on their purchasing behavior and the estimated duration of their relationship with the brand. The overall CLV for a brand is often the sum of the CLVs for all its customers.</p>
+<p>This individual customer focus allows businesses to understand the value of acquiring and retaining each customer and can inform marketing strategies, customer relationship management, and overall business decisions.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="marketing-analytics.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Marketing Analytics.pdf", "Marketing Analytics.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

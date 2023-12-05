@@ -1,4 +1,3 @@
-acknowledgement
 marketing-analytics-foundation
 how-to-be-successful-in-this-program
 make-a-plan
@@ -23,4 +22,18 @@ first-party---second-party---third-party-data
 sources-of-digital-data
 how-online-interactions-generate-data
 use-of-browser-cookies
+tags-and-pixels
+software-developer-kit-sdks-for-mobile-apps
+connecting-data-through-apis
+use-of-uids
 marketing-analytics
+some-concepts-and-analysis-types
+customer-lifetime-value
+from-forbes-magazine
+what-is-customer-lifetime-value-clv
+reasons-to-know-your-clv
+how-to-calculate-customer-lifetime-value-in-4-steps
+examples-of-clv
+how-to-improve-your-customer-lifetime-value
+common-mistakes-around-clv
+chatgpt
