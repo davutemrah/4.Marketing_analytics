@@ -98,7 +98,7 @@ $CLV = X x Y x Z$
 
 Using this information, we can assume a father that regularly purchases smartphones for his family might be worth:
 
-$\$1,000 (per smartphone) × 2 (smartphones per year) × 10 (years) = \$20,000$
+$\$1,000 (per\ smartphone) × 2 (smartphones\ per\ year) × 10 (years) = \$20,000$
 
 The CLV is $20,000.
 
@@ -110,19 +110,19 @@ CLV varies based on the nature of the product or service. Let’s examine variou
 
 Grocery stores inspire loyalty among residents within the vicinity. Let’s say a shopper frequents a grocery in New York every week. He spends around $100 per visit. He returned every week, 52 weeks a year, for an average of three years.
 
-$\$100 (purchase per visit) × 52 (visits per year) × 3 (years) = \$15,600 (CLV)$
+$\$100 (purchase\ per\ visit) × 52 (visits\ per\ year) × 3 (years) = \$15,600 (CLV)$
 
 **2. SaaS Service**
 
 A UX designer uses a cloud-based subscription service to conceptualize mobile apps. He spends $70 per month for 10 years on the software. In this example, the SaaS product is a necessary job-related expense, so the subscription lasted a long time.
 
-$\$70 (subscription fee per month) × 12 (payments per year) × 10 (years) = \$8,400 (CLV)$
+$\$70 (subscription\ fee\ per\ month) × 12 (payments\ per\ year) × 10 (years) = \$8,400 (CLV)$
 
 **3. Interior Design**
 
 The interior design agency has higher average order values. For example, a homeowner spends $100,000 to renovate their home. Because they liked the initial experience, they became a patron of the interior design firm and renovated their property every 10 years within 20 years.
 
-$\$100,000 (per renovation) × 0.1 (annual purchase) × 20 (years) = \$200,000 (CLV)$
+$\$100,000 (per\ renovation) × 0.1 (annual\ purchase) × 20 (years) = \$200,000 (CLV)$
 
 These examples show CLV varies across industries. 
 
