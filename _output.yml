@@ -6,6 +6,7 @@ bookdown::gitbook:
         <li><a href="./">Marketing Analytics</a></li>
       after: |
         <li><a href="https://davutemrah.github.io" target="blank">Back to Home Page</li>
+        <li><a href="https://davutemrah.github.io/notebooks/" target="blank">Back to Collections</li>
 #    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
