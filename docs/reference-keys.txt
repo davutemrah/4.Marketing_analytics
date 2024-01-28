@@ -1,5 +1,9 @@
 marketing-analytics-foundation
-introduction-and-definitions
+definitions
+introduction-to-marketing-analytics
+some-marketing-terms
+a-brick-and-mortar-store
+retail-media
 role-of-marketer
 what-is-marketing-analytics
 the-future-of-marketing-is-data
@@ -21,6 +25,7 @@ first-party---second-party---third-party-data
 sources-of-digital-data
 how-online-interactions-generate-data
 use-of-browser-cookies
+cookies
 tags-and-pixels
 software-developer-kit-sdks-for-mobile-apps
 connecting-data-through-apis
@@ -29,6 +34,12 @@ collecting-data-for-marketing-application
 intro-1
 collecting-data
 implementing-the-facebook-pixel-sdk-and-api
+review
+analyzing-and-visualizing-data
+spreadsheets
+tools-to-evaluate-digital-data
+website-data
+terminology
 marketing-analytics
 some-concepts-and-analysis-types
 customer-lifetime-value

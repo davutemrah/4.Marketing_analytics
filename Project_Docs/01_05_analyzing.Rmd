@@ -1,4 +1,4 @@
-### Analayzing and Visualizing Data
+### Analyzing and Visualizing Data
 
 Now that you know about the importance of marketing analytics and the many sources of data collection, it's time to learn about the tools of the trade.
 
@@ -23,4 +23,163 @@ Before we start, there are several different software programs that allow you to
 
 Microsoft Excel has more features, but Google Sheets is a free program. No matter which you choose, the basic format is the same. 
 
+### Tools to Evaluate Digital Data
 
+#### Website Data
+
+Your website is one of the biggest assets your business will have. New customers will learn about you through your website and old customers return because they're engaged with your brand.
+
+Your marketing efforts, both organic and paid, are going to funnel to your website. Even if you have a brick and mortar store, you're probably also generating sales on your website. But many businesses today are online only and do all of their business through their website. This means that you need to thoroughly understand how users interact with your website. This allows you to optimize your site content to not only provide the best value and experience for your visitors, but to also maximize your conversions from signing up for a newsletter to a sale. 
+
+* Who is your audience?
+
+* How do they get to the website?
+
+* what content do they engage with?
+
+* Are they staying or leaving?
+
+ This is why analyzing data associated with your website can help you with your marketing efforts. Marketers need to know where to find website data and analytics, how to read them, and how to glean insights from them, so they can make data-backed decisions on whether to change marketing efforts going forward, or whether what they're doing now is paying off. 
+ 
+ 
+- [Google Analytics](https://analytics.google.com/analytics/)
+
+Google will provide you with some tracking codes to add to your website, also known as the Google Analytics global site tag, to collect data from your website. Then you can simply log into the Google Analytics dashboard to view metrics. Once the code is embedded in your site, anytime someone visits, Google Analytics attaches a unique identifier to the user, usually in the form of a cookie and tracks their movement throughout the site. Each uniquely identified visitor is called a user and each time they visit your site is called a session. 
+
+- [Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
+
+
+
+#### Terminology
+
+**A/B Testing:** A method of testing two different versions of a web page or mobile app to determine which version performs better with users.
+
+**Abandon/Abandonment:** When a user or customer leaves an action on a web page uncompleted and doesn't return in the session, like a contact form or a purchase.
+
+**Acknowledgement/Thank You/Receipt Page or Pop-Up:** A page or pop-up that displays after a user has completed an action, like completing a form or submitting a purchase. This signals the end of a conversion event that may be tracked.
+
+**Acquisition:** The different ways in which customers find a website, whether it be by entering a URL directly, through a social media link, through an email link, through another website referral, or other methods.
+
+**Ad Click:** The act of clicking on an ad on a webpage. Ad View: The act of viewing an ad on a webpage.
+
+**Audience:** The visitors that come to a website, and their demographics, interests, location, behavior, and more.
+
+**Banner Ad:** An ad that is embedded on a webpage. It can present as full width, within the sidebar, or as other sizes on the page.
+
+**Behavior:** The way in which a visitor moves through a website.
+
+**Benchmark:** A standard measurement for a metric — for example, the average number of monthly visitors — against which to measure other measurements of the same metric. Can be within a site or across an industry.
+
+**Bounce Rate:** The measurement of the percentage of visitors to a website that leave the website after viewing only one page, and don’t navigate to other pages within the site.
+
+**Cascading Style Sheets (CSS):** A style sheet language for websites that dictates the site-wide styles and presentation.
+
+**Click Through/Click Through Rate (CTR):** The act of clicking on an ad to access a website or landing page. The rate is determined by dividing the number of clicks an ad received by the number of times the ad was shown.
+
+**Content Management System (CMS):** Software that manages the contents and back-end of a website.
+
+**Conversion/Conversion Rate:** When a customer completes an action, like makes a purchase, subscribes to a newsletter, or other actions. The conversion rate is the percentage of visitors to a website that complete a conversion.
+
+**Cookie:** A piece of data used to track a visitor's behavior throughout a website. Cookies are used to track and store information about a user's online behavior and preferences. They play a significant role in digital marketing by providing insights into user interactions with websites and helping marketers deliver personalized and targeted content.
+
+**Cost Per Click (CPC):** How much a business pays for one click on their ad.
+
+**Cost Per Mille (CPM):** How much a business pays for their ad to be seen by 1000 (mille) people.
+
+**Crawl/Crawler:** A method by which search engines "crawl" the internet, and read pages for indexing.
+
+**Creative:** The contents and design of an ad.
+
+**Demographics:** The age, gender, location, and other individual identifiers of a website's visitors in general, or target audiences in particular.
+
+**Direct Referral:** One of the ways a visitor accesses a website, by typing in the URL directly into their web browser or accessing the URL via a bookmark.
+
+**Domain:** The web address of a website, specified by the name in the URL. eCommerce: Selling products or services online only, as opposed to in a brick-and-mortar store.
+
+**Entry Page:** The first page a visitor sees when they get to a website (i.e., the entry point).
+
+**Exit Page:** The page from which a visitor exits the website after navigating through the site.
+
+**Hit:** Anytime any image or files is accessed from the web server. Not to be confused with a page visit (i.e., there could be multiple hits per one page view).
+
+**Home Page:** The main or starting page of a website, typically located at the root URL.
+
+**Hypertext Transfer Protocol (HTTP):** A protocol for the way data and hypermedia is transferred between a web server and a web browser.
+
+**Hypertext Markup Language (HTML):** A programming language that communicates text formatting and hyperlinks on a web page.
+
+**Impression:** One view of a piece of content, whether it be an ad, a social media post, or some other post or call to action.
+
+**Inbound Links/Back Link:** Links from other websites into a website, which are evaluated by search engines when ranking.
+
+**Internet Protocol (IP) Address:** A unique address that identifies a computer or other device connected to the internet.
+
+**Keyword:** A word or phrase that not only describes the contents of a particular website, but that search engine users can search that will result in that website appearing in the results.
+
+**Landing Page:** A single webpage used to detail a product or offering (typically different from a home page).
+
+**Link Referral:** A way by which visitors find a website through links from other websites.
+
+**Load Time:** The time it takes for a web page to load in the browser.
+
+**Meta Tags:** Text that can be added to a page via hidden HTML to help with search engine ranking.
+
+**Navigation:** The way in which visitors move throughout a website, via a menu or navigation bar.
+
+**New Visitor:** A visitor who is accessing a website for the first time, and has no previous sessions.
+
+**Organic Traffic:** A way in which visitors find a website via organic means, like through a search engine, organic posts on social media, or via non-paid links.
+
+**Outbound Links:** Links going out to other websites from a website. 
+
+**Page Duration:** The time spent by a visitor browsing one page.
+
+**Page View/Page Views Per Visit:** One point-in-time access of a webpage by a visitor, or one rendering or request of a web page. Page Views Per Visit is how many pages were accessed by one visitor during a period of time.
+
+**Page:** A static page or full HTML document on a website.
+
+**Paid Referrals:** A way to access a website by a paid referral via an ad, sponsored content, or other paid call to action.
+
+**Path:** The way a visitor travels through a website.
+
+**Reach:** The number of people reached by a specific ad, social media post, or website; typically a size of an audience.
+
+**Redirect:** Sending a visitor from one URL to another to find the page they're looking for; too many redirects can reflect negatively on a website's rankings.
+
+**Return on Ad Spend (ROAS):** Evaluating how successful an ad campaign is by seeing how cost effective it was.
+
+**Return Visitor:** A visitor who returns multiple times to a website, identified either through cookies or through a log-in authentication.
+
+**Sampling:** A selection of an audience that represents the whole, to use for data analysis.
+
+**Search Engine Optimization (SEO):** An approach by which a website can better optimize itself for higher rankings and search returns by using keywords, header tags, links, and more.
+
+**Search Engine:** A service that allows users to search the web for keywords and phrases, and returns both paid and organic website listings from their indexing that matches the search.
+
+**Session:** The time in which one visitor browses through a website.
+
+**Site Content:** A list of all content, including pages or other assets, that are
+contained within a website.
+
+**Site Performance:** The overall success of a website in terms of conversions, page visits, content views, and more.
+
+**Site Search:** The search within a website (not a search engine).
+
+**Site Traffic:** The number of visitors that access a website over a given time
+period.
+
+**Social Referrals:** A way in which visitors find a website via social media links.
+
+**Stickiness:** The ability of a website to keep visitors from leaving, and to continue to navigate within the site instead of exiting.
+
+**Traffic:** Visitors to a website.
+
+**Uniform Resource Locator (URL):** A specific, named address with which to
+identify and access a website.
+
+**Unique Visitor:** One specific visitor to a website, identified by a cookie, authentication, or IP address.
+
+**Visits:** An individual visit to a website or a web page; may not be a unique visitor, but the number of visits (of which a unique visitor may be counted multiple times).
+
+Web Analytics: The measure of visitors on a website, which pages they visit, how they accessed the website, and more, in order to give insight into site success or improvements.
+Web Analytics Dashboard: An online dashboard (via Google Analytics or a native web platform) that displays all visitor and usage metrics for a website.

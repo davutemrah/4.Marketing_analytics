@@ -2,9 +2,7 @@
 # Marketing Analytics Foundation 
 
 
-## Introduction and definitions
-
-### Definitions
+## Definitions
 
 **Retail Media**
 
@@ -17,6 +15,26 @@ In physical retail settings, retail media can include in-store displays, product
 Overall, retail media aims to leverage the retail environment to deliver targeted and relevant advertising messages to consumers, ultimately driving sales and creating a mutually beneficial relationship between brands and retailers.
 
 
+## Introduction to Marketing Analytics
+
+### Some Marketing terms
+
+
+#### A brick-and-mortar store 
+
+It refers to a physical retail location where business is conducted in person with customers. The term "brick-and-mortar" is used to distinguish these traditional stores from online or e-commerce businesses. In a brick-and-mortar store, customers can visit the physical location, browse products on shelves or displays, make purchases in person, and interact with store staff.
+
+The term "brick-and-mortar" comes from the materials used to build physical structures—bricks and mortar. This contrasts with online or virtual stores, which operate on the internet without a physical presence. Brick-and-mortar stores have been a common and traditional way of conducting retail business for many years, but the rise of e-commerce has led to increased competition and changes in the retail landscape. Some businesses also use a combination of both brick-and-mortar and online channels, known as `omnichannel` retailing, to reach a broader customer base.
+
+#### Retail Media
+
+"Retail media" refers to the use of media channels, often within a retail environment, to promote and advertise products or services. It involves advertising and marketing efforts directly within the retail space, whether in physical stores or online platforms.
+
+In a retail media strategy, businesses leverage various channels such as in-store displays, digital signage, sponsored product listings on e-commerce websites, and other promotional methods to reach their target audience. This approach allows retailers to monetize their own media properties and engage with customers in a more targeted and contextually relevant manner.
+
+The concept of retail media has become increasingly important as e-commerce and digital marketing have grown in prominence. It provides retailers with an additional revenue stream and allows brands to connect with consumers at key points in the purchasing process.
+
+For example, a **retail media strategy** in an online marketplace might involve brands paying to have their products featured prominently in search results or on category pages, increasing visibility and potentially influencing purchasing decisions.
 
 ### Role of marketer
 

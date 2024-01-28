@@ -117,6 +117,24 @@ If the advertiser network puts a cookie in the browser of the visitor of the web
 
 [Mobile app cookies]("Mobile Tutorial Series".pdf)
 
+#### Cookies
+
+A "cookie" refers to a small piece of data that is stored on a user's device by a web browser. Cookies are used to track and store information about a user's online behavior and preferences. They play a significant role in digital marketing by providing insights into user interactions with websites and helping marketers deliver personalized and targeted content.
+
+Here are key points to understand about cookies in marketing:
+
+**User Tracking:** Cookies are commonly used to track user activities on websites. They store information such as pages visited, time spent on a site, and specific actions taken by the user. This data is valuable for marketers to analyze user behavior and make data-driven decisions.
+
+**Personalization:** Cookies enable marketers to personalize the user experience. By tracking a user's preferences and history, websites can offer personalized content, recommendations, and advertisements. This personalization enhances user engagement and increases the likelihood of conversion.
+
+**Ad Targeting:** Third-party cookies, in particular, are often used for online advertising purposes. Advertisers and ad networks use these cookies to track users across different websites and display targeted advertisements based on their interests and online behavior. This practice is known as behavioral targeting.
+
+**Analytics and Measurement:** Cookies are essential for web analytics tools to gather data on website traffic, user demographics, and user interactions. Marketers use this data to measure the performance of their campaigns, understand their audience, and optimize their strategies.
+
+**Session Management:** Cookies are also used for session management, helping websites recognize users as they navigate through different pages during a single session. This is essential for maintaining user login status, shopping cart contents, and other session-specific information.
+
+**Consent and Privacy Concerns:** With growing concerns about online privacy, regulations such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) require websites to obtain user consent before storing or accessing cookies. Marketers need to be mindful of these regulations and ensure compliance with privacy laws.
+
 #### Tags and Pixels
 
 **The publisher of a website can add a pixel by adding a few lines of code provided by the third party to whom the publisher wants to send data.**
