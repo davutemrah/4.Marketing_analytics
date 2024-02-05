@@ -19,7 +19,7 @@ body {text-align: justify}
 # Acknowledgement {-}
 
 <div class="boxy">
-This is collection of notes from Coursera Marketing Analytics Certificate Program by META and some other sources.
+This is a collection of notes from Coursera Marketing Analytics Certificate Program by META and some other sources.
 </div>
 
 
