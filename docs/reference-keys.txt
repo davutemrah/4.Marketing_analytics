@@ -40,6 +40,10 @@ spreadsheets
 tools-to-evaluate-digital-data
 website-data
 terminology
+data-and-privacy
+consumer-perspective
+advertisers-perspective
+who-owns-data
 marketing-analytics
 some-concepts-and-analysis-types
 customer-lifetime-value
