@@ -1,8 +1,6 @@
-
 ### Data and Privacy
 
-Access to data is important for marketers. It makes it possible to deliver the advertising messages to the right audience, optimize marketing campaigns, and measure the outcome of marketing action. But we shouldn't forget that all that data is related to user behavior and while users may be okay with sharing some data, there are limits. 
-
+Access to data is important for marketers. It makes it possible to deliver the advertising messages to the right audience, optimize marketing campaigns, and measure the outcome of marketing action. But we shouldn't forget that all that data is related to user behavior and while users may be okay with sharing some data, there are limits.
 
 #### Consumer Perspective
 
@@ -14,27 +12,25 @@ Advertising serves as the cornerstone of the majority of our online interactions
 
 While some of us might wish for an ad-free experience, the reality is that without advertising, accessing content would likely come at a cost or be less freely available. Many individuals have come to accept ads as an integral part of their online experience. As you browse the web, you've probably encountered ads that felt tailored to your interests and others that seemed irrelevant. The spectrum of online advertisements ranges from captivating to irritating.
 
-Often, the ads that resonate most with us are those customized to our specific interests. Surprisingly, these personalized ads also tend to be the most effective. However, for some individuals, even these tailored ads can evoke a sense of intrusion. 
+Often, the ads that resonate most with us are those customized to our specific interests. Surprisingly, these personalized ads also tend to be the most effective. However, for some individuals, even these tailored ads can evoke a sense of intrusion.
 
 As we've come to understand, personalized ads tailor their content to our individual interests by leveraging data collected from our online activities and privacy settings.
 
 A clear differentiation can be made between data consciously provided by consumers—such as when filling out interests or demographic details during the sign-up process for social media platforms—and data derived from individuals' browsing habits, which is often collected unintentionally. It is this latter type of data that consumers are typically most concerned about when considering their online privacy.
 
-
 Based on a survey conducted by the Pew Research Center, 72% of Americans express a sense of being constantly monitored by advertisers, technology firms, or other companies while engaging in online activities or using their cell phones. Additionally, a significant 81% of Americans believe that the potential downsides of data collection by companies concerning their personal information outweigh any benefits.
 
-Seventy-nine percent of adults express concern, to varying degrees, about how companies utilize the data they gather about them. 
+Seventy-nine percent of adults express concern, to varying degrees, about how companies utilize the data they gather about them.
 
-A study published in the Harvard Business Review, discovered that consumers exhibit less apprehension when companies utilize information directly provided by them, in contrast to conclusions drawn from their browsing activity. The distinction between engaging, personalized advertisements and intrusive ones is exceedingly delicate. 
+A study published in the Harvard Business Review, discovered that consumers exhibit less apprehension when companies utilize information directly provided by them, in contrast to conclusions drawn from their browsing activity. The distinction between engaging, personalized advertisements and intrusive ones is exceedingly delicate.
 
 As we embark on our journey as a marketing analyst, it's crucial to prioritize consumer privacy concerns. While access to data in advertising is undoubtedly advantageous and enhances marketing effectiveness, it's equally essential to maintain a balance between data utilization and consumer trust.
 
-
-Consumers are increasingly aware that their online activities are being tracked, yet they often feel uneasy about the sharing and utilization of their browsing behavior data for advertising purposes. This discomfort may prompt some consumers to take action in response to these concerns. 
+Consumers are increasingly aware that their online activities are being tracked, yet they often feel uneasy about the sharing and utilization of their browsing behavior data for advertising purposes. This discomfort may prompt some consumers to take action in response to these concerns.
 
 As a marketing analyst, being aware of how consumers can assert control over their own data and content is essential, as it provides insight into the limitations of the data available for analysis.
 
-Consumers have access to several tools that enable them to restrict the information they share online and control how it is utilized. Three of the most prevalent and easily accessible tools include ad blockers, cookie blockers, and VPNs (Virtual Private Networks). These tools empower consumers to manage their online privacy effectively. 
+Consumers have access to several tools that enable them to restrict the information they share online and control how it is utilized. Three of the most prevalent and easily accessible tools include ad blockers, cookie blockers, and VPNs (Virtual Private Networks). These tools empower consumers to manage their online privacy effectively.
 
 `Ad blockers` are software designed to prevent advertisements from displaying on webpages. Typically, these tools are browser plugins that users can install to block ads while browsing.
 
@@ -54,8 +50,7 @@ There are numerous VPN options available, including both free and paid services.
 
 Next, let's delve into an overview of some settings consumers can adjust on their devices to enhance their privacy. If you've ever explored the settings on your phone, you're likely aware of the numerous specific settings and privacy preferences available on all major devices.
 
-For our discussion, we'll focus on three overarching concepts: location, tracking, and permissions. Consider the multitude of modern devices capable of tracking a consumer's location, including cell phones, tablets, laptops, and smart-watches. On each of these devices, users have the ability to control how, when, and to whom their location data is accessible. Typically, these settings can be found within the location services menu. 
-
+For our discussion, we'll focus on three overarching concepts: location, tracking, and permissions. Consider the multitude of modern devices capable of tracking a consumer's location, including cell phones, tablets, laptops, and smart-watches. On each of these devices, users have the ability to control how, when, and to whom their location data is accessible. Typically, these settings can be found within the location services menu.
 
 Another setting consumers have some control over is how and by whom they are tracked online. While these settings may vary across platforms, in Apple's iOS, for example, users can access a tracking menu under the Privacy settings. This menu enables users to specify which apps are permitted to track their activity.
 
@@ -71,16 +66,15 @@ As consumers online, individuals have considerable control over the information 
 
 Understanding the limitations and gaps in the data available for analysis is crucial for a marketing analyst. Recognizing these limitations resulting from consumer controls provides insights into the boundaries of data accessibility and helps maintain transparency and trust in marketing practices.
 
-
 #### Advertisers Perspective
 
 Now, let's shift our focus to the advertiser's perspective and examine what it means to be a responsible advertiser when working with consumer data.
 
-- First, we'll delve into the concept of responsible advertising and the obligations advertisers have towards consumers when utilizing their data. 
+-   First, we'll delve into the concept of responsible advertising and the obligations advertisers have towards consumers when utilizing their data.
 
-- Then, we'll explore the advertising ecosystem, highlighting the various parties involved in handling user data and their shared responsibilities. 
+-   Then, we'll explore the advertising ecosystem, highlighting the various parties involved in handling user data and their shared responsibilities.
 
-- Lastly, we'll discuss the ownership and management of data, shedding light on who ultimately controls and oversees the data used in advertising practices.
+-   Lastly, we'll discuss the ownership and management of data, shedding light on who ultimately controls and oversees the data used in advertising practices.
 
 This shift in perspective will underscore the importance of data in advertising and elucidate the ethical responsibilities that advertisers bear when leveraging consumer data.
 
@@ -92,36 +86,28 @@ However, with data-based advertising, the targeting becomes much more refined. F
 
 The effectiveness of data-based advertising relies heavily on the availability of data. Without access to information about consumers' interests, habits, or needs, advertisers would be limited to using only contextual advertising strategies.
 
-
 Data-based advertising is highly effective, and advertisers are eager to utilize data to target their ads to the right audience. However, when advertisers handle and utilize data, they bear the responsibility of providing consumers with three key elements: value, transparency, and control.
 
 First and foremost, it's crucial for consumers to perceive the value in allowing their personal data to be used for advertising purposes. This could manifest through access to inexpensive or free content, personalized experiences, or innovative marketplace offerings, all of which enhance the consumer's overall experience.
 
 Secondly, advertisers must prioritize transparency regarding the origin and usage of data. For instance, if you've recently encountered a personalized ad, you might have noticed additional information indicating why you're seeing that specific ad. An example of this is the ad choice flag, provided by the Digital Advertising Alliance (DAA), a consortium of advertisers striving to enhance transparency in data-based advertising. When users click on this icon, they gain insight into how and why they're being targeted with that particular ad. This initiative by the DAA represents a genuine effort to make advertising practices more transparent and consumer-friendly.
 
+Finally, an advertiser has a responsibility to highlight consumer's control over their data. Consumers might be fine with their personal data being used in one situation, but as we've covered in an earlier lesson, they worry about losing control over who else might have access to that data. Consumers own their personal data and reminding them of that control might actually be a win-win. Research shows that when consumers are reminded about the controls they have over their personal data, they're actually more likely to engage with an ad.
 
-Finally, an advertiser has a responsibility to highlight consumer's control over their data. Consumers might be fine with their personal data being used in one situation, but as we've covered in an earlier lesson, they worry about losing control over who else might have access to that data. Consumers own their personal data and reminding them of that control might actually be a win-win. Research shows that when consumers are reminded about the controls they have over their personal data, they're actually more likely to engage with an ad. 
+To summarize, advertisers are expected to provide value, transparency, and control to consumers when working with the data users provide them.
 
-To summarize, advertisers are expected to provide value, transparency, and control to consumers when working with the data users provide them. 
+In this lesson, we're going to explore the four major components of the advertising ecosystem and how personal data and consumer privacy reef through it.
 
+The advertising ecosystem can be broken down into four sections:\
+- consumers, - advertisers, - publishers and partners, - regulators and gatekeepers.
 
+These four groups all interact with each other in different ways and they create a complex web that's at the core of data-based advertising.
 
-In this lesson, we're going to explore the four major components of the advertising ecosystem and how personal data and consumer privacy reef through it. 
+Let's look at these four groups individually and how they influence the ads you see as a consumer. 1. consumers: First, the consumer is the person that's most important to a business. We've already covered in previous lessons what a consumer is comfortable sharing and how an advertiser can responsibly use that shared information.
 
-The advertising ecosystem can be broken down into four sections:   
-- consumers, 
-- advertisers, 
-- publishers and partners, 
-- regulators and gatekeepers.
+2.  advertisers: Next, on the other side of the advertising ecosystem web is the advertisers. We've broken down the many ways that data can be useful to advertisers to make ads more relevant.
 
-These four groups all interact with each other in different ways and they create a complex web that's at the core of data-based advertising. 
-
-Let's look at these four groups individually and how they influence the ads you see as a consumer. 
-1. consumers: First, the consumer is the person that's most important to a business. We've already covered in previous lessons what a consumer is comfortable sharing and how an advertiser can responsibly use that shared information. 
-
-2. advertisers: Next, on the other side of the advertising ecosystem web is the advertisers. We've broken down the many ways that data can be useful to advertisers to make ads more relevant. 
-
-3. publishers and their partners: After an advertiser has crafted the ad and identified its target audience, it is then sent to publishers and their partners. Publishers refer to websites and apps that produce and distribute digital content, often partially funded by advertisements. These ads are optimized using data provided by consumers to these platforms.
+3.  publishers and their partners: After an advertiser has crafted the ad and identified its target audience, it is then sent to publishers and their partners. Publishers refer to websites and apps that produce and distribute digital content, often partially funded by advertisements. These ads are optimized using data provided by consumers to these platforms.
 
 When publishers effectively connect brands with individuals likely to be interested in them, advertisers are more inclined to invest in their platforms or sites. This connection is facilitated by data. Publishers serve as the most direct link to consumers and are well-attuned to the needs and feedback of their audience.
 
@@ -131,7 +117,7 @@ Ad exchanges act as systems and intermediaries that facilitate automated buying 
 
 Measurement providers encompass third-party entities and ad providers offering solutions for evaluating the effectiveness of advertising. This enables publishers and advertisers to assess the performance of ads and refine their strategies accordingly.
 
-4. gatekeepers and regulators: The final stakeholders in the advertising ecosystem are the gatekeepers and regulators. This encompasses a broad array of entities, including companies, industry groups, and government agencies, all of which play a role in determining how private data can be utilized in advertising. We'll specifically examine three types of gatekeepers: browsers and device platforms, governments, and industry organizations.
+4.  gatekeepers and regulators: The final stakeholders in the advertising ecosystem are the gatekeepers and regulators. This encompasses a broad array of entities, including companies, industry groups, and government agencies, all of which play a role in determining how private data can be utilized in advertising. We'll specifically examine three types of gatekeepers: browsers and device platforms, governments, and industry organizations.
 
 In the digital realm, any advertisements encountered by consumers ultimately appear on a device or browser. Therefore, these browsers and devices hold significant importance within the advertising ecosystem. Rules or restrictions implemented by browsers and devices can profoundly impact their user base as well as advertisers aiming to engage with them.
 
@@ -147,22 +133,52 @@ However, James acknowledges that not all potential consumers may be active on Fa
 
 James's agency partners with OpenX, an example of an advertising exchange, which assists publishers in monetizing their content by placing ads alongside it. While James's ads won't reach every individual in his target audience, they will be delivered through browsers and devices, subject to certain data collection limitations imposed by publishers and their partners. Compliance with regional laws and regulations regarding data usage is also essential for the publishers and partners James collaborates with.
 
-
 #### who owns data
 
 Let's take another look at data-ownership in light of data privacy depending on who collects and manages the data. There are different restrictions and regulations of course, as a consumer, you are always the owner of your data, but you can engage in a relationship with a publisher or an advertiser where you allow them to use your data.
 
-As we saw earlier in this course, the parties that you allow to collect and store your data fall into three different groups depending on how direct your relationship is with them, first party, second party or third party. 
+As we saw earlier in this course, the parties that you allow to collect and store your data fall into three different groups depending on how direct your relationship is with them, first party, second party or third party.
 
-`First party data` is the data a company receives from the people it's interacting with directly. These people could be customers, visitors to the website or followers on social media. For example, if you're using a social media platform and you click on an ad for Pizza, the platform may infer that you are interested in Pizza, that information is considered first party data that the social media platform is now managing about you. With first party data, there is an implicit or explicit agreement between the consumer and the data receiving company that it can use your data. Of course, with certain restrictions, as we saw earlier. 
+`First party data` is the data a company receives from the people it's interacting with directly. These people could be customers, visitors to the website or followers on social media. For example, if you're using a social media platform and you click on an ad for Pizza, the platform may infer that you are interested in Pizza, that information is considered first party data that the social media platform is now managing about you. With first party data, there is an implicit or explicit agreement between the consumer and the data receiving company that it can use your data. Of course, with certain restrictions, as we saw earlier.
 
-`Second party data` consists of the same type of data is the first party data, but in this case the data has been passed on to a second party, often a trusted partner of the first party. Continuing the metaphor, if the social media platform you signed up for earlier gives information to a partner, that partner company also knows that you like Pizza then both managed that data about you. In this scenario, ideally the partner is trustworthy and responsible with the data that was passed on from the first party social media platform and it's the responsibility of the first party to ensure that the second party won't misuse your data. If not, the repercussions would involve both parties first and the second party. 
+`Second party data` consists of the same type of data is the first party data, but in this case the data has been passed on to a second party, often a trusted partner of the first party. Continuing the metaphor, if the social media platform you signed up for earlier gives information to a partner, that partner company also knows that you like Pizza then both managed that data about you. In this scenario, ideally the partner is trustworthy and responsible with the data that was passed on from the first party social media platform and it's the responsibility of the first party to ensure that the second party won't misuse your data. If not, the repercussions would involve both parties first and the second party.
 
-The final bucket that personal data can fall into his `third party data`. Third party data is collected by a company or entity that doesn't have a clear relationship with the company a person is interacting with or the first party. Third parties may track a person's behavior across sites, for instance, using browser cookies, which we call `third party cookies`. Information gathered this week can be bundled together to create a profile about a person that can then be sold to advertisers. Using our metaphor one more time, if a third party tracks your behavior across the web, they might learn about your interest in Pizza, even if you didn't specifically give that information to them. This type of information gathered is the kind that makes consumers most uncomfortable, since people don't have an explicit agreement with these third parties that allows them to collect and store this information. Third party data tracking often raises privacy concerns. As a result, several browsers block third party cookies to help limit this kind of data collection. 
+The final bucket that personal data can fall into his `third party data`. Third party data is collected by a company or entity that doesn't have a clear relationship with the company a person is interacting with or the first party. Third parties may track a person's behavior across sites, for instance, using browser cookies, which we call `third party cookies`. Information gathered this week can be bundled together to create a profile about a person that can then be sold to advertisers. Using our metaphor one more time, if a third party tracks your behavior across the web, they might learn about your interest in Pizza, even if you didn't specifically give that information to them. This type of information gathered is the kind that makes consumers most uncomfortable, since people don't have an explicit agreement with these third parties that allows them to collect and store this information. Third party data tracking often raises privacy concerns. As a result, several browsers block third party cookies to help limit this kind of data collection.
 
 It's important that all parts of the advertising ecosystem, first, second or third parties set and maintain high privacy standards. That's the only way that a consumer can trust and have confidence that their information is being handled appropriately.
 
+#### Regulations
 
+Around the globe, governments are taking on a role in regulating how personal data is gathered and used.
 
+It's important for marketing analysts to know about these laws as they regulate how user data can be used, and of course, as a consumer, it's also good to know what your rights are. All three of these regulations affect how much and what type of data an advertiser can use for data-based advertising.
 
+1.  `GDPR`: GDPR stands for the General Data Protection Regulation. It's a law that protects data and online privacy in the European Union. GDPR is a very detailed and pretty complex law. At a high level, we can group some of its key requirements in two buckets: European citizen data rights and data protection obligations for companies who collected the data.
 
+-   Right to access: The law specifies that people have the right to access the personal information received about them,
+
+-   Right to correct: they have the right to correct that information
+
+-   Right to erase: the right to have all the information that was collected and saved about them erased
+
+-   Right to data portability: they have the right to data portability
+
+In other words, they have the rights to get a file of their personal information and pass it on to another party. As for the data protection obligations, the law specifies how companies must protect the information they receive. It also specifies that companies must alert people within 72 hours if their personal data was leaked, and companies must designate people whose job it will be to protect the data they received.
+
+The law also says that companies should limit their data collection and that certain data categories are prohibited, for instance, `ethnicity` and `sexual orientation`.
+
+Before receiving any data, companies should ask for permission. This is the right to prior consent. GDPR was developed and is managed by the European Union. Any company that works with the personal data of EU residents must comply no matter where the business is based.
+
+In practice, this means that most digital businesses have to comply with this law. The different EU countries each have their own supervisory authorities that monitor compliance. Fines related to GDPR can be substantial, up to four percent of the annual revenue of a company. In October 2020, clothing retailer H&M was issued of \$41 million GDPR fine after several hundred employees were found to be illegally under surveillance. The company kept extensive profiles of employees, families, illnesses, and religious beliefs. The Data Protection Authority of Hamburg, Germany found that this case showed a disregard for GDPR data protection rules. Laws like this and fines of this magnitude have reinforced how seriously the European Union is taking personal data privacy.
+
+2.  `CCPA`: In 2019, the Governor of California signed into law the California Consumer Privacy Act. The strictest of any consumer privacy laws in the US, this law aims to give residents of California more privacy and protection. This law is not dissimilar from the GDPR, the law wants to give consumers more insight into what data is collected about them and say whether or not they want their data collected.
+
+There are five distinct rights the CCPA gives to consumers. The right to know `what information` is collected about them, the right to know whether they're `data is sold` and to whom, and the right to `opt out` of that sale, the `right to access` to personal information that was collected about them, the right to require the business to `delete` their personal information, and finally, the right to not be discriminated against for exercising their rights under the act.
+
+The CCPA falls under the responsibility of the California State Attorney General's office. Any business that collects and controls the personal information of California residents should comply with the CCPA. The California Attorney General and residents of California can initiate lawsuits. Fines under the CCPA can be up to \$7500 for intentional violations and \$2500 for unintentional violations. The law went into effect in January 2020. It's still a bit too early for any high-profile lawsuits under this law.
+
+3. `COPPA`:  COPPA or the Children's Online Privacy Protection Act. This US law took effect in 2000, and limits the collection and use of personal information of people under the age of 13. COPPA was specifically designed to protect children. It requires that notice be given and parental consent is obtained before any personal information is collected from children.
+
+It also requires that companies have a clear and comprehensive privacy policy, and companies that collect data from minors need to keep that data confidential and secure. COPPA is managed by the US Federal Trade Commission or the FTC. All companies that interact with children under the age of 13 in the US must comply with COPPA. The FTC relies on people to alert them to violations of COPPA and those complaints can prompt an investigation. Fines related to COPPA can be fairly substantial, up to \$40,000 per violation. 
+
+Here's one example of a high profile case that violated COPPA. In 2019, Google was find \$170 million for collecting and saving personal information from children and using it for advertising on YouTube. Needless to say, violations can be costly, not only in terms of the fines, but also in terms of the consumer trust that is lost. This was just a high-level overview of the most prominent laws governments have established to regulate the collection and use of personal data. There may be other local regulations, so depending on the region you work in, it's worth checking which laws are in place.

@@ -2,8 +2,6 @@
 
 ### What Data do Marketers use
 
-#### Intro
-
 Marketing analytics can help you plan your marketing efforts, evaluate your effectiveness, and optimize your marketing and your purchase funnel, but none of that can be done without data. Data can come from different sources, can be of varying quality and can be helpful or unhelpful to you depending on what it is, but without data and the ability to understand and analyze it, marketing efforts can only go so far. 
 
 As you know, all our online interactions generate data, but depending on the device you use to go online, the way data is collected differs. You may have heard of **cookies** and **pixels** used to track online behavior for instance. It's important to understand the mechanics of how this works as it will help you understand the nature of the digital data you're working with and the limitations. 

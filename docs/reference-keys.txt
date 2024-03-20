@@ -17,7 +17,6 @@ optimize-the-sales-funnel
 discussion-friction-in-the-purchase-funnel
 marketing-data-sources
 what-data-do-marketers-use
-intro
 data-related-to-offline-behavior
 data-related-to-online-behavior
 sampled-or-non-sampled-data
@@ -31,7 +30,7 @@ software-developer-kit-sdks-for-mobile-apps
 connecting-data-through-apis
 use-of-uids
 collecting-data-for-marketing-application
-intro-1
+intro
 collecting-data
 implementing-the-facebook-pixel-sdk-and-api
 review
@@ -44,6 +43,7 @@ data-and-privacy
 consumer-perspective
 advertisers-perspective
 who-owns-data
+regulations
 marketing-analytics
 some-concepts-and-analysis-types
 customer-lifetime-value
