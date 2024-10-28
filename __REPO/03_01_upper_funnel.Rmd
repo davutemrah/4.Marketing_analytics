@@ -1,0 +1,30 @@
+## Upper Funnel Marketing (Awareness Stage)
+
+The upper funnel focuses on **introducing your brand** to as many people as possible, primarily to **build awareness**. This stage is not about conversions but about **visibility** and **attracting attention** from a broad audience.
+
+**Key Objectives**:
+
+- Make potential customers aware of your brand or product.
+
+- Generate interest and build brand recognition.
+
+- Reach a large and diverse audience to bring them into the consideration stage.
+
+
+**Common Tactics**:
+
+1. **Display and Social Ads**: Using platforms like Google Display Network, Meta (Facebook/Instagram), or DV360 to show ads to a wide audience.
+
+2. **Video Marketing**: Creating engaging video content for platforms like YouTube or social media to increase brand visibility.
+
+3. **Content Amplification**: Distributing branded content (blog posts, videos) through paid channels or influencer partnerships to increase reach.
+
+4. **Programmatic Advertising**: Automated, real-time ad buying to target potential customers based on demographics, interests, or online behaviors (via DSPs like The Trade Desk, DV360).
+
+5. **Brand Partnerships and Sponsorships**: Associating with other well-known brands or events to increase visibility.
+
+**Metrics**:
+- Impressions: The total number of times your ad is displayed.
+- Reach: The number of unique people who saw your content.
+- Brand Recall/Brand Lift: Measuring how many people remember your brand after being exposed to your marketing.
+- Engagement: Likes, shares, and comments on social or video content.

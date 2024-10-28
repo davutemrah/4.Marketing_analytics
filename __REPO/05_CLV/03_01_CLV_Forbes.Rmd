@@ -1,0 +1,149 @@
+### From Forbes Magazine
+
+
+[Source 1: Forbes](https://www.forbes.com/advisor/business/customer-lifetime-value/#:~:text=Customer%20lifetime%20value%20(CLV)%20is%20a%20business%20metric%20used%20to,lifetime%2C%20their%20CLV%20is%20%2490%2C000.)
+
+
+**Customer lifetime value** is a business metric used to determine the amount of money a customer will spend throughout the business relationship. It helps businesses determine customer acquisition costs, improve forecasting and increase profits over time. It also serves as a guide for decisions about their overall business strategy.
+
+A `higher` CLV indicates customers spend more money on your product or service `throughout the business relationship.` When customers spend more and purchase frequently, your business is more successful and profitable.
+
+
+
+The industries with the highest customer lifetime value are architecture firms for \$1,129,000, followed by business operations consulting firms for \$385,800 and healthcare consulting firms priced at $328,600. These firms generate high amounts of revenue for hourly fees, consultation fees, material costs and projects.
+
+
+The estimated value of each customer can play an integral role when making business decisions, such as whether to invest more in customer acquisition or retention. 
+
+#### Reasons To Know Your CLV
+
+Let’s take a look at several reasons why CLV matters.
+
+**1. Determine customer acquisition cost**
+
+How much should you invest in hiring a new customer? When you can determine the amount a customer will spend on your business, you can gauge the amount of money to spend on marketing campaigns.
+
+For example, when you find out a customer spends an average of $1,000 on your business over time⁠—you might have the budget to spend more on advertising and targeting campaigns. Not only that, but you have room to invest more money to personalize your email marketing strategy or content strategy.
+
+Alternatively, if the estimated CLV is $1,000, you would only invest this much in convincing a customer to stay. Otherwise, you wouldn’t profit from the relationship.
+
+**2. Improve profitability consistently over time**
+
+Optimizing CLV helps you focus on ensuring consistent profitability over time. If you only invest in acquisition and closing new deals, it won’t be easy to remain profitable during slow seasons. 
+
+In contrast, a high CLV means you can rely on enough people to return to your store throughout the year.
+
+**3. More accurate forecasting**
+
+Customer lifetime value (CLV) can help you make better production, workforce and inventory decisions.
+
+It helps pinpoint the types of clients you have, the best-selling products you buy and the factors that drive customer loyalty. Otherwise, you may spend more on producing products with insufficient demand.
+
+**4. Improve overall business strategy**
+
+Understanding CLV helps you determine the most effective strategy for your business growth.
+
+If your CLV is low, you may need to invest more in loyalty programs and initiatives to boost customer retention. 
+
+In contrast, a high CLV means you may need to look into the best-selling products and campaigns driving growth to keep the momentum going. 
+
+Over time, this strategy will help you create more cost-effective strategies around customer acquisition, marketing and sales.
+
+**5. Better understand loyal customers**
+
+Customer lifetime value helps you understand the **most loyal** brand advocates. How often do they shop from your business? What items are they more likely to purchase? Answering these questions can help you brainstorm ways to engage with your most loyal customers.
+
+
+
+#### How To Improve Your Customer Lifetime Value
+
+Improving your CLV can enhance your business’s profitability over time. To that end, here are a few ways to improve customer loyalty and retention.
+
+**1. Create a loyalty and rewards program**
+
+A growing body of research proves rewards programs effectively drive loyalty and retention. Gamify the experience by offering discounts and perks every time customers complete a milestone (e.g., making their first order and spending a specific amount).
+
+For example, Victoria’s Secret Pink Nation loyalty program lets customers receive members-only perks such as exclusive content, early access to sales, mental health tips and playlists.
+
+**2. Increase average order value**
+
+Making customers spend more in your store can boost CLV. Offer free shipping or freebies for customers who reach a specific order amount, such as $50 or $100. Alternatively, you can bundle related products and sell them at a discounted price.
+
+For SaaS businesses, you can give temporary upgrades such as seven-day or 14-day trials. Not only does this allow your customers to see the advanced features they’re missing out on, but it may also persuade them to upgrade and make the transition.
+
+**3. Launch post-purchase email campaigns**
+
+Offer next-order coupons or discounts to encourage customers to shop again. A good tip is to place them on order confirmation emails because they have a high open rate of around 65%, which is nearly four times higher than an average email. Another way is to deliver post-purchase emails seeking reviews to encourage customers to shop again.
+
+**4. Place product recommendations**
+
+Product recommendations matter. A study found 92.4% of consumers are influenced by reviews when purchasing. Nearly 90% of consumers believe in product reviews as much as advice from family and friends.
+
+Having product recommendations lets customers evaluate whether or not a product is worth buying. So, recommendations are another way to get customers to buy more, which increases customer lifetime value.
+
+Amazon’s algorithm selects product recommendations based on users’ past purchases and browsing behavior. Using this information, it can make suggestions such as “similar items viewed” or “frequently bought together” by consumers with the same interests or preferences. That’s why 35% of Amazon.com’s revenue comes from its recommendation engine. Judging by the numbers, recommendations are crucial to increasing CLV.
+
+**5. Create personalized experiences**
+
+Businesses that want to retain customers should focus on increasing their value and relevance. That’s why creating personalized experiences relevant to shoppers’ interests is essential. A survey of 1,000 U.S. adults by Epsilon and GBH Insights found that 80% of respondents want personalization from retailers. Likewise, McKinsey predicts shopping will feel incredibly personalized by 2030.
+
+Moving forward, businesses must be able to segment customers based on their demographics, interests and purchasing behaviors. This could mean tailoring content recommendations based on browsing behavior.
+
+**6. Offer quality customer service**
+
+Good customer service is essential to encourage customers to be long-time patrons. It only takes one bad experience to prompt a customer to switch to your competitors. A Qualtrics study found 80% of customers have changed brands because of a poor customer experience.
+
+A good tip is to increase communication channels for customer support. Ideally, it would help if you looked into the channels your consumers use the most and created touchpoints there. A study found companies with solid **omnichannel customer engagement** retain 89% of their buyers.
+
+**7. Create unified customer experiences**
+
+Thanks to the evolution of technology, most consumers adopt a hybrid approach when purchasing. They may discover a product on Facebook, visit the brand’s website and go to an in-store outlet to examine the physical product—and this won’t stop soon.
+
+While brands can create different touchpoints, ensuring these experiences are streamlined is essential. For example, Timberland lets people stand in front of augmented reality mirrors to envision how apparel fits before going to the fitting room. Similarly, IKEA’s app allows shoppers to browse products online and use their smartphone’s camera to see how it looks in a room.
+
+**8. Make returns easy (and ideally, free)**
+
+Sometimes customers aren’t delighted with the product—and that’s perfectly okay. Just make it easy for customers to return products and services. A fast and easy return process will encourage customers to return to your online store and give it a try again.
+
+**9. Create actionable surveys**
+
+Understand your customers by creating actionable surveys. This information will help you understand customers’ level of satisfaction with your products or services. Not only that, but it will help you determine the most effective strategies to drive higher CLV while growing your customer base.
+
+For example, Sephora collected consumer data and found that 70% of customers that visited its website within 24 hours before visiting the store spent 13% more than other customers.
+
+After realizing the importance of online customer journeys, it launched online campaigns that improved in-store engagement. The results? It found a higher return on ad spend (ROAS) by 3.9 times and a threefold increase in conversion rates.
+
+#### Common Mistakes Around CLV
+
+CLV isn’t a magical metric that will solve all your problems. If not used wisely, businesses can fall prey to costly pitfalls. Remember these mistakes when examining your CLV.
+
+
+**No Segmentation**
+
+Sure, it’s excellent to increase CLV for your entire customer base—but it’s not an effective strategy. Marketing to everyone will lead you to invest more resources in low CLV customers.
+
+Examine cohorts with a high CLV—which could be your top 20% spenders. Ideally, it would be best if you focused on increasing CLV among valuable customers who are likely to spend more on your products and services based on data. Identify, understand and engage with them to understand their preferences, lifestyle, attitudes and behaviors.
+
+**Wrong Segmentation**
+
+You can also identify CLV within a customer cohort or segment. A segment is a group of customers with similar characteristics, attitudes and behavior. Proper segmentation provides an overview of consumer behavior and what makes them distinct.
+
+Creating campaigns that target specific segments is more effective due to personalization. However, incorrect segmentation may lead to a waste of precious company resources.
+
+**Targeting an Unrealistic CLV**
+
+Some customers will abandon your product or service no matter how hard you try. Only some people will pay thousands of dollars to transact with your business over time. There’s also no point in investing hundreds of dollars on low-value prospects.
+
+As with any business objective, you have to be realistic. Think of ways to appeal to your target demographic but do not expect everyone to end up with a high CLV.
+
+**Failure To Be Flexible**
+
+Turning your small business into an empire is ideal—but things aren’t always smooth sailing. Sometimes recessions or inflation could decrease your CLV. Or, you may have to increase the prices of your products and services based on production costs and uncontrollable market forces. Be flexible when unpredictable situations arise and don’t be afraid to change your CLV based on these trends.
+
+**Bottom Line**
+
+Customer lifetime value (CLV) can help determine how much customers will spend on your business in the long term. It helps inform customer loyalty, acquisition, marketing and sales decisions.
+
+Improving CLV can be done through various tactics such as creating a loyalty and rewards program, creating personalized experiences and offering quality customer service. Staying aware of common pitfalls when aiming for high CLV can also help prevent errors that could make your company waste valuable resources.
+
+

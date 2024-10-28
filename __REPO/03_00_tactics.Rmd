@@ -1,0 +1,149 @@
+# Marketing Tactics
+
+
+A **marketing funnel** is a model that represents the customer journey from initial awareness to eventual purchase. It is typically divided into three stages:
+
+1. **Top of the Funnel (Awareness)**: This stage focuses on creating awareness of a brand or product. It targets a broad audience to introduce them to the business, aiming to capture attention and generate interest.
+  
+   - **Tactics**: Display ads, social media marketing, blog posts, videos, PR campaigns.
+  
+   - **Metrics**: Impressions, reach, website traffic, brand recall.
+
+2. **Middle of the Funnel (Consideration)**: In this stage, the audience is already aware of the brand, and the goal is to nurture their interest and push them toward evaluating the product or service. This phase involves building trust, educating the potential customer, and addressing pain points.
+  
+   - **Tactics**: Email marketing, retargeting ads, content marketing (webinars, whitepapers), comparison tools, case studies.
+  
+   - **Metrics**: Engagement (clicks, time spent), leads, email signups, downloads.
+
+3. **Bottom of the Funnel (Conversion)**: This is the final stage where the focus is on converting potential customers into paying customers. It typically involves more direct, action-oriented marketing tactics designed to drive purchase or sign-ups.
+   
+   - **Tactics**: Personalized offers, discounts, demos, free trials.
+   
+   - **Metrics**: Conversions, sales, ROI, customer acquisition cost (CAC).
+
+
+
+## Channels and Platforms
+
+These platforms play a pivotal role in mid and upper funnel marketing by allowing advertisers to reach broad audiences, optimize targeting, and measure effectiveness through data-driven strategies.
+
+### Google Display Network (GDN)
+
+- **What it is**: GDN is one of the largest ad networks, allowing marketers to display ads (banner ads, responsive ads, etc.) across millions of websites, apps, and Google-owned platforms like YouTube and Gmail.
+
+
+- **Importance**:
+
+- **Reach**: GDN can reach over 90% of internet users globally, making it an ideal tool for upper funnel awareness campaigns.
+
+- **Targeting Options**: With GDN, advertisers can target audiences based on demographics, interests, browsing behavior, and specific website placements.
+
+- **Brand Safety**: It offers features to ensure that ads don’t appear on inappropriate or low-quality sites, ensuring brand safety.
+
+- **Formats**: Supports a variety of formats (static, video, interactive) to engage users at different stages of the funnel.
+
+### Meta (Facebook/Instagram Ads)
+
+- **What it is**: Meta’s advertising platform covers Facebook and Instagram, offering access to over 3 billion monthly active users.
+
+- **Importance**:
+
+- **Granular Targeting**: Meta allows for hyper-targeted campaigns using demographics, behaviors, interests, and custom audiences (including lookalike audiences). This is useful for both mid and upper funnel strategies.
+
+- **Ad Formats**: It supports a wide range of ad formats, including image, video, carousel, and collection ads, enabling interactive and engaging campaigns.
+     - **Retargeting**: Powerful retargeting capabilities allow advertisers to follow up with users who have interacted with the brand, pushing them down the funnel from awareness to consideration.
+     - **Cross-Channel Engagement**: Since Facebook and Instagram are social networks, engagement metrics (likes, shares, comments) can be directly tied to how users interact with the brand.
+
+### DV360 (Google’s Display & Video 360)
+
+- **What it is**: DV360 is a programmatic ad platform designed for advanced media buyers. It allows advertisers to buy and manage display, video, audio, and native ad campaigns across a variety of platforms in real-time.
+
+- **Importance**:
+
+- **Programmatic Efficiency**: DV360 allows marketers to target audiences across multiple networks in real-time using programmatic bidding, optimizing for reach and efficiency.
+
+- **Cross-Channel Campaigns**: DV360 integrates with YouTube, mobile apps, connected TV, and third-party exchanges, enabling cohesive cross-channel strategies.
+
+- **Audience Targeting & Data Integration**: It offers sophisticated audience targeting options, leveraging first-party data, Google’s proprietary data, and third-party data from integrated partners.
+
+- **Advanced Reporting**: DV360’s robust reporting and analytics tools help marketers measure and optimize campaign performance with detailed insights.
+
+
+
+## Other Channels and Demand-Side Platforms (DSPs) to Explore
+
+### The Trade Desk:
+   
+- **Overview**: A powerful programmatic DSP that allows marketers to buy display, video, audio, and native ads across various platforms.
+
+- **Why It's Important**: Known for its transparency and advanced targeting options, The Trade Desk is widely used for mid and upper funnel marketing strategies. It integrates with multiple data providers, allowing for precise audience segmentation.
+
+
+### Amazon DSP:
+
+- **Overview**: A DSP that offers programmatic access to display, video, and audio ads both on and off Amazon.
+
+- **Why It's Important**: Amazon DSP is particularly valuable for ecommerce and retail brands. It provides access to Amazon’s first-party shopping and behavioral data, which allows advertisers to target users based on past purchase intent and behaviors.
+
+### LinkedIn Ads:
+
+- **Overview**: A platform specializing in B2B advertising, allowing businesses to target professionals based on job title, industry, company size, and more.
+
+- **Why It's Important**: For upper and mid-funnel marketing in the B2B space, LinkedIn is an essential tool. It provides unique access to decision-makers and professionals, making it ideal for high-value lead generation campaigns.
+
+### TikTok Ads:
+
+- **Overview**: A fast-growing platform that offers video advertising options targeting a younger demographic.
+
+- **Why It's Important**: TikTok's algorithm helps marketers reach highly engaged audiences. Its focus on short-form video content makes it ideal for upper funnel brand awareness, particularly for brands targeting Gen Z and Millennials.
+
+### Snapchat Ads:
+
+- **Overview**: Snapchat’s ad platform is known for its focus on younger audiences and engaging, immersive ad formats.
+
+- **Why It's Important**: Similar to TikTok, Snapchat offers unique ad formats like augmented reality (AR) ads and vertical video ads. It’s useful for upper funnel awareness campaigns, especially for consumer products aimed at younger audiences.
+
+### Verizon Media DSP:
+
+- **Overview**: Verizon Media’s DSP offers access to a wide range of ad formats across video, native, display, and search inventory.
+
+- **Why It's Important**: It offers extensive targeting options, combining first-party data with third-party insights. It’s also integrated across Verizon’s owned properties, including Yahoo, HuffPost, and AOL, giving advertisers access to large audiences.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- how **data-driven approaches** in DSPs, 
+- how designed **targeted strategies**, and iterated through **A/B testing** to optimize performance across these funnel stages.
+
+
+   - **Data-Driven Marketing Strategies**: Expect questions about how you've used data to inform and optimize marketing strategies, especially in the mid-upper funnel (awareness, consideration stages). Be prepared to discuss metrics like impressions, reach, engagement, and click-through rates (CTR).
+
+   - **Customer Segmentation**: You may be asked how you’ve segmented customers or audiences for targeting in upper funnel strategies. Expect to explain methodologies for identifying and targeting segments, such as lookalike modeling or propensity scoring.
+
+   - **Attribution Challenges**: While not focused on MMM, you might be asked about multi-touch attribution models or how you measure success across different channels, especially in brand awareness campaigns where conversions aren't immediate.
+   - **A/B Testing and Experimentation**: Expect questions about running A/B or multivariate tests, especially for upper funnel campaigns. Be ready to discuss how you measure uplift or improvement in key metrics through experimentation.
+
+### 2. **Business Acumen**
+   - **Strategic Thinking**: You'll likely be asked how marketing data informs broader business decisions, such as optimizing media spend or aligning marketing efforts with business goals. Be ready to discuss your ability to connect marketing KPIs with business growth.
+   - **Budgeting and ROI**: Since the focus is on mid-upper funnel, expect to discuss how you manage marketing budgets, measure ROI for awareness or consideration-focused campaigns, and allocate resources effectively.
+   - **Campaign Performance Analysis**: Be prepared to talk about how you analyze the performance of marketing campaigns at various funnel stages, particularly in terms of engagement, brand lift, and conversion funnel progression.
+   - **Collaboration with Other Teams**: Upper funnel marketing often involves working closely with creative teams, product teams, and sales. You might be asked about cross-functional collaboration and how marketing insights inform business strategy.
+
+### 3. **General Marketing Knowledge**
+   - **Upper Funnel Tactics**: Be ready to talk about common strategies and tools used in the awareness and consideration stages, such as programmatic display, video advertising, influencer marketing, and social media strategies.
+   - **Performance Benchmarks**: You might be asked how you evaluate the success of these upper funnel activities, given the lack of immediate conversions. Be ready to discuss metrics like engagement rates, brand recall, and view-through conversions.
+   - **Campaign Optimization**: Expect questions on how you optimize campaigns based on real-time data and performance indicators, especially in situations where attribution is not clear-cut.
+
+In short, be ready to demonstrate how you've leveraged quantitative skills to inform and optimize mid-upper funnel marketing efforts and connect those efforts to broader business outcomes.

@@ -1,0 +1,52 @@
+## Marketing Analytics
+
+
+Here are three types of marketing analytics:
+
+- **Predictive Analytics**: Predictive analytics enables you to forecast the potential outcomes of marketing campaigns and estimate the likelihood of future events. This type of analysis provides insights into future trends and behaviors, allowing you to anticipate how the market is likely to respond to your advertising efforts. For example, it can predict customer responses, sales increases, or changes in market share based on past data and statistical models.
+
+- **Descriptive Analytics**: Descriptive analytics focuses on understanding past and present data to identify patterns and trends. It provides a comprehensive view of what has happened in your business, such as customer behaviors, sales performance, and market conditions. By analyzing historical survey data from customers, you can gain valuable insights into their preferences and past behaviors, although this analysis doesn't guide you on future actions.
+
+- **Prescriptive Analytics**: Prescriptive analytics goes beyond predicting future outcomes by recommending specific actions to achieve desired results. It analyzes data to suggest the best courses of action to take. For instance, if your company needs to address customer concerns about high salt content in products, prescriptive analytics can provide actionable strategies to mitigate these concerns and improve customer satisfaction. It helps you understand the optimal decisions to make in order to achieve your business objectives.
+
+
+
+#### AIRBNB EXAMPLE
+
+Strategic challenge: how do we improve rental prospects for our hosts and identify better rental options for our guests?
+
+Mental Model: 
+
+Profit per Property Gross Margin (%)
+Profit per Property <- Price, # of rentals, minimum stay
+
+
+**What is the value of brands?**
+
+Brand is not just a name, color, shape or logo. It is a complex entity.
+
+-	Brand personality is part of larger concept of brand architecture. Analytics help us identify how marketing affects brand architecture.
+
+-	Marketers use data to tweak features and benefits to create a stronger connection between customers and the brand 
+
+
+-	Marketers analyze data around marketing campaigns and their impact on all the components of brand architectures. 
+
+Product attributes: features of the product.
+
+-	What a brand means to a consumer. 
+
+Customers buy benefits, not features. When building up brand architecture, knowing the benefits helps with consistent messaging to consumers.
+
+Brand personality contributes to the strength of a brand, but isn't used to determine brand strength.
+
+The architecture of a brand is not part of calculating brand value, but it is important to understand what the brand means to consumers.
+
+
+#### Measuring Brand Value
+
+
+
+
+
+

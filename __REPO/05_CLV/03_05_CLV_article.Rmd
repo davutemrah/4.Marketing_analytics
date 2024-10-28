@@ -1,0 +1,79 @@
+### Study of Customer lifetime value model based on Survival analysis methods
+
+Customer are at the center of business. Understanding the value of a customer is important in terms of personalized marketing efforts
+
+#### Basic Model of CLV
+
+Barbara, Jackson (1985) laid the foundation. CLV depends on the income from customer at every stage of the life cycle.
+
+Berger, Nasr (1998) introduced parameter of customer retention rate.
+
+$$CLV  = \sum_{i=1}^{n}{\gamma . \pi(i).(1+d)^-i}$$ 
+
+$\pi():$ profit function of customer \
+$i:$ time variable \
+$\gamma:$ retention rate \
+$d:$ discount rate \
+$n:$ entire life cycle of time \
+
+
+Here are the topics criticized:
+
+1. rate of customer retention is replaced by a constant, or by a function of time.
+
+2. time of the customer lifetime is always evaluated as constant.
+
+3. customer's future profitablity is constant
+
+
+#### Improved CLV model using Survival Analaysis
+
+
+##### Estimating dynamic Customer retention rate
+
+survival time is a measure of the time of an event. Survival function can be used to describe the distribution of survival time.
+
+Customer retention rate is actually the distribution of customer life time.
+
+$$r(t) = r_0(t)^{exp(\beta)}, t>0$$
+
+$r(t)$ is the cummulative retention rate of lost-for-good customers. 
+
+$r(t)$ is also the dynamic customer retention rate which can be can be given by Cox regression analysis.
+
+
+
+##### Life cycle time parameter
+
+the lifetime of a typical customer is the expectation value of most customers' lifetime.
+
+the time which it cost for the dynamic customer retention rate declining from 100% to 50%
+
+
+What is testing proportional hazard assumptions?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

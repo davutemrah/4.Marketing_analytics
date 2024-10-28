@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Some Concepts and Analysis Types | Marketing Analytics Notebook</title>
+  <title>Chapter 5 Methods in Marketing Science | Marketing Analytics Notebook</title>
   <meta name="description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Some Concepts and Analysis Types | Marketing Analytics Notebook" />
+  <meta property="og:title" content="Chapter 5 Methods in Marketing Science | Marketing Analytics Notebook" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Some Concepts and Analysis Types | Marketing Analytics Notebook" />
+  <meta name="twitter:title" content="Chapter 5 Methods in Marketing Science | Marketing Analytics Notebook" />
   
   <meta name="twitter:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   
@@ -23,14 +23,14 @@
 <meta name="author" content="DEA" />
 
 
-<meta name="date" content="2024-07-29" />
+<meta name="date" content="2024-10-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="marketing-analytics-foundation.html"/>
+<link rel="prev" href="marketing-analysis.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -54,13 +54,77 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 
 <body>
@@ -110,14 +174,107 @@
 <li class="chapter" data-level="1.5.7" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#interpreting-the-results"><i class="fa fa-check"></i><b>1.5.7</b> Interpreting the Results</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html"><i class="fa fa-check"></i><b>2</b> Some Concepts and Analysis Types</a>
+<li class="chapter" data-level="2" data-path="marketing-tactics.html"><a href="marketing-tactics.html"><i class="fa fa-check"></i><b>2</b> Marketing Tactics</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#customer-lifetime-value"><i class="fa fa-check"></i><b>2.1</b> Customer Lifetime Value</a>
+<li class="chapter" data-level="2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#channels-and-platforms"><i class="fa fa-check"></i><b>2.1</b> Channels and Platforms</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#from-forbes-magazine"><i class="fa fa-check"></i><b>2.1.1</b> From Forbes Magazine</a></li>
-<li class="chapter" data-level="2.1.2" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#from-a-hubspot-blog"><i class="fa fa-check"></i><b>2.1.2</b> From a hubspot blog</a></li>
-<li class="chapter" data-level="2.1.3" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#chatgpt"><i class="fa fa-check"></i><b>2.1.3</b> Chatgpt</a></li>
-<li class="chapter" data-level="2.1.4" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#look-alike-modeling"><i class="fa fa-check"></i><b>2.1.4</b> Look-alike Modeling</a></li>
+<li class="chapter" data-level="2.1.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#google-display-network-gdn"><i class="fa fa-check"></i><b>2.1.1</b> Google Display Network (GDN)</a></li>
+<li class="chapter" data-level="2.1.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#meta-facebookinstagram-ads"><i class="fa fa-check"></i><b>2.1.2</b> Meta (Facebook/Instagram Ads)</a></li>
+<li class="chapter" data-level="2.1.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#dv360-googles-display-video-360"><i class="fa fa-check"></i><b>2.1.3</b> DV360 (Google’s Display &amp; Video 360)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#other-channels-and-demand-side-platforms-dsps-to-explore"><i class="fa fa-check"></i><b>2.2</b> Other Channels and Demand-Side Platforms (DSPs) to Explore</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#the-trade-desk"><i class="fa fa-check"></i><b>2.2.1</b> The Trade Desk:</a></li>
+<li class="chapter" data-level="2.2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#amazon-dsp"><i class="fa fa-check"></i><b>2.2.2</b> Amazon DSP:</a></li>
+<li class="chapter" data-level="2.2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#linkedin-ads"><i class="fa fa-check"></i><b>2.2.3</b> LinkedIn Ads:</a></li>
+<li class="chapter" data-level="2.2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#tiktok-ads"><i class="fa fa-check"></i><b>2.2.4</b> TikTok Ads:</a></li>
+<li class="chapter" data-level="2.2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#snapchat-ads"><i class="fa fa-check"></i><b>2.2.5</b> Snapchat Ads:</a></li>
+<li class="chapter" data-level="2.2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#verizon-media-dsp"><i class="fa fa-check"></i><b>2.2.6</b> Verizon Media DSP:</a></li>
+<li class="chapter" data-level="2.2.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#business-acumen"><i class="fa fa-check"></i><b>2.2.7</b> 2. <strong>Business Acumen</strong></a></li>
+<li class="chapter" data-level="2.2.8" data-path="marketing-tactics.html"><a href="marketing-tactics.html#general-marketing-knowledge"><i class="fa fa-check"></i><b>2.2.8</b> 3. <strong>General Marketing Knowledge</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#upper-funnel-marketing-awareness-stage"><i class="fa fa-check"></i><b>2.3</b> Upper Funnel Marketing (Awareness Stage)</a></li>
+<li class="chapter" data-level="2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mid-upper-funnel-marketing-consideration-stage"><i class="fa fa-check"></i><b>2.4</b> Mid-Upper Funnel Marketing (Consideration Stage)</a></li>
+<li class="chapter" data-level="2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#why-mid-and-upper-funnel-are-critical-for-insurance-marketing"><i class="fa fa-check"></i><b>2.5</b> Why Mid and Upper Funnel Are Critical for Insurance Marketing</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#suggested-resources"><i class="fa fa-check"></i><b>2.5.1</b> Suggested Resources:</a></li>
+<li class="chapter" data-level="2.5.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mock-questions"><i class="fa fa-check"></i><b>2.5.2</b> Mock Questions:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#question"><i class="fa fa-check"></i><b>2.6</b> Question</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#start-with-the-objective"><i class="fa fa-check"></i><b>2.6.1</b> Start with the Objective</a></li>
+<li class="chapter" data-level="2.6.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-the-data-sources-you-used"><i class="fa fa-check"></i><b>2.6.2</b> Discuss the Data Sources You Used</a></li>
+<li class="chapter" data-level="2.6.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#describe-how-you-analyzed-the-data"><i class="fa fa-check"></i><b>2.6.3</b> Describe How You Analyzed the Data</a></li>
+<li class="chapter" data-level="2.6.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#explain-the-strategy-and-how-data-informed-it"><i class="fa fa-check"></i><b>2.6.4</b> Explain the Strategy and How Data Informed It</a></li>
+<li class="chapter" data-level="2.6.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-how-you-optimized-the-campaigns"><i class="fa fa-check"></i><b>2.6.5</b> Discuss How You Optimized the Campaigns</a></li>
+<li class="chapter" data-level="2.6.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#show-the-outcome-and-impact"><i class="fa fa-check"></i><b>2.6.6</b> Show the Outcome and Impact</a></li>
+<li class="chapter" data-level="2.6.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#sample-answer"><i class="fa fa-check"></i><b>2.6.7</b> Sample Answer</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html"><i class="fa fa-check"></i><b>3</b> Measurement in Marketing</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#ab-testing-and-experimentation"><i class="fa fa-check"></i><b>3.1</b> A/B Testing and Experimentation:</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#sample-size-calculation"><i class="fa fa-check"></i><b>3.1.1</b> Sample Size Calculation:</a></li>
+<li class="chapter" data-level="3.1.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#randomization"><i class="fa fa-check"></i><b>3.1.2</b> Randomization:</a></li>
+<li class="chapter" data-level="3.1.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#handling-biases"><i class="fa fa-check"></i><b>3.1.3</b> Handling Biases:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#test-duration"><i class="fa fa-check"></i><b>3.1.4</b> Test Duration:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incrementality"><i class="fa fa-check"></i><b>3.2</b> Incrementality</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incremental-lift-calculation"><i class="fa fa-check"></i><b>3.2.1</b> Incremental Lift Calculation</a></li>
+<li class="chapter" data-level="3.2.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#importance-in-marketing-funnel-context"><i class="fa fa-check"></i><b>3.2.2</b> <strong>Importance in Marketing Funnel Context</strong></a></li>
+<li class="chapter" data-level="3.2.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#methods-for-household-level-or-dma-level-incrementality-measurement"><i class="fa fa-check"></i><b>3.2.3</b> <strong>Methods for Household-Level or DMA-Level Incrementality Measurement</strong>:</a></li>
+<li class="chapter" data-level="3.2.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#real-world-application-in-mid-upper-funnel"><i class="fa fa-check"></i><b>3.2.4</b> <strong>Real-World Application in Mid-Upper Funnel</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="marketing-analysis.html"><a href="marketing-analysis.html"><i class="fa fa-check"></i><b>4</b> Marketing Analysis</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#market-basket-analysis-mba"><i class="fa fa-check"></i><b>4.1</b> Market Basket Analysis (MBA)</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#introduction-to-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to Market Basket Analysis</a></li>
+<li class="chapter" data-level="4.1.2" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-concepts"><i class="fa fa-check"></i><b>4.1.2</b> Key Concepts</a></li>
+<li class="chapter" data-level="4.1.3" data-path="marketing-analysis.html"><a href="marketing-analysis.html#techniques-and-algorithms"><i class="fa fa-check"></i><b>4.1.3</b> Techniques and Algorithms</a></li>
+<li class="chapter" data-level="4.1.4" data-path="marketing-analysis.html"><a href="marketing-analysis.html#use-cases-in-marketing"><i class="fa fa-check"></i><b>4.1.4</b> Use Cases in Marketing</a></li>
+<li class="chapter" data-level="4.1.5" data-path="marketing-analysis.html"><a href="marketing-analysis.html#handling-challenges"><i class="fa fa-check"></i><b>4.1.5</b> Handling Challenges</a></li>
+<li class="chapter" data-level="4.1.6" data-path="marketing-analysis.html"><a href="marketing-analysis.html#evaluation-metrics"><i class="fa fa-check"></i><b>4.1.6</b> Evaluation Metrics</a></li>
+<li class="chapter" data-level="4.1.7" data-path="marketing-analysis.html"><a href="marketing-analysis.html#tools-and-libraries"><i class="fa fa-check"></i><b>4.1.7</b> Tools and Libraries*</a></li>
+<li class="chapter" data-level="4.1.8" data-path="marketing-analysis.html"><a href="marketing-analysis.html#example-problem-statement"><i class="fa fa-check"></i><b>4.1.8</b> 8. <strong>Example Problem Statement</strong></a></li>
+<li class="chapter" data-level="4.1.9" data-path="marketing-analysis.html"><a href="marketing-analysis.html#practical-implementation-example-in-python"><i class="fa fa-check"></i><b>4.1.9</b> 9. <strong>Practical Implementation Example in Python</strong></a></li>
+<li class="chapter" data-level="4.1.10" data-path="marketing-analysis.html"><a href="marketing-analysis.html#interview-takeaways"><i class="fa fa-check"></i><b>4.1.10</b> 10. <strong>Interview Takeaways</strong></a></li>
+<li class="chapter" data-level="4.1.11" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-to-use-for-a-furniture-store"><i class="fa fa-check"></i><b>4.1.11</b> How to use for a Furniture Store</a></li>
+<li class="chapter" data-level="4.1.12" data-path="marketing-analysis.html"><a href="marketing-analysis.html#cross-selling-opportunities-both-in-store-and-online"><i class="fa fa-check"></i><b>4.1.12</b> 1. <strong>Cross-Selling Opportunities (Both In-Store and Online)</strong></a></li>
+<li class="chapter" data-level="4.1.13" data-path="marketing-analysis.html"><a href="marketing-analysis.html#product-bundling-custom-furniture-packages"><i class="fa fa-check"></i><b>4.1.13</b> 2. <strong>Product Bundling (Custom Furniture Packages)</strong></a></li>
+<li class="chapter" data-level="4.1.14" data-path="marketing-analysis.html"><a href="marketing-analysis.html#optimizing-store-layout-and-displays-brick-and-mortar"><i class="fa fa-check"></i><b>4.1.14</b> 3. <strong>Optimizing Store Layout and Displays (Brick-and-Mortar)</strong></a></li>
+<li class="chapter" data-level="4.1.15" data-path="marketing-analysis.html"><a href="marketing-analysis.html#personalized-marketing-campaigns"><i class="fa fa-check"></i><b>4.1.15</b> 4. <strong>Personalized Marketing Campaigns</strong></a></li>
+<li class="chapter" data-level="4.1.16" data-path="marketing-analysis.html"><a href="marketing-analysis.html#online-vs.-offline-purchase-patterns"><i class="fa fa-check"></i><b>4.1.16</b> 5. <strong>Online vs. Offline Purchase Patterns</strong></a></li>
+<li class="chapter" data-level="4.1.17" data-path="marketing-analysis.html"><a href="marketing-analysis.html#omnichannel-strategy-in-store-and-online-integration"><i class="fa fa-check"></i><b>4.1.17</b> 6. <strong>Omnichannel Strategy (In-Store and Online Integration)</strong></a></li>
+<li class="chapter" data-level="4.1.18" data-path="marketing-analysis.html"><a href="marketing-analysis.html#customer-segmentation-and-targeted-discounts"><i class="fa fa-check"></i><b>4.1.18</b> 7. <strong>Customer Segmentation and Targeted Discounts</strong></a></li>
+<li class="chapter" data-level="4.1.19" data-path="marketing-analysis.html"><a href="marketing-analysis.html#enhancing-customer-loyalty-programs"><i class="fa fa-check"></i><b>4.1.19</b> 8. <strong>Enhancing Customer Loyalty Programs</strong></a></li>
+<li class="chapter" data-level="4.1.20" data-path="marketing-analysis.html"><a href="marketing-analysis.html#inventory-management-and-forecasting"><i class="fa fa-check"></i><b>4.1.20</b> 9. <strong>Inventory Management and Forecasting</strong></a></li>
+<li class="chapter" data-level="4.1.21" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-takeaways-for-the-interview"><i class="fa fa-check"></i><b>4.1.21</b> Key Takeaways for the Interview:</a></li>
+<li class="chapter" data-level="4.1.22" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-algorithm-overview-in-the-context-of-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.22</b> <strong>Apriori Algorithm Overview (in the Context of Market Basket Analysis)</strong>:</a></li>
+<li class="chapter" data-level="4.1.23" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-breadth-first-search-relates-to-apriori"><i class="fa fa-check"></i><b>4.1.23</b> <strong>How Breadth-First Search Relates to Apriori</strong>:</a></li>
+<li class="chapter" data-level="4.1.24" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-and-the-bfs-like-approach-in-action"><i class="fa fa-check"></i><b>4.1.24</b> <strong>Apriori and the BFS-Like Approach in Action</strong>:</a></li>
+<li class="chapter" data-level="4.1.25" data-path="marketing-analysis.html"><a href="marketing-analysis.html#comparison-to-depth-first-search"><i class="fa fa-check"></i><b>4.1.25</b> <strong>Comparison to Depth-First Search</strong>:</a></li>
+<li class="chapter" data-level="4.1.26" data-path="marketing-analysis.html"><a href="marketing-analysis.html#why-breadth-first-search-in-apriori"><i class="fa fa-check"></i><b>4.1.26</b> <strong>Why Breadth-First Search in Apriori?</strong>:</a></li>
+<li class="chapter" data-level="4.1.27" data-path="marketing-analysis.html"><a href="marketing-analysis.html#summary-of-bfs-in-market-basket-analysis-apriori"><i class="fa fa-check"></i><b>4.1.27</b> <strong>Summary of BFS in Market Basket Analysis (Apriori)</strong>:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html"><i class="fa fa-check"></i><b>5</b> Methods in Marketing Science</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#customer-lifetime-value"><i class="fa fa-check"></i><b>5.1</b> Customer Lifetime Value</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes-magazine"><i class="fa fa-check"></i><b>5.1.1</b> From Forbes Magazine</a></li>
+<li class="chapter" data-level="5.1.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-a-hubspot-blog"><i class="fa fa-check"></i><b>5.1.2</b> From a hubspot blog</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-calculations"><i class="fa fa-check"></i><b>5.2</b> CLV Calculations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes"><i class="fa fa-check"></i><b>5.2.1</b> From Forbes</a></li>
+<li class="chapter" data-level="5.2.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#another-example-ai"><i class="fa fa-check"></i><b>5.2.2</b> Another example (AI)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-example-hubspot"><i class="fa fa-check"></i><b>5.2.3</b> CLV Example (hubspot)</a></li>
+<li class="chapter" data-level="5.2.4" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#study-of-customer-lifetime-value-model-based-on-survival-analysis-methods"><i class="fa fa-check"></i><b>5.2.4</b> Study of Customer lifetime value model based on Survival analysis methods</a></li>
+<li class="chapter" data-level="5.2.5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#look-alike-modeling"><i class="fa fa-check"></i><b>5.2.5</b> Look-alike Modeling</a></li>
 </ul></li>
 </ul></li>
 <li class="divider"></li>
@@ -141,26 +298,28 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="some-concepts-and-analysis-types" class="section level1 hasAnchor" number="2">
-<h1><span class="header-section-number">Chapter 2</span> Some Concepts and Analysis Types<a href="some-concepts-and-analysis-types.html#some-concepts-and-analysis-types" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="customer-lifetime-value" class="section level2 hasAnchor" number="2.1">
-<h2><span class="header-section-number">2.1</span> Customer Lifetime Value<a href="some-concepts-and-analysis-types.html#customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="from-forbes-magazine" class="section level3 hasAnchor" number="2.1.1">
-<h3><span class="header-section-number">2.1.1</span> From Forbes Magazine<a href="some-concepts-and-analysis-types.html#from-forbes-magazine" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="methods-in-marketing-science" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Methods in Marketing Science<a href="methods-in-marketing-science.html#methods-in-marketing-science" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<style> 
+body {text-align: justify} 
+</style>
+<div id="customer-lifetime-value" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Customer Lifetime Value<a href="methods-in-marketing-science.html#customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>What Is Customer Lifetime Value (CLV)?</strong></p>
+<p>Customer Lifetime Value (CLV) is a crucial business metric that estimates the total revenue a business can reasonably expect from a single customer throughout their entire relationship with the company. This metric is essential for understanding how much money customers will spend on your products or services over time.</p>
+<p>For example, consider a customer loyal to an auto brand whose vehicles average $30,000 each. If this customer buys three cars from the brand in their lifetime, their CLV is $90,000. Similarly, a person who visits their local coffee chain five days a week and spends $4 on a coffee will have a CLV of $10,400 over the course of 10 years.</p>
+<p>Understanding CLV is vital for businesses because it helps determine the appropriate amount of investment in acquiring and retaining customers. It takes into account a customer’s revenue value and compares it to the company’s predicted customer lifespan.</p>
+<p>Customer support and success teams play a significant role in influencing CLV by enhancing the customer’s journey. The longer a customer continues to purchase from your company, the greater their lifetime value becomes.</p>
+
+<div id="from-forbes-magazine" class="section level3 hasAnchor" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> From Forbes Magazine<a href="methods-in-marketing-science.html#from-forbes-magazine" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="https://www.forbes.com/advisor/business/customer-lifetime-value/#:~:text=Customer%20lifetime%20value%20(CLV)%20is%20a%20business%20metric%20used%20to,lifetime%2C%20their%20CLV%20is%20%2490%2C000.">Source 1: Forbes</a></p>
 <p><strong>Customer lifetime value</strong> is a business metric used to determine the amount of money a customer will spend throughout the business relationship. It helps businesses determine customer acquisition costs, improve forecasting and increase profits over time. It also serves as a guide for decisions about their overall business strategy.</p>
 <p>A <code>higher</code> CLV indicates customers spend more money on your product or service <code>throughout the business relationship.</code> When customers spend more and purchase frequently, your business is more successful and profitable.</p>
 <p>The industries with the highest customer lifetime value are architecture firms for $1,129,000, followed by business operations consulting firms for $385,800 and healthcare consulting firms priced at $328,600. These firms generate high amounts of revenue for hourly fees, consultation fees, material costs and projects.</p>
 <p>The estimated value of each customer can play an integral role when making business decisions, such as whether to invest more in customer acquisition or retention.</p>
-<div id="what-is-customer-lifetime-value-clv" class="section level4 hasAnchor" number="2.1.1.1">
-<h4><span class="header-section-number">2.1.1.1</span> What Is Customer Lifetime Value (CLV)?<a href="some-concepts-and-analysis-types.html#what-is-customer-lifetime-value-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Customer lifetime value (CLV) is a business metric used to determine the amount of money customers will spend on your products or service over time.</p>
-<p>For example, if someone is loyal to an auto brand whose vehicles average at $30,000 and the customer buys three cars from them in their lifetime, their CLV is $90,000.</p>
-<p>Whereas, someone who visits their local coffee chain five days a week and spends $4 on a coffee, will have a CLV of $10,400 over the course of 10 years.</p>
-<p>Understanding CLV is crucial for businesses because it helps determine how much money to invest in acquiring and retaining customers.</p>
-</div>
-<div id="reasons-to-know-your-clv" class="section level4 hasAnchor" number="2.1.1.2">
-<h4><span class="header-section-number">2.1.1.2</span> Reasons To Know Your CLV<a href="some-concepts-and-analysis-types.html#reasons-to-know-your-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="reasons-to-know-your-clv" class="section level4 hasAnchor" number="5.1.1.1">
+<h4><span class="header-section-number">5.1.1.1</span> Reasons To Know Your CLV<a href="methods-in-marketing-science.html#reasons-to-know-your-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Let’s take a look at several reasons why CLV matters.</p>
 <p><strong>1. Determine customer acquisition cost</strong></p>
 <p>How much should you invest in hiring a new customer? When you can determine the amount a customer will spend on your business, you can gauge the amount of money to spend on marketing campaigns.</p>
@@ -180,46 +339,8 @@
 <p><strong>5. Better understand loyal customers</strong></p>
 <p>Customer lifetime value helps you understand the <strong>most loyal</strong> brand advocates. How often do they shop from your business? What items are they more likely to purchase? Answering these questions can help you brainstorm ways to engage with your most loyal customers.</p>
 </div>
-<div id="how-to-calculate-customer-lifetime-value-in-4-steps" class="section level4 hasAnchor" number="2.1.1.3">
-<h4><span class="header-section-number">2.1.1.3</span> How To Calculate Customer Lifetime Value in 4 Steps<a href="some-concepts-and-analysis-types.html#how-to-calculate-customer-lifetime-value-in-4-steps" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>There are four essential steps to calculate CLV.</p>
-<p><strong>1. Determine the average order value</strong></p>
-<p>Determine the average amount customers spend on your business. To get this information get an estimate based on customer transactions in the last few months.</p>
-<p>this is the average spending per order.</p>
-<p><strong>2. Identify frequency of transactions</strong></p>
-<p>Next, identify how often customers come to your store. How many times do they come back, given a specific period? Do they return weekly, monthly or annually?</p>
-<p><strong>3. Measure customer retention</strong></p>
-<p>Figure out how long an average customer remains loyal to your business.</p>
-<p>Some industries, including restaurants and retail, tend to have a lower CLV because customers tend to go to establishments that offer a better deal.</p>
-<p>Meanwhile, industries such as technology and travel have a higher CLV because customers seek updated product features and personalized holiday experiences.</p>
-<p><strong>4. Calculate CLV</strong></p>
-<p>Once you have all this information, calculate CLV with this formula:</p>
-<pre><code>X = average order value
-Y = number of transactions
-Z = average length of the customer relationship (in years)</code></pre>
-<p><span class="math inline">\(CLV = X x Y x Z\)</span></p>
-<p>Using this information, we can assume a father that regularly purchases smartphones for his family might be worth:</p>
-<p><span class="math inline">\(\$1,000 (per\ smartphone) × 2 (smartphones\ per\ year) × 10 (years) = \$20,000\)</span></p>
-<p>The CLV is $20,000.</p>
-</div>
-<div id="examples-of-clv" class="section level4 hasAnchor" number="2.1.1.4">
-<h4><span class="header-section-number">2.1.1.4</span> 3 Examples of CLV<a href="some-concepts-and-analysis-types.html#examples-of-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>CLV varies based on the nature of the product or service. Let’s examine various industries to show how CLV could affect your bottom line.</p>
-<p><strong>1. Grocery Shop</strong></p>
-<p>Grocery stores inspire loyalty among residents within the vicinity. Let’s say a shopper frequents a grocery in New York every week. He spends around $100 per visit. He returned every week, 52 weeks a year, for an average of three years.</p>
-<p><span class="math inline">\(\$100 (purchase\ per\ visit) × 52 (visits\ per\ year) × 3 (years) = \$15,600 (CLV)\)</span></p>
-<p><strong>2. SaaS Service</strong></p>
-<p>A UX designer uses a cloud-based subscription service to conceptualize mobile apps. He spends $70 per month for 10 years on the software. In this example, the SaaS product is a necessary job-related expense, so the subscription lasted a long time.</p>
-<p><span class="math inline">\(\$70 (subscription\ fee\ per\ month) × 12 (payments\ per\ year) × 10 (years) = \$8,400 (CLV)\)</span></p>
-<p><strong>3. Interior Design</strong></p>
-<p>The interior design agency has higher average order values. For example, a homeowner spends $100,000 to renovate their home. Because they liked the initial experience, they became a patron of the interior design firm and renovated their property every 10 years within 20 years.</p>
-<p><span class="math inline">\(\$100,000 (per\ renovation) × 0.1 (annual\ purchase) × 20 (years) = \$200,000 (CLV)\)</span></p>
-<p>These examples show CLV varies across industries.</p>
-<p>While day-to-day products such as coffee are bought more frequently, you need to get customers to purchase often to get a high CLV.</p>
-<p>In contrast, some products such as houses, automobiles or interior design agencies have a lower purchase frequency. But due to the nature of the product or service, they rack up thousands of dollars with only a few transactions.</p>
-</div>
-<div id="how-to-improve-your-customer-lifetime-value" class="section level4 hasAnchor" number="2.1.1.5">
-<h4><span class="header-section-number">2.1.1.5</span> How To Improve Your Customer Lifetime Value<a href="some-concepts-and-analysis-types.html#how-to-improve-your-customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="how-to-improve-your-customer-lifetime-value" class="section level4 hasAnchor" number="5.1.1.2">
+<h4><span class="header-section-number">5.1.1.2</span> How To Improve Your Customer Lifetime Value<a href="methods-in-marketing-science.html#how-to-improve-your-customer-lifetime-value" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Improving your CLV can enhance your business’s profitability over time. To that end, here are a few ways to improve customer loyalty and retention.</p>
 <p><strong>1. Create a loyalty and rewards program</strong></p>
 <p>A growing body of research proves rewards programs effectively drive loyalty and retention. Gamify the experience by offering discounts and perks every time customers complete a milestone (e.g., making their first order and spending a specific amount).</p>
@@ -249,8 +370,8 @@ Z = average length of the customer relationship (in years)</code></pre>
 <p>For example, Sephora collected consumer data and found that 70% of customers that visited its website within 24 hours before visiting the store spent 13% more than other customers.</p>
 <p>After realizing the importance of online customer journeys, it launched online campaigns that improved in-store engagement. The results? It found a higher return on ad spend (ROAS) by 3.9 times and a threefold increase in conversion rates.</p>
 </div>
-<div id="common-mistakes-around-clv" class="section level4 hasAnchor" number="2.1.1.6">
-<h4><span class="header-section-number">2.1.1.6</span> Common Mistakes Around CLV<a href="some-concepts-and-analysis-types.html#common-mistakes-around-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="common-mistakes-around-clv" class="section level4 hasAnchor" number="5.1.1.3">
+<h4><span class="header-section-number">5.1.1.3</span> Common Mistakes Around CLV<a href="methods-in-marketing-science.html#common-mistakes-around-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>CLV isn’t a magical metric that will solve all your problems. If not used wisely, businesses can fall prey to costly pitfalls. Remember these mistakes when examining your CLV.</p>
 <p><strong>No Segmentation</strong></p>
 <p>Sure, it’s excellent to increase CLV for your entire customer base—but it’s not an effective strategy. Marketing to everyone will lead you to invest more resources in low CLV customers.</p>
@@ -266,16 +387,13 @@ Z = average length of the customer relationship (in years)</code></pre>
 <p><strong>Bottom Line</strong></p>
 <p>Customer lifetime value (CLV) can help determine how much customers will spend on your business in the long term. It helps inform customer loyalty, acquisition, marketing and sales decisions.</p>
 <p>Improving CLV can be done through various tactics such as creating a loyalty and rewards program, creating personalized experiences and offering quality customer service. Staying aware of common pitfalls when aiming for high CLV can also help prevent errors that could make your company waste valuable resources.</p>
+
 </div>
 </div>
-<div id="from-a-hubspot-blog" class="section level3 hasAnchor" number="2.1.2">
-<h3><span class="header-section-number">2.1.2</span> From a hubspot blog<a href="some-concepts-and-analysis-types.html#from-a-hubspot-blog" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="from-a-hubspot-blog" class="section level3 hasAnchor" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> From a hubspot blog<a href="methods-in-marketing-science.html#from-a-hubspot-blog" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value">Source</a></p>
 <p>It’s easier to sell to an existing customer than it is to acquire a new one.</p>
-<p><strong>Customer lifetime value (CLV or CLTV)</strong> is a metric that indicates the total revenue a business can reasonably expect from a single customer account throughout the business relationship.</p>
-<p>The metric considers a customer’s revenue value and compares that number to the company’s predicted customer lifespan.</p>
-<p>Customer LTV is something that customer support and success teams can directly influence the customer’s journey.</p>
-<p>The longer your customer continues to purchase from your company, the greater their lifetime value becomes.</p>
 <p><strong>Why is customer lifetime value important?</strong></p>
 <ol style="list-style-type: decimal">
 <li>Increasing CLV can increase revenue over time.</li>
@@ -413,66 +531,140 @@ Decide how eNective marketing and sales strategies are
 Distribute resources wisely
 Find =tting opportunities to improve customer retention and acquisition
 Check out this guide to learn more about customer acquisition cost (CAC) and how to calculate. Then, review these tips for analyzing your CAC to LTV ratio.</p>
-<div id="customer-lifetime-value-example" class="section level4 hasAnchor" number="2.1.2.1">
-<h4><span class="header-section-number">2.1.2.1</span> Customer Lifetime Value Example<a href="some-concepts-and-analysis-types.html#customer-lifetime-value-example" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Using data from a Kissmetrics report, we can take Starbucks as an example for determining CLTV.</p>
-<p>Its report measures the weekly purchasing habits of five customers, then averages their total values together.</p>
-<p>By following the steps listed above, we can use this information to calculate the average lifetime value of a Starbucks customer.</p>
-<p><strong>1. Calculate the average purchase value.</strong></p>
-<p>First, we need to measure average purchase value.</p>
-<p>According to Kissmetrics, the average Starbucks customer spends about $5.90 each visit. We can calculate this by averaging the money spent by a customer in each visit during the week.</p>
-<p>For example, if I went to Starbucks three times and spent nine dollars total, my average purchase value would be three dollars.</p>
-<p>Once we calculate the average purchase value for one customer, we can repeat the process for the other five.</p>
-<p>After that, add each average together, divide that value by the number of customers surveyed (five) to get the average purchase value.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><p>Calculate the average purchase frequency rate.
-The next step to calculating CLTV is to measure the average purchase frequency rate.
-In the case of Starbucks, we need to know how many visits the average customer makes to one of its locations within a week.
-The average observed across the =ve customers in the report was found to be 4.2 visits. This makes our average purchase frequency rate 4.2.</p></li>
-<li><p>Calculate the average customer’s value.
-Now that we know what the average customer spends and how many times they visit in a week, we can determine their customer value.
-To do this, we have to look at all =ve customers individually and then multiply their average purchase value by their average purchase frequency rate. This lets us know how much revenue the customer is worth to Starbucks within a week.
-Once we repeat this calculation for all =ve customers, we average their values to get the average customer’s value of $24.30.</p></li>
-<li><p>Calculate the average customer’s lifetime span.
-While it’s not explicitly stated how Kissmetrics measured Starbucks’ average customer lifetime span, it does list this value as 20 years.
-If we were to calculate Starbucks’ average customer lifespan, we would have to look at the number of years each customer frequented Starbucks. Then we could average the values together to get 20 years.
-If you don’t have 20 years to wait and verify that, one way to estimate customer lifespan is to divide 1 by your churn rate percentage.</p></li>
-<li><p>Calculate your customer’s lifetime value.</p></li>
-</ol>
-<p>Once we have determined the average customer value and the average customer lifespan, we can use this data to calculate CLTV.</p>
-<p>In this case, we first need to multiply the average customer value by 52.</p>
-<p>Since we measured customers on their weekly habits, we need to multiply their customer value by 52 to reflect an annual average.</p>
-<p>After that, multiply this number by the customer lifespan value (20) to get CLTV.</p>
-<p>For Starbucks customers, that value turns out to be $25,272 (52 x 24.30 x 20= 25,272).</p>
+
 </div>
 </div>
-<div id="chatgpt" class="section level3 hasAnchor" number="2.1.3">
-<h3><span class="header-section-number">2.1.3</span> Chatgpt<a href="some-concepts-and-analysis-types.html#chatgpt" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Calculating Customer Lifetime Value (CLV) for a Consumer Packaged Goods (CPG) brand involves estimating the total value a customer is expected to bring to the brand over the course of their relationship. The CLV formula typically takes into account the average purchase value, purchase frequency, and customer lifespan. Here’s a basic formula for calculating CLV:</p>
-<p><span class="math display">\[ CLV = \frac{{\text{Average Purchase Value} \times \text{Purchase Frequency} \times \text{Customer Lifespan}}}{\text{Discount Rate}} \]</span></p>
-<p>Here’s a breakdown of the components:</p>
+<div id="clv-calculations" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> CLV Calculations<a href="methods-in-marketing-science.html#clv-calculations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="from-forbes" class="section level3 hasAnchor" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> From Forbes<a href="methods-in-marketing-science.html#from-forbes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>There are four essential steps to calculate CLV.</p>
+<p><strong>1. Determine the average order value</strong></p>
+<p>Determine the average amount customers spend on your business. To get this information get an estimate based on customer transactions in the last few months.</p>
+<p>this is the average spending per order.</p>
+<p><strong>2. Identify frequency of transactions</strong></p>
+<p>Next, identify how often customers come to your store. How many times do they come back, given a specific period? Do they return weekly, monthly or annually?</p>
+<p><strong>3. Measure customer retention</strong></p>
+<p>Figure out how long an average customer remains loyal to your business.</p>
+<p>Some industries, including restaurants and retail, tend to have a lower CLV because customers tend to go to establishments that offer a better deal.</p>
+<p>Meanwhile, industries such as technology and travel have a higher CLV because customers seek updated product features and personalized holiday experiences.</p>
+<p><strong>4. Calculate CLV</strong></p>
+<p>Once you have all this information, calculate CLV with this formula:</p>
+<pre><code>X = average order value
+Y = number of transactions
+Z = average length of the customer relationship (in years)</code></pre>
+<p><span class="math inline">\(CLV = X x Y x Z\)</span></p>
+<p>Using this information, we can assume a father that regularly purchases smartphones for his family might be worth:</p>
+<p><span class="math inline">\(\$1,000 (per\ smartphone) × 2 (smartphones\ per\ year) × 10 (years) = \$20,000\)</span></p>
+<p>The CLV is $20,000.</p>
+<div id="examples-of-clv" class="section level4 hasAnchor" number="5.2.1.1">
+<h4><span class="header-section-number">5.2.1.1</span> 3 Examples of CLV<a href="methods-in-marketing-science.html#examples-of-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>CLV varies based on the nature of the product or service. Let’s examine various industries to show how CLV could affect your bottom line.</p>
+<p><strong>1. Grocery Shop</strong></p>
+<p>Grocery stores inspire loyalty among residents within the vicinity. Let’s say a shopper frequents a grocery in New York every week. He spends around $100 per visit. He returned every week, 52 weeks a year, for an average of three years.</p>
+<p><span class="math inline">\(\$100 (purchase\ per\ visit) × 52 (visits\ per\ year) × 3 (years) = \$15,600 (CLV)\)</span></p>
+<p><strong>2. SaaS Service</strong></p>
+<p>A UX designer uses a cloud-based subscription service to conceptualize mobile apps. He spends $70 per month for 10 years on the software. In this example, the SaaS product is a necessary job-related expense, so the subscription lasted a long time.</p>
+<p><span class="math inline">\(\$70 (subscription\ fee\ per\ month) × 12 (payments\ per\ year) × 10 (years) = \$8,400 (CLV)\)</span></p>
+<p><strong>3. Interior Design</strong></p>
+<p>The interior design agency has higher average order values. For example, a homeowner spends $100,000 to renovate their home. Because they liked the initial experience, they became a patron of the interior design firm and renovated their property every 10 years within 20 years.</p>
+<p><span class="math inline">\(\$100,000 (per\ renovation) × 0.1 (annual\ purchase) × 20 (years) = \$200,000 (CLV)\)</span></p>
+<p>These examples show CLV varies across industries.</p>
+<p>While day-to-day products such as coffee are bought more frequently, you need to get customers to purchase often to get a high CLV.</p>
+<p>In contrast, some products such as houses, automobiles or interior design agencies have a lower purchase frequency. But due to the nature of the product or service, they rack up thousands of dollars with only a few transactions.</p>
+</div>
+</div>
+<div id="another-example-ai" class="section level3 hasAnchor" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Another example (AI)<a href="methods-in-marketing-science.html#another-example-ai" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Customer Lifetime Value (CLV) can be calculated at both the individual level and the brand level, depending on your objectives and the granularity of your analysis. Here’s how you can approach each:</p>
+<div id="individual-level-clv" class="section level4 hasAnchor" number="5.2.2.1">
+<h4><span class="header-section-number">5.2.2.1</span> Individual-Level CLV<a href="methods-in-marketing-science.html#individual-level-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Calculating CLV at the individual level involves estimating the total revenue that each specific customer will generate over their relationship with the brand. This method provides detailed insights into the value of each customer, which can help in personalizing marketing efforts and customer retention strategies. Here’s how you can calculate it:</p>
 <ol style="list-style-type: decimal">
-<li><p><strong>Average Purchase Value (APV):</strong></p>
-<ul>
-<li>This is the average amount of money a customer spends on each purchase. To calculate APV, sum up the total revenue from all purchases and divide it by the number of purchases.</li>
-</ul>
-<p><span class="math display">\[ APV = \frac{{\text{Total Revenue}}}{{\text{Number of Purchases}}} \]</span></p></li>
-<li><p><strong>Purchase Frequency (PF):</strong></p>
-<ul>
-<li>This represents how often a customer makes a purchase within a given time frame. Calculate it by dividing the total number of purchases by the number of unique customers.</li>
-</ul>
-<p><span class="math display">\[ PF = \frac{{\text{Total Number of Purchases}}}{{\text{Number of Unique Customers}}} \]</span></p></li>
-<li><p><strong>Customer Lifespan (CL):</strong></p>
-<ul>
-<li>This is the average number of years a customer is expected to remain engaged with the brand. It can be challenging to predict, but you can estimate it based on historical data or industry benchmarks.</li>
-</ul></li>
-<li><p><strong>Discount Rate:</strong></p>
-<ul>
-<li>The discount rate is used to adjust future values to their present value, considering the time value of money. It’s typically the interest rate or the rate of return the brand expects from its investments. Choose a discount rate that reflects the company’s cost of capital or the desired rate of return.</li>
-</ul></li>
+<li><p><strong>Calculate Average Purchase Value (APV):</strong>
+<span class="math display">\[
+\text{APV} = \frac{\text{Total Revenue}}{\text{Number of Purchases}}
+\]</span></p></li>
+<li><p><strong>Calculate Purchase Frequency (PF):</strong>
+<span class="math display">\[
+\text{PF} = \frac{\text{Number of Purchases}}{\text{Number of Customers}}
+\]</span></p></li>
+<li><p><strong>Calculate Customer Value (CV):</strong>
+<span class="math display">\[
+\text{CV} = \text{APV} \times \text{PF}
+\]</span></p></li>
+<li><p><strong>Estimate Customer Lifespan (CL):</strong>
+<span class="math display">\[
+\text{CL} = \text{Average Customer Lifespan in Years}
+\]</span></p></li>
+<li><p><strong>Calculate Individual CLV:</strong>
+<span class="math display">\[
+\text{CLV} = \text{CV} \times \text{CL}
+\]</span></p></li>
 </ol>
-<p>Once you have these values, plug them into the CLV formula:</p>
-<p><span class="math display">\[ CLV = \frac{{\text{APV} \times \text{PF} \times \text{CL}}}{{\text{Discount Rate}}} \]</span></p>
+</div>
+<div id="brand-level-clv" class="section level4 hasAnchor" number="5.2.2.2">
+<h4><span class="header-section-number">5.2.2.2</span> Brand-Level CLV<a href="methods-in-marketing-science.html#brand-level-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Calculating CLV at the brand level involves aggregating the CLV of all customers to get an overall estimate of the value that the customer base will generate over time. This method helps in understanding the overall financial health and growth potential of the brand. Here’s how you can calculate it:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Calculate Average Revenue Per User (ARPU):</strong>
+<span class="math display">\[
+\text{ARPU} = \frac{\text{Total Revenue}}{\text{Total Number of Customers}}
+\]</span></p></li>
+<li><p><strong>Estimate Average Customer Lifespan (CL):</strong>
+<span class="math display">\[
+\text{CL} = \text{Average Customer Lifespan in Years}
+\]</span></p></li>
+<li><p><strong>Calculate Brand-Level CLV:</strong>
+<span class="math display">\[
+\text{Brand CLV} = \text{ARPU} \times \text{CL} \times \text{Total Number of Customers}
+\]</span></p></li>
+</ol>
+</div>
+<div id="steps-to-calculate-clv-with-your-data" class="section level4 hasAnchor" number="5.2.2.3">
+<h4><span class="header-section-number">5.2.2.3</span> Steps to Calculate CLV with Your Data<a href="methods-in-marketing-science.html#steps-to-calculate-clv-with-your-data" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Given daily transactional individual-level data, here’s a step-by-step approach:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Aggregate the data to calculate total revenue and number of purchases per customer.</strong></p></li>
+<li><p><strong>Calculate APV and PF for each customer.</strong></p></li>
+<li><p><strong>Estimate the average customer lifespan using historical data.</strong></p></li>
+<li><p><strong>Compute the individual CLV for each customer.</strong></p></li>
+<li><p><strong>Aggregate individual CLVs to get the overall brand CLV if needed.</strong></p></li>
+</ol>
+<p>By calculating CLV at the individual level, you gain detailed insights that can be rolled up to understand the overall brand performance. This dual approach allows for both personalized customer engagement strategies and broader financial planning.</p>
+<p>Calculating CLV for each individual customer provides a more granular view of your customer base. This approach allows you to:</p>
+<ul>
+<li>Identify your most valuable customers</li>
+<li>Segment customers based on their lifetime value</li>
+<li>Tailor marketing strategies for different customer segments</li>
+<li>Predict future value of specific customers</li>
+</ul>
+<p>To calculate individual CLV, you would use each customer’s specific purchase history, frequency, and value over the 2-year period, and potentially project this into the future.</p>
+<p>Given your dataset, here’s how you could approach the calculation:</p>
+<p><strong>Calculate individual CLV:</strong></p>
+<ul>
+<li><p>For each customer, determine their total purchase value over the 2-year period</p></li>
+<li><p>Calculate their purchase frequency (number of purchases / 2 years)</p></li>
+<li><p>Project these values forward to estimate future value</p></li>
+<li><p>Sum up the historical and projected values to get individual CLV</p></li>
+</ul>
+</div>
+<div id="brand-level-clv-1" class="section level4 hasAnchor" number="5.2.2.4">
+<h4><span class="header-section-number">5.2.2.4</span> Brand-level CLV:<a href="methods-in-marketing-science.html#brand-level-clv-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Calculating CLV at the brand level gives you an average value across all customers. This approach:</p>
+<ul>
+<li><p>Provides an overall measure of customer value for your chocolate brand</p></li>
+<li><p>Helps in strategic decision-making at the brand level</p></li>
+<li><p>Allows for easier comparison with industry benchmarks or competitors</p></li>
+</ul>
+<p>To calculate brand-level CLV, you would aggregate data across all customers to determine average purchase value, frequency, and customer lifespan.</p>
+<p>Remember that CLV is typically a forward-looking metric, so you may need to use your 2-year historical data to project future customer behavior and value. Additionally, consider factors like customer acquisition costs and profit margins to get a more accurate picture of customer value.</p>
+<p>Citations:</p>
+<p>[1] <a href="https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value" class="uri">https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value</a></p>
+<p>[2] <a href="https://www.unionkitchen.com/resources/customer-lifetime-value" class="uri">https://www.unionkitchen.com/resources/customer-lifetime-value</a></p>
+<p>[3] <a href="https://www.omnisend.com/blog/customer-lifetime-value-clv/" class="uri">https://www.omnisend.com/blog/customer-lifetime-value-clv/</a></p>
+<p>[4] <a href="https://getvoip.com/blog/customer-lifetime-value-formula/" class="uri">https://getvoip.com/blog/customer-lifetime-value-formula/</a></p>
+<p>[5] <a href="https://www.crazyegg.com/blog/customer-lifetime-value/" class="uri">https://www.crazyegg.com/blog/customer-lifetime-value/</a></p>
 <p>By calculating CLV, CPG brands can better understand the long-term value of their customers and make informed decisions about marketing strategies, customer retention efforts, and resource allocation. Keep in mind that CLV calculations are estimates and may be subject to adjustments based on changing market conditions and customer behaviors.</p>
 <p>The Customer Lifetime Value (CLV) formula provided is typically calculated on a per-customer basis, representing the expected value of an average customer over their entire relationship with a brand. The formula considers the average purchase value, purchase frequency, and customer lifespan for an individual customer.</p>
 <p><span class="math display">\[ CLV = \frac{{\text{Average Purchase Value} \times \text{Purchase Frequency} \times \text{Customer Lifespan}}}{{\text{Discount Rate}}} \]</span></p>
@@ -480,8 +672,89 @@ If you don’t have 20 years to wait and verify that, one way to estimate custom
 <p>This individual customer focus allows businesses to understand the value of acquiring and retaining each customer and can inform marketing strategies, customer relationship management, and overall business decisions.</p>
 
 </div>
-<div id="look-alike-modeling" class="section level3 hasAnchor" number="2.1.4">
-<h3><span class="header-section-number">2.1.4</span> Look-alike Modeling<a href="some-concepts-and-analysis-types.html#look-alike-modeling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="clv-example-hubspot" class="section level3 hasAnchor" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> CLV Example (hubspot)<a href="methods-in-marketing-science.html#clv-example-hubspot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><a href="https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value#:~:text=to%20LTV%20ratio.-,Customer%20Lifetime%20Value%20Example,averages%20their%20total%20values%20together.">source</a></p>
+<p>Using data from a Kissmetrics report, we can take Starbucks as an example for determining CLTV.</p>
+<p>Its report measures the weekly purchasing habits of five customers, then averages their total values together.</p>
+<p>By following the steps listed above, we can use this information to calculate the average lifetime value of a Starbucks customer.</p>
+<p><strong>1. Calculate the average purchase value.</strong></p>
+<ul>
+<li><p>Measure Average Purchase Value.</p></li>
+<li><p>based on Kissmetrics, the average Starbucks customer spends about $5.90 each visit.</p></li>
+<li><p>Average the money spent by a customer in each visit during the week.</p></li>
+<li><p>For example, a person goes to Starbucks three times and spent nine dollars total, then average purchase value would be three dollars.</p></li>
+<li><p>Repeat the process for the other five customers.</p></li>
+<li><p>Then add each average together, divide that value by the number of customers surveyed (five) to get the average purchase value.</p></li>
+</ul>
+<p><strong>2. Calculate the average purchase frequency rate.</strong></p>
+<ul>
+<li><p>Now measure the average purchase frequency rate.</p></li>
+<li><p>How many visits the average customer makes to one of a store within a week.</p></li>
+<li><p>The average observed across the 5 customers in the report was found to be 4.2 visits.</p></li>
+<li><p>This makes our average purchase frequency rate 4.2.</p></li>
+</ul>
+<p><strong>3. Calculate the average customer’s value.</strong>
+Now that we know what the average customer spends and how many times they visit in a week, we can determine their customer value.
+To do this, we have to look at all =ve customers individually and then multiply their average purchase value by their average purchase frequency rate. This lets us know how much revenue the customer is worth to Starbucks within a week.
+Once we repeat this calculation for all =ve customers, we average their values to get the average customer’s value of $24.30.
+4. Calculate the average customer’s lifetime span.
+While it’s not explicitly stated how Kissmetrics measured Starbucks’ average customer lifetime span, it does list this value as 20 years.
+If we were to calculate Starbucks’ average customer lifespan, we would have to look at the number of years each customer frequented Starbucks. Then we could average the values together to get 20 years.
+If you don’t have 20 years to wait and verify that, one way to estimate customer lifespan is to divide 1 by your churn rate percentage.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Calculate your customer’s lifetime value.</li>
+</ol>
+<p>Once we have determined the average customer value and the average customer lifespan, we can use this data to calculate CLTV.</p>
+<p>In this case, we first need to multiply the average customer value by 52.</p>
+<p>Since we measured customers on their weekly habits, we need to multiply their customer value by 52 to reflect an annual average.</p>
+<p>After that, multiply this number by the customer lifespan value (20) to get CLTV.</p>
+<p>For Starbucks customers, that value turns out to be $25,272 (52 x 24.30 x 20= 25,272).</p>
+
+</div>
+<div id="study-of-customer-lifetime-value-model-based-on-survival-analysis-methods" class="section level3 hasAnchor" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Study of Customer lifetime value model based on Survival analysis methods<a href="methods-in-marketing-science.html#study-of-customer-lifetime-value-model-based-on-survival-analysis-methods" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Customer are at the center of business. Understanding the value of a customer is important in terms of personalized marketing efforts</p>
+<div id="basic-model-of-clv" class="section level4 hasAnchor" number="5.2.4.1">
+<h4><span class="header-section-number">5.2.4.1</span> Basic Model of CLV<a href="methods-in-marketing-science.html#basic-model-of-clv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Barbara, Jackson (1985) laid the foundation. CLV depends on the income from customer at every stage of the life cycle.</p>
+<p>Berger, Nasr (1998) introduced parameter of customer retention rate.</p>
+<p><span class="math display">\[CLV  = \sum_{i=1}^{n}{\gamma . \pi(i).(1+d)^-i}\]</span></p>
+<p><span class="math inline">\(\pi():\)</span> profit function of customer<br />
+<span class="math inline">\(i:\)</span> time variable<br />
+<span class="math inline">\(\gamma:\)</span> retention rate<br />
+<span class="math inline">\(d:\)</span> discount rate<br />
+<span class="math inline">\(n:\)</span> entire life cycle of time<br />
+</p>
+<p>Here are the topics criticized:</p>
+<ol style="list-style-type: decimal">
+<li><p>rate of customer retention is replaced by a constant, or by a function of time.</p></li>
+<li><p>time of the customer lifetime is always evaluated as constant.</p></li>
+<li><p>customer’s future profitablity is constant</p></li>
+</ol>
+</div>
+<div id="improved-clv-model-using-survival-analaysis" class="section level4 hasAnchor" number="5.2.4.2">
+<h4><span class="header-section-number">5.2.4.2</span> Improved CLV model using Survival Analaysis<a href="methods-in-marketing-science.html#improved-clv-model-using-survival-analaysis" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="estimating-dynamic-customer-retention-rate" class="section level5 hasAnchor" number="5.2.4.2.1">
+<h5><span class="header-section-number">5.2.4.2.1</span> Estimating dynamic Customer retention rate<a href="methods-in-marketing-science.html#estimating-dynamic-customer-retention-rate" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<p>survival time is a measure of the time of an event. Survival function can be used to describe the distribution of survival time.</p>
+<p>Customer retention rate is actually the distribution of customer life time.</p>
+<p><span class="math display">\[r(t) = r_0(t)^{exp(\beta)}, t&gt;0\]</span></p>
+<p><span class="math inline">\(r(t)\)</span> is the cummulative retention rate of lost-for-good customers.</p>
+<p><span class="math inline">\(r(t)\)</span> is also the dynamic customer retention rate which can be can be given by Cox regression analysis.</p>
+</div>
+<div id="life-cycle-time-parameter" class="section level5 hasAnchor" number="5.2.4.2.2">
+<h5><span class="header-section-number">5.2.4.2.2</span> Life cycle time parameter<a href="methods-in-marketing-science.html#life-cycle-time-parameter" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<p>the lifetime of a typical customer is the expectation value of most customers’ lifetime.</p>
+<p>the time which it cost for the dynamic customer retention rate declining from 100% to 50%</p>
+<p>What is testing proportional hazard assumptions?</p>
+
+</div>
+</div>
+</div>
+<div id="look-alike-modeling" class="section level3 hasAnchor" number="5.2.5">
+<h3><span class="header-section-number">5.2.5</span> Look-alike Modeling<a href="methods-in-marketing-science.html#look-alike-modeling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>What is a Look-Alike?</strong></p>
 <p>Look-alike audiences are the prospects who are having similar traits, behavior like your already existing customers.</p>
 <p>Look-alike modeling is a process that essentially helps you in finding look-alike audiences of your best, most profitable customers. It is a modelling approach that can be used by marketers to define customers who are most likely to engage with their marketing messages or activities. This model analyzes and considers common behaviors or traits among the current customers and seeks potential customers who have similar characteristics.</p>
@@ -536,7 +809,7 @@ In summary, look-alike modeling focuses on finding individuals or entities simil
           </div>
         </div>
       </div>
-<a href="marketing-analytics-foundation.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="marketing-analysis.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>

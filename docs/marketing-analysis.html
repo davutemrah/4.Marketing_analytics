@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Marketing Analysis | Marketing Analytics Notebook</title>
+  <meta name="description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Marketing Analysis | Marketing Analytics Notebook" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Marketing Analysis | Marketing Analytics Notebook" />
+  
+  <meta name="twitter:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
+  
+
+<meta name="author" content="DEA" />
+
+
+<meta name="date" content="2024-10-23" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="measurement-in-marketing.html"/>
+<link rel="next" href="methods-in-marketing-science.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Marketing Analytics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Acknowledgement</a></li>
+<li class="chapter" data-level="1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html"><i class="fa fa-check"></i><b>1</b> Marketing Analytics Foundation</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#definitions"><i class="fa fa-check"></i><b>1.1</b> Definitions</a></li>
+<li class="chapter" data-level="1.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#introduction-to-marketing-analytics"><i class="fa fa-check"></i><b>1.2</b> Introduction to Marketing Analytics</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#some-marketing-terms"><i class="fa fa-check"></i><b>1.2.1</b> Some Marketing terms</a></li>
+<li class="chapter" data-level="1.2.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#role-of-marketer"><i class="fa fa-check"></i><b>1.2.2</b> Role of marketer</a></li>
+<li class="chapter" data-level="1.2.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#what-is-marketing-analytics"><i class="fa fa-check"></i><b>1.2.3</b> What is marketing analytics?</a></li>
+<li class="chapter" data-level="1.2.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#the-future-of-marketing-is-data"><i class="fa fa-check"></i><b>1.2.4</b> The Future of Marketing is Data</a></li>
+<li class="chapter" data-level="1.2.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#marketing-trends-for-a-data-driven-future"><i class="fa fa-check"></i><b>1.2.5</b> Marketing Trends for a Data-Driven Future</a></li>
+<li class="chapter" data-level="1.2.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#an-application"><i class="fa fa-check"></i><b>1.2.6</b> An Application</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#marketing-data-sources"><i class="fa fa-check"></i><b>1.3</b> Marketing Data Sources</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#what-data-do-marketers-use"><i class="fa fa-check"></i><b>1.3.1</b> What Data do Marketers use</a></li>
+<li class="chapter" data-level="1.3.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#sources-of-digital-data"><i class="fa fa-check"></i><b>1.3.2</b> Sources of Digital Data</a></li>
+<li class="chapter" data-level="1.3.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#collecting-data-for-marketing-application"><i class="fa fa-check"></i><b>1.3.3</b> Collecting Data for Marketing: Application</a></li>
+<li class="chapter" data-level="1.3.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#analyzing-and-visualizing-data"><i class="fa fa-check"></i><b>1.3.4</b> Analyzing and Visualizing Data</a></li>
+<li class="chapter" data-level="1.3.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#tools-to-evaluate-digital-data"><i class="fa fa-check"></i><b>1.3.5</b> Tools to Evaluate Digital Data</a></li>
+<li class="chapter" data-level="1.3.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-and-privacy"><i class="fa fa-check"></i><b>1.3.6</b> Data and Privacy</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#marketing-analytics"><i class="fa fa-check"></i><b>1.4</b> Marketing Analytics</a></li>
+<li class="chapter" data-level="1.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-analytics"><i class="fa fa-check"></i><b>1.5</b> Data Analytics</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-analytics-vs.-data-science"><i class="fa fa-check"></i><b>1.5.1</b> Data Analytics vs. Data Science</a></li>
+<li class="chapter" data-level="1.5.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#osemn-framework-overview"><i class="fa fa-check"></i><b>1.5.2</b> OSEMN Framework Overview</a></li>
+<li class="chapter" data-level="1.5.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#obtaining-data"><i class="fa fa-check"></i><b>1.5.3</b> Obtaining Data</a></li>
+<li class="chapter" data-level="1.5.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#scrub-the-data"><i class="fa fa-check"></i><b>1.5.4</b> Scrub the Data</a></li>
+<li class="chapter" data-level="1.5.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#exploring-data"><i class="fa fa-check"></i><b>1.5.5</b> Exploring Data</a></li>
+<li class="chapter" data-level="1.5.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#modeling"><i class="fa fa-check"></i><b>1.5.6</b> Modeling</a></li>
+<li class="chapter" data-level="1.5.7" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#interpreting-the-results"><i class="fa fa-check"></i><b>1.5.7</b> Interpreting the Results</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="marketing-tactics.html"><a href="marketing-tactics.html"><i class="fa fa-check"></i><b>2</b> Marketing Tactics</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#channels-and-platforms"><i class="fa fa-check"></i><b>2.1</b> Channels and Platforms</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#google-display-network-gdn"><i class="fa fa-check"></i><b>2.1.1</b> Google Display Network (GDN)</a></li>
+<li class="chapter" data-level="2.1.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#meta-facebookinstagram-ads"><i class="fa fa-check"></i><b>2.1.2</b> Meta (Facebook/Instagram Ads)</a></li>
+<li class="chapter" data-level="2.1.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#dv360-googles-display-video-360"><i class="fa fa-check"></i><b>2.1.3</b> DV360 (Google’s Display &amp; Video 360)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#other-channels-and-demand-side-platforms-dsps-to-explore"><i class="fa fa-check"></i><b>2.2</b> Other Channels and Demand-Side Platforms (DSPs) to Explore</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#the-trade-desk"><i class="fa fa-check"></i><b>2.2.1</b> The Trade Desk:</a></li>
+<li class="chapter" data-level="2.2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#amazon-dsp"><i class="fa fa-check"></i><b>2.2.2</b> Amazon DSP:</a></li>
+<li class="chapter" data-level="2.2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#linkedin-ads"><i class="fa fa-check"></i><b>2.2.3</b> LinkedIn Ads:</a></li>
+<li class="chapter" data-level="2.2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#tiktok-ads"><i class="fa fa-check"></i><b>2.2.4</b> TikTok Ads:</a></li>
+<li class="chapter" data-level="2.2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#snapchat-ads"><i class="fa fa-check"></i><b>2.2.5</b> Snapchat Ads:</a></li>
+<li class="chapter" data-level="2.2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#verizon-media-dsp"><i class="fa fa-check"></i><b>2.2.6</b> Verizon Media DSP:</a></li>
+<li class="chapter" data-level="2.2.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#business-acumen"><i class="fa fa-check"></i><b>2.2.7</b> 2. <strong>Business Acumen</strong></a></li>
+<li class="chapter" data-level="2.2.8" data-path="marketing-tactics.html"><a href="marketing-tactics.html#general-marketing-knowledge"><i class="fa fa-check"></i><b>2.2.8</b> 3. <strong>General Marketing Knowledge</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#upper-funnel-marketing-awareness-stage"><i class="fa fa-check"></i><b>2.3</b> Upper Funnel Marketing (Awareness Stage)</a></li>
+<li class="chapter" data-level="2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mid-upper-funnel-marketing-consideration-stage"><i class="fa fa-check"></i><b>2.4</b> Mid-Upper Funnel Marketing (Consideration Stage)</a></li>
+<li class="chapter" data-level="2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#why-mid-and-upper-funnel-are-critical-for-insurance-marketing"><i class="fa fa-check"></i><b>2.5</b> Why Mid and Upper Funnel Are Critical for Insurance Marketing</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#suggested-resources"><i class="fa fa-check"></i><b>2.5.1</b> Suggested Resources:</a></li>
+<li class="chapter" data-level="2.5.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mock-questions"><i class="fa fa-check"></i><b>2.5.2</b> Mock Questions:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#question"><i class="fa fa-check"></i><b>2.6</b> Question</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#start-with-the-objective"><i class="fa fa-check"></i><b>2.6.1</b> Start with the Objective</a></li>
+<li class="chapter" data-level="2.6.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-the-data-sources-you-used"><i class="fa fa-check"></i><b>2.6.2</b> Discuss the Data Sources You Used</a></li>
+<li class="chapter" data-level="2.6.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#describe-how-you-analyzed-the-data"><i class="fa fa-check"></i><b>2.6.3</b> Describe How You Analyzed the Data</a></li>
+<li class="chapter" data-level="2.6.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#explain-the-strategy-and-how-data-informed-it"><i class="fa fa-check"></i><b>2.6.4</b> Explain the Strategy and How Data Informed It</a></li>
+<li class="chapter" data-level="2.6.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-how-you-optimized-the-campaigns"><i class="fa fa-check"></i><b>2.6.5</b> Discuss How You Optimized the Campaigns</a></li>
+<li class="chapter" data-level="2.6.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#show-the-outcome-and-impact"><i class="fa fa-check"></i><b>2.6.6</b> Show the Outcome and Impact</a></li>
+<li class="chapter" data-level="2.6.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#sample-answer"><i class="fa fa-check"></i><b>2.6.7</b> Sample Answer</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html"><i class="fa fa-check"></i><b>3</b> Measurement in Marketing</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#ab-testing-and-experimentation"><i class="fa fa-check"></i><b>3.1</b> A/B Testing and Experimentation:</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#sample-size-calculation"><i class="fa fa-check"></i><b>3.1.1</b> Sample Size Calculation:</a></li>
+<li class="chapter" data-level="3.1.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#randomization"><i class="fa fa-check"></i><b>3.1.2</b> Randomization:</a></li>
+<li class="chapter" data-level="3.1.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#handling-biases"><i class="fa fa-check"></i><b>3.1.3</b> Handling Biases:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#test-duration"><i class="fa fa-check"></i><b>3.1.4</b> Test Duration:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incrementality"><i class="fa fa-check"></i><b>3.2</b> Incrementality</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incremental-lift-calculation"><i class="fa fa-check"></i><b>3.2.1</b> Incremental Lift Calculation</a></li>
+<li class="chapter" data-level="3.2.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#importance-in-marketing-funnel-context"><i class="fa fa-check"></i><b>3.2.2</b> <strong>Importance in Marketing Funnel Context</strong></a></li>
+<li class="chapter" data-level="3.2.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#methods-for-household-level-or-dma-level-incrementality-measurement"><i class="fa fa-check"></i><b>3.2.3</b> <strong>Methods for Household-Level or DMA-Level Incrementality Measurement</strong>:</a></li>
+<li class="chapter" data-level="3.2.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#real-world-application-in-mid-upper-funnel"><i class="fa fa-check"></i><b>3.2.4</b> <strong>Real-World Application in Mid-Upper Funnel</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="marketing-analysis.html"><a href="marketing-analysis.html"><i class="fa fa-check"></i><b>4</b> Marketing Analysis</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#market-basket-analysis-mba"><i class="fa fa-check"></i><b>4.1</b> Market Basket Analysis (MBA)</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#introduction-to-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to Market Basket Analysis</a></li>
+<li class="chapter" data-level="4.1.2" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-concepts"><i class="fa fa-check"></i><b>4.1.2</b> Key Concepts</a></li>
+<li class="chapter" data-level="4.1.3" data-path="marketing-analysis.html"><a href="marketing-analysis.html#techniques-and-algorithms"><i class="fa fa-check"></i><b>4.1.3</b> Techniques and Algorithms</a></li>
+<li class="chapter" data-level="4.1.4" data-path="marketing-analysis.html"><a href="marketing-analysis.html#use-cases-in-marketing"><i class="fa fa-check"></i><b>4.1.4</b> Use Cases in Marketing</a></li>
+<li class="chapter" data-level="4.1.5" data-path="marketing-analysis.html"><a href="marketing-analysis.html#handling-challenges"><i class="fa fa-check"></i><b>4.1.5</b> Handling Challenges</a></li>
+<li class="chapter" data-level="4.1.6" data-path="marketing-analysis.html"><a href="marketing-analysis.html#evaluation-metrics"><i class="fa fa-check"></i><b>4.1.6</b> Evaluation Metrics</a></li>
+<li class="chapter" data-level="4.1.7" data-path="marketing-analysis.html"><a href="marketing-analysis.html#tools-and-libraries"><i class="fa fa-check"></i><b>4.1.7</b> Tools and Libraries*</a></li>
+<li class="chapter" data-level="4.1.8" data-path="marketing-analysis.html"><a href="marketing-analysis.html#example-problem-statement"><i class="fa fa-check"></i><b>4.1.8</b> 8. <strong>Example Problem Statement</strong></a></li>
+<li class="chapter" data-level="4.1.9" data-path="marketing-analysis.html"><a href="marketing-analysis.html#practical-implementation-example-in-python"><i class="fa fa-check"></i><b>4.1.9</b> 9. <strong>Practical Implementation Example in Python</strong></a></li>
+<li class="chapter" data-level="4.1.10" data-path="marketing-analysis.html"><a href="marketing-analysis.html#interview-takeaways"><i class="fa fa-check"></i><b>4.1.10</b> 10. <strong>Interview Takeaways</strong></a></li>
+<li class="chapter" data-level="4.1.11" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-to-use-for-a-furniture-store"><i class="fa fa-check"></i><b>4.1.11</b> How to use for a Furniture Store</a></li>
+<li class="chapter" data-level="4.1.12" data-path="marketing-analysis.html"><a href="marketing-analysis.html#cross-selling-opportunities-both-in-store-and-online"><i class="fa fa-check"></i><b>4.1.12</b> 1. <strong>Cross-Selling Opportunities (Both In-Store and Online)</strong></a></li>
+<li class="chapter" data-level="4.1.13" data-path="marketing-analysis.html"><a href="marketing-analysis.html#product-bundling-custom-furniture-packages"><i class="fa fa-check"></i><b>4.1.13</b> 2. <strong>Product Bundling (Custom Furniture Packages)</strong></a></li>
+<li class="chapter" data-level="4.1.14" data-path="marketing-analysis.html"><a href="marketing-analysis.html#optimizing-store-layout-and-displays-brick-and-mortar"><i class="fa fa-check"></i><b>4.1.14</b> 3. <strong>Optimizing Store Layout and Displays (Brick-and-Mortar)</strong></a></li>
+<li class="chapter" data-level="4.1.15" data-path="marketing-analysis.html"><a href="marketing-analysis.html#personalized-marketing-campaigns"><i class="fa fa-check"></i><b>4.1.15</b> 4. <strong>Personalized Marketing Campaigns</strong></a></li>
+<li class="chapter" data-level="4.1.16" data-path="marketing-analysis.html"><a href="marketing-analysis.html#online-vs.-offline-purchase-patterns"><i class="fa fa-check"></i><b>4.1.16</b> 5. <strong>Online vs. Offline Purchase Patterns</strong></a></li>
+<li class="chapter" data-level="4.1.17" data-path="marketing-analysis.html"><a href="marketing-analysis.html#omnichannel-strategy-in-store-and-online-integration"><i class="fa fa-check"></i><b>4.1.17</b> 6. <strong>Omnichannel Strategy (In-Store and Online Integration)</strong></a></li>
+<li class="chapter" data-level="4.1.18" data-path="marketing-analysis.html"><a href="marketing-analysis.html#customer-segmentation-and-targeted-discounts"><i class="fa fa-check"></i><b>4.1.18</b> 7. <strong>Customer Segmentation and Targeted Discounts</strong></a></li>
+<li class="chapter" data-level="4.1.19" data-path="marketing-analysis.html"><a href="marketing-analysis.html#enhancing-customer-loyalty-programs"><i class="fa fa-check"></i><b>4.1.19</b> 8. <strong>Enhancing Customer Loyalty Programs</strong></a></li>
+<li class="chapter" data-level="4.1.20" data-path="marketing-analysis.html"><a href="marketing-analysis.html#inventory-management-and-forecasting"><i class="fa fa-check"></i><b>4.1.20</b> 9. <strong>Inventory Management and Forecasting</strong></a></li>
+<li class="chapter" data-level="4.1.21" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-takeaways-for-the-interview"><i class="fa fa-check"></i><b>4.1.21</b> Key Takeaways for the Interview:</a></li>
+<li class="chapter" data-level="4.1.22" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-algorithm-overview-in-the-context-of-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.22</b> <strong>Apriori Algorithm Overview (in the Context of Market Basket Analysis)</strong>:</a></li>
+<li class="chapter" data-level="4.1.23" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-breadth-first-search-relates-to-apriori"><i class="fa fa-check"></i><b>4.1.23</b> <strong>How Breadth-First Search Relates to Apriori</strong>:</a></li>
+<li class="chapter" data-level="4.1.24" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-and-the-bfs-like-approach-in-action"><i class="fa fa-check"></i><b>4.1.24</b> <strong>Apriori and the BFS-Like Approach in Action</strong>:</a></li>
+<li class="chapter" data-level="4.1.25" data-path="marketing-analysis.html"><a href="marketing-analysis.html#comparison-to-depth-first-search"><i class="fa fa-check"></i><b>4.1.25</b> <strong>Comparison to Depth-First Search</strong>:</a></li>
+<li class="chapter" data-level="4.1.26" data-path="marketing-analysis.html"><a href="marketing-analysis.html#why-breadth-first-search-in-apriori"><i class="fa fa-check"></i><b>4.1.26</b> <strong>Why Breadth-First Search in Apriori?</strong>:</a></li>
+<li class="chapter" data-level="4.1.27" data-path="marketing-analysis.html"><a href="marketing-analysis.html#summary-of-bfs-in-market-basket-analysis-apriori"><i class="fa fa-check"></i><b>4.1.27</b> <strong>Summary of BFS in Market Basket Analysis (Apriori)</strong>:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html"><i class="fa fa-check"></i><b>5</b> Methods in Marketing Science</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#customer-lifetime-value"><i class="fa fa-check"></i><b>5.1</b> Customer Lifetime Value</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes-magazine"><i class="fa fa-check"></i><b>5.1.1</b> From Forbes Magazine</a></li>
+<li class="chapter" data-level="5.1.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-a-hubspot-blog"><i class="fa fa-check"></i><b>5.1.2</b> From a hubspot blog</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-calculations"><i class="fa fa-check"></i><b>5.2</b> CLV Calculations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes"><i class="fa fa-check"></i><b>5.2.1</b> From Forbes</a></li>
+<li class="chapter" data-level="5.2.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#another-example-ai"><i class="fa fa-check"></i><b>5.2.2</b> Another example (AI)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-example-hubspot"><i class="fa fa-check"></i><b>5.2.3</b> CLV Example (hubspot)</a></li>
+<li class="chapter" data-level="5.2.4" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#study-of-customer-lifetime-value-model-based-on-survival-analysis-methods"><i class="fa fa-check"></i><b>5.2.4</b> Study of Customer lifetime value model based on Survival analysis methods</a></li>
+<li class="chapter" data-level="5.2.5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#look-alike-modeling"><i class="fa fa-check"></i><b>5.2.5</b> Look-alike Modeling</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://davutemrah.github.io" target="blank">Back to Home Page</li>
+<li><a href="https://davutemrah.github.io/notebooks/" target="blank">Back to Collections</li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Marketing Analytics Notebook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="marketing-analysis" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Marketing Analysis<a href="marketing-analysis.html#marketing-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="market-basket-analysis-mba" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Market Basket Analysis (MBA)<a href="marketing-analysis.html#market-basket-analysis-mba" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>MBA is commonly used in retail and e-commerce to analyze purchasing patterns, making it highly relevant for marketing roles. Below are the key points to cover:</p>
+<div id="introduction-to-market-basket-analysis" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Introduction to Market Basket Analysis<a href="marketing-analysis.html#introduction-to-market-basket-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Definition</strong>: Market Basket Analysis is a data mining technique used to uncover relationships between items purchased together. It helps identify <strong>associations</strong> and <strong>co-occurrences</strong> of products in transactional datasets.</p>
+<p><strong>Application</strong>: Typically used in retail, e-commerce, and recommendation systems to understand customer behavior, cross-sell opportunities, and inform promotional strategies.</p>
+</div>
+<div id="key-concepts" class="section level3 hasAnchor" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Key Concepts<a href="marketing-analysis.html#key-concepts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Itemsets</strong>: Groups or sets of items purchased together.</p></li>
+<li><p><strong>Association Rules</strong>: Rules that express the likelihood of purchasing one item when another is purchased. These rules take the form: “If a customer buys X, they are likely to buy Y.”</p></li>
+<li><p><strong>Support</strong>: The proportion of transactions that contain a specific item or itemset. It helps to filter out infrequent itemsets.</p>
+<ul>
+<li>Formula: <code>Support(X) = (Transactions containing X) / (Total transactions)</code></li>
+</ul></li>
+<li><p><strong>Confidence</strong>: The likelihood that a customer buys item Y given that they’ve bought item X. It measures the strength of the rule.</p>
+<ul>
+<li>Formula: <code>Confidence(X → Y) = Support(X and Y) / Support(X)</code></li>
+</ul></li>
+<li><p><strong>Lift</strong>: A measure of how much more likely item Y is to be purchased when item X is purchased, compared to random chance.</p>
+<ul>
+<li><p>Formula: <code>Lift(X → Y) = Confidence(X → Y) / Support(Y)</code></p></li>
+<li><p>A Lift &gt; 1 implies a strong association.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="techniques-and-algorithms" class="section level3 hasAnchor" number="4.1.3">
+<h3><span class="header-section-number">4.1.3</span> Techniques and Algorithms<a href="marketing-analysis.html#techniques-and-algorithms" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Apriori Algorithm</strong>: One of the most common algorithms for generating association rules. It uses a breadth-first search approach to find frequent itemsets.</li>
+</ul>
+<p>A breadth-first search (BFS)-like approach is employed to identify frequent itemsets. The algorithm explores the dataset level by level, starting with 1-itemsets, then moving to 2-itemsets, 3-itemsets, and so on. At each level, it generates candidate itemsets and checks their frequency, pruning those that do not meet the minimum support threshold. This BFS-like strategy allows the algorithm to systematically explore all itemsets while pruning infrequent ones early, optimizing the search process and making it computationally efficient for large datasets.</p>
+<ul>
+<li><p><strong>Steps</strong>:</p>
+<ul>
+<li><p>Find frequent itemsets (those with support above a given threshold).</p></li>
+<li><p>Generate association rules from these itemsets.</p></li>
+</ul></li>
+<li><p><strong>FP-Growth (Frequent Pattern Growth)</strong>: A more efficient alternative to Apriori, especially for large datasets. It compresses the dataset into a tree structure and extracts frequent itemsets without generating candidate itemsets.</p></li>
+<li><p><strong>Eclat Algorithm</strong>: An alternative method that uses depth-first search, and is suitable when the dataset has fewer transactions but a large number of items.</p></li>
+</ul>
+</div>
+<div id="use-cases-in-marketing" class="section level3 hasAnchor" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Use Cases in Marketing<a href="marketing-analysis.html#use-cases-in-marketing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Cross-Selling</strong>: Suggesting complementary products (e.g., “Customers who bought this also bought…”).</p></li>
+<li><p><strong>Product Placement</strong>: Optimizing the layout of stores or online catalogs by placing frequently purchased together items near each other.</p></li>
+<li><p><strong>Personalized Recommendations</strong>: Using association rules to personalize product recommendations in online shopping carts or email campaigns.</p></li>
+<li><p><strong>Promotions and Bundling</strong>: Creating product bundles or special promotions based on frequently purchased together items to increase average order value.</p></li>
+</ul>
+</div>
+<div id="handling-challenges" class="section level3 hasAnchor" number="4.1.5">
+<h3><span class="header-section-number">4.1.5</span> Handling Challenges<a href="marketing-analysis.html#handling-challenges" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Data Sparsity</strong>: Real-world transaction data often contains a vast number of products, which can lead to sparsity. Dimensionality reduction techniques or focusing on frequently bought items can help.</p></li>
+<li><p><strong>High Cardinality</strong>: When dealing with a large number of unique products, algorithms like FP-Growth are preferable over Apriori due to performance efficiency.</p></li>
+<li><p><strong>Overfitting</strong>: Be cautious of focusing on too niche associations. Lift is critical here; a high Lift with low Support might not be practically useful.</p></li>
+<li><p><strong>Interpretability</strong>: Not all association rules are useful, so it’s important to prioritize rules with actionable insights (high Confidence and Lift) and interpret them in the context of the business.</p></li>
+</ul>
+</div>
+<div id="evaluation-metrics" class="section level3 hasAnchor" number="4.1.6">
+<h3><span class="header-section-number">4.1.6</span> Evaluation Metrics<a href="marketing-analysis.html#evaluation-metrics" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Lift</strong>: Higher Lift indicates stronger associations.</p></li>
+<li><p><strong>Support and Confidence</strong>: Focus on rules with a good balance between Support (frequency) and Confidence (strength of the relationship).</p></li>
+<li><p><strong>Profitability</strong>: Besides the statistical measures, consider the business value—whether the rule leads to actionable, profitable insights.</p></li>
+</ul>
+</div>
+<div id="tools-and-libraries" class="section level3 hasAnchor" number="4.1.7">
+<h3><span class="header-section-number">4.1.7</span> Tools and Libraries*<a href="marketing-analysis.html#tools-and-libraries" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Python Libraries</strong>:</p>
+<ul>
+<li><p><code>mlxtend</code>: Popular library for Apriori and association rule mining.</p></li>
+<li><p><code>PyFPGrowth</code>: For FP-Growth algorithm.</p></li>
+<li><p><code>pandas</code> and <code>scikit-learn</code>: For data preprocessing and feature extraction.</p></li>
+</ul></li>
+<li><p><strong>Other Tools</strong>: R, SAS, and SQL can also be used for Market Basket Analysis in different environments.</p></li>
+</ul>
+</div>
+<div id="example-problem-statement" class="section level3 hasAnchor" number="4.1.8">
+<h3><span class="header-section-number">4.1.8</span> 8. <strong>Example Problem Statement</strong><a href="marketing-analysis.html#example-problem-statement" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Scenario</strong>: You’re analyzing transaction data for an e-commerce company to identify product bundling opportunities.</li>
+<li><strong>Goal</strong>: Find frequent itemsets and generate association rules to suggest which products should be bundled or cross-promoted to increase sales.
+<ul>
+<li><strong>Steps</strong>:
+<ul>
+<li>Preprocess the data (transaction records) into a format suitable for MBA.</li>
+<li>Apply the Apriori algorithm with Support and Confidence thresholds.</li>
+<li>Evaluate the generated rules and use Lift to identify the strongest associations.</li>
+<li>Present actionable insights, such as product pairings or new bundling strategies.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="practical-implementation-example-in-python" class="section level3 hasAnchor" number="4.1.9">
+<h3><span class="header-section-number">4.1.9</span> 9. <strong>Practical Implementation Example in Python</strong><a href="marketing-analysis.html#practical-implementation-example-in-python" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="marketing-analysis.html#cb1-1" tabindex="-1"></a><span class="im">from</span> mlxtend.frequent_patterns <span class="im">import</span> apriori, association_rules</span>
+<span id="cb1-2"><a href="marketing-analysis.html#cb1-2" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="marketing-analysis.html#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="marketing-analysis.html#cb1-4" tabindex="-1"></a><span class="co"># Sample transaction dataset</span></span>
+<span id="cb1-5"><a href="marketing-analysis.html#cb1-5" tabindex="-1"></a>data <span class="op">=</span> {<span class="st">&#39;bread&#39;</span>: [<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>],</span>
+<span id="cb1-6"><a href="marketing-analysis.html#cb1-6" tabindex="-1"></a>        <span class="st">&#39;butter&#39;</span>: [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>],</span>
+<span id="cb1-7"><a href="marketing-analysis.html#cb1-7" tabindex="-1"></a>        <span class="st">&#39;milk&#39;</span>: [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>]}</span>
+<span id="cb1-8"><a href="marketing-analysis.html#cb1-8" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="marketing-analysis.html#cb1-9" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb1-10"><a href="marketing-analysis.html#cb1-10" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="marketing-analysis.html#cb1-11" tabindex="-1"></a><span class="co"># Generate frequent itemsets</span></span>
+<span id="cb1-12"><a href="marketing-analysis.html#cb1-12" tabindex="-1"></a>frequent_itemsets <span class="op">=</span> apriori(df, min_support<span class="op">=</span><span class="fl">0.5</span>, use_colnames<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-13"><a href="marketing-analysis.html#cb1-13" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="marketing-analysis.html#cb1-14" tabindex="-1"></a><span class="co"># Generate association rules</span></span>
+<span id="cb1-15"><a href="marketing-analysis.html#cb1-15" tabindex="-1"></a>rules <span class="op">=</span> association_rules(frequent_itemsets, metric<span class="op">=</span><span class="st">&quot;lift&quot;</span>, min_threshold<span class="op">=</span><span class="fl">1.0</span>)</span>
+<span id="cb1-16"><a href="marketing-analysis.html#cb1-16" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="marketing-analysis.html#cb1-17" tabindex="-1"></a><span class="co"># Display the rules</span></span>
+<span id="cb1-18"><a href="marketing-analysis.html#cb1-18" tabindex="-1"></a><span class="bu">print</span>(rules)</span></code></pre></div>
+</div>
+<div id="interview-takeaways" class="section level3 hasAnchor" number="4.1.10">
+<h3><span class="header-section-number">4.1.10</span> 10. <strong>Interview Takeaways</strong><a href="marketing-analysis.html#interview-takeaways" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Explain how Market Basket Analysis can directly benefit a marketing team through better product placements, promotions, and personalized recommendations.</li>
+<li>Discuss the specific algorithms (e.g., Apriori, FP-Growth) and their applications to real-world datasets.</li>
+<li>Focus on how you handle data challenges (e.g., sparsity, overfitting) and your approach to ensuring actionable insights.</li>
+<li>Relate MBA to business impact, such as revenue uplift through cross-selling or bundling.</li>
+</ul>
+</div>
+<div id="how-to-use-for-a-furniture-store" class="section level3 hasAnchor" number="4.1.11">
+<h3><span class="header-section-number">4.1.11</span> How to use for a Furniture Store<a href="marketing-analysis.html#how-to-use-for-a-furniture-store" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In a <strong>furniture retail</strong> setting with both <strong>brick-and-mortar</strong> and <strong>online stores</strong>, Market Basket Analysis (MBA) can be leveraged in several ways to optimize product offerings, improve customer experience, and boost sales across channels. Here’s how it can be applied:</p>
+</div>
+<div id="cross-selling-opportunities-both-in-store-and-online" class="section level3 hasAnchor" number="4.1.12">
+<h3><span class="header-section-number">4.1.12</span> 1. <strong>Cross-Selling Opportunities (Both In-Store and Online)</strong><a href="marketing-analysis.html#cross-selling-opportunities-both-in-store-and-online" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Identify which furniture pieces and accessories (e.g., sofas, coffee tables, rugs) are frequently purchased together.</li>
+<li><strong>Example</strong>: If MBA reveals that customers who buy a sofa are likely to buy a rug within the same transaction, the retailer can cross-sell rugs online by suggesting them on product pages, or display them near sofas in the physical stores.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Use association rules to power “Frequently Bought Together” recommendations on product pages.</li>
+<li>In-store: Adjust store layouts and product placement based on common co-purchases (e.g., displaying lamps next to beds).</li>
+</ul></li>
+</ul>
+</div>
+<div id="product-bundling-custom-furniture-packages" class="section level3 hasAnchor" number="4.1.13">
+<h3><span class="header-section-number">4.1.13</span> 2. <strong>Product Bundling (Custom Furniture Packages)</strong><a href="marketing-analysis.html#product-bundling-custom-furniture-packages" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Create furniture bundles or home packages based on popular combinations identified through MBA.</li>
+<li><strong>Example</strong>: If customers frequently purchase a dining table along with chairs and lighting, a bundled discount can be offered online, or a physical display set can be arranged in-store.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Offer special bundles at a discounted rate or suggest bundles at checkout.</li>
+<li>In-store: Promote complete room setups or bundle promotions.</li>
+</ul></li>
+</ul>
+</div>
+<div id="optimizing-store-layout-and-displays-brick-and-mortar" class="section level3 hasAnchor" number="4.1.14">
+<h3><span class="header-section-number">4.1.14</span> 3. <strong>Optimizing Store Layout and Displays (Brick-and-Mortar)</strong><a href="marketing-analysis.html#optimizing-store-layout-and-displays-brick-and-mortar" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Use MBA insights to optimize the layout of physical stores by grouping frequently bought together items in close proximity.</li>
+<li><strong>Example</strong>: If customers who buy office desks often purchase ergonomic chairs, placing these items in adjacent sections of the store can enhance the shopping experience and potentially increase sales.</li>
+<li><strong>Implementation</strong>: Organize the store layout to reflect item associations, improving customer flow and making it easier for shoppers to find related items.</li>
+</ul>
+</div>
+<div id="personalized-marketing-campaigns" class="section level3 hasAnchor" number="4.1.15">
+<h3><span class="header-section-number">4.1.15</span> 4. <strong>Personalized Marketing Campaigns</strong><a href="marketing-analysis.html#personalized-marketing-campaigns" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Use customer purchase data from both online and offline channels to create targeted marketing campaigns.</li>
+<li><strong>Example</strong>: If a customer purchased a bedroom set, you could send personalized offers for complementary items like nightstands or lamps through email or SMS.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Send personalized recommendations via email or retargeted ads based on previously purchased products.</li>
+<li>In-store: Use loyalty program data to target customers with promotions for related items during subsequent visits.</li>
+</ul></li>
+</ul>
+</div>
+<div id="online-vs.-offline-purchase-patterns" class="section level3 hasAnchor" number="4.1.16">
+<h3><span class="header-section-number">4.1.16</span> 5. <strong>Online vs. Offline Purchase Patterns</strong><a href="marketing-analysis.html#online-vs.-offline-purchase-patterns" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Compare item associations in brick-and-mortar stores with those in online transactions to understand different purchasing behaviors across channels.</li>
+<li><strong>Example</strong>: You may find that customers tend to buy larger items like sofas or beds in-store but prefer purchasing accessories like pillows or lamps online. Use this insight to align inventory strategies, promotional offers, and the balance between in-store and online stock.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Focus on smaller, frequently purchased items with complementary cross-sell options.</li>
+<li>In-store: Promote big-ticket items like bedroom sets, dining tables, etc., where customers can physically inspect them before purchase.</li>
+</ul></li>
+</ul>
+</div>
+<div id="omnichannel-strategy-in-store-and-online-integration" class="section level3 hasAnchor" number="4.1.17">
+<h3><span class="header-section-number">4.1.17</span> 6. <strong>Omnichannel Strategy (In-Store and Online Integration)</strong><a href="marketing-analysis.html#omnichannel-strategy-in-store-and-online-integration" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Create a seamless experience across both channels by using MBA to understand customer journeys that begin online and finish in-store or vice versa.</li>
+<li><strong>Example</strong>: Customers may research furniture online but prefer to make the final purchase in-store after seeing the item physically. Use MBA to track items researched online and purchased in-store to provide consistent recommendations and promotions across both channels.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Sync online and in-store purchase histories to generate consistent recommendations and offers, regardless of where the purchase takes place.</li>
+<li>Offer promotions encouraging in-store pickups after online purchases, where customers are shown complementary items that can be bought in-store.</li>
+</ul></li>
+</ul>
+</div>
+<div id="customer-segmentation-and-targeted-discounts" class="section level3 hasAnchor" number="4.1.18">
+<h3><span class="header-section-number">4.1.18</span> 7. <strong>Customer Segmentation and Targeted Discounts</strong><a href="marketing-analysis.html#customer-segmentation-and-targeted-discounts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Segment customers based on their purchase behavior and offer targeted discounts or bundles.</li>
+<li><strong>Example</strong>: Segment customers who typically buy higher-end furniture, such as luxury dining sets, and target them with premium accessory offers like designer lamps or high-end rugs.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Personalized offers based on previous buying behavior, triggered by customer actions (e.g., abandoning a cart).</li>
+<li>In-store: Offer personalized discounts or recommendations at checkout for frequently purchased items based on transaction history.</li>
+</ul></li>
+</ul>
+</div>
+<div id="enhancing-customer-loyalty-programs" class="section level3 hasAnchor" number="4.1.19">
+<h3><span class="header-section-number">4.1.19</span> 8. <strong>Enhancing Customer Loyalty Programs</strong><a href="marketing-analysis.html#enhancing-customer-loyalty-programs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Strengthen loyalty programs by offering members personalized offers based on items frequently bought together.</li>
+<li><strong>Example</strong>: If MBA shows a pattern where loyal customers frequently buy living room furniture together (sofas, coffee tables, etc.), create a points system or offer special deals for completing a living room set.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Online: Tie loyalty points to purchases of complementary items and offer rewards for completing a set.</li>
+<li>In-store: Offer special rewards or discounts to loyal customers when they purchase items frequently bought together.</li>
+</ul></li>
+</ul>
+</div>
+<div id="inventory-management-and-forecasting" class="section level3 hasAnchor" number="4.1.20">
+<h3><span class="header-section-number">4.1.20</span> 9. <strong>Inventory Management and Forecasting</strong><a href="marketing-analysis.html#inventory-management-and-forecasting" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Objective</strong>: Use MBA results to better manage inventory by understanding which items are commonly purchased together and predicting demand for associated products.</li>
+<li><strong>Example</strong>: If customers frequently buy certain styles of chairs with specific dining tables, ensure those chairs are sufficiently stocked both in-store and online to meet expected demand.</li>
+<li><strong>Implementation</strong>:
+<ul>
+<li>Adjust inventory across both channels based on co-purchase patterns and item associations.</li>
+<li>Use predictive analytics to forecast the demand for bundled products or associated items during sales or promotional events.</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="key-takeaways-for-the-interview" class="section level3 hasAnchor" number="4.1.21">
+<h3><span class="header-section-number">4.1.21</span> Key Takeaways for the Interview:<a href="marketing-analysis.html#key-takeaways-for-the-interview" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Highlight how Market Basket Analysis can enhance both the <strong>online</strong> and <strong>in-store</strong> shopping experiences by improving cross-selling, bundling, and product placement.</li>
+<li>Discuss the importance of <strong>integrating data</strong> from both brick-and-mortar and online channels for a seamless omnichannel strategy.</li>
+<li>Mention specific <strong>marketing strategies</strong> that leverage MBA insights to drive <strong>personalization</strong> and <strong>customer engagement</strong> across multiple touchpoints.</li>
+<li>Focus on the <strong>business impact</strong>, such as improving <strong>inventory management</strong>, <strong>sales uplift</strong>, and <strong>customer retention</strong> through targeted promotions and optimized shopping experiences.</li>
+</ul>
+<p>By showcasing these insights, you’ll demonstrate how MBA can directly enhance the marketing strategy of a furniture retailer that operates both online and offline.</p>
+<p>Yes, you’re absolutely right! The term <strong>“breadth-first search (BFS)”</strong> is sometimes mentioned in the context of the <strong>Apriori algorithm</strong> and <strong>Market Basket Analysis</strong>, but the meaning here is slightly different from traditional graph-based BFS. Let’s break this down:</p>
+</div>
+<div id="apriori-algorithm-overview-in-the-context-of-market-basket-analysis" class="section level3 hasAnchor" number="4.1.22">
+<h3><span class="header-section-number">4.1.22</span> <strong>Apriori Algorithm Overview (in the Context of Market Basket Analysis)</strong>:<a href="marketing-analysis.html#apriori-algorithm-overview-in-the-context-of-market-basket-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>The <strong>Apriori algorithm</strong> is a classic algorithm used in <strong>association rule learning</strong> to find frequent itemsets in a large dataset (such as transactional data) and then generate association rules from these itemsets.</li>
+<li>In <strong>market basket analysis</strong>, the goal is to find items that frequently co-occur in transactions (e.g., if a customer buys bread, they are likely to buy butter).</li>
+</ul>
+</div>
+<div id="how-breadth-first-search-relates-to-apriori" class="section level3 hasAnchor" number="4.1.23">
+<h3><span class="header-section-number">4.1.23</span> <strong>How Breadth-First Search Relates to Apriori</strong>:<a href="marketing-analysis.html#how-breadth-first-search-relates-to-apriori" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In the context of the Apriori algorithm, the term <strong>BFS</strong> refers to <strong>the level-wise exploration of candidate itemsets</strong>. Here’s how:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Level-wise Search for Frequent Itemsets</strong>:
+<ul>
+<li>Apriori uses a <strong>level-wise search strategy</strong>, where it starts by identifying <strong>frequent 1-itemsets</strong> (i.e., individual items that appear frequently together in transactions).</li>
+<li>Once frequent 1-itemsets are identified, it <strong>moves to the next level</strong> by generating <strong>candidate 2-itemsets</strong> (pairs of items) and checks if they are frequent.</li>
+<li>This process continues by exploring <strong>3-itemsets, 4-itemsets</strong>, and so on, until no further frequent itemsets can be found.</li>
+<li>The process of exploring itemsets level by level (1-itemsets, 2-itemsets, etc.) is similar to the breadth-first approach, where we explore <strong>all possible combinations</strong> at each level before moving to the next level.</li>
+</ul></li>
+<li><strong>Breadth-First Search Strategy</strong>:
+<ul>
+<li>Like a traditional BFS, Apriori explores the search space in a <strong>breadth-first manner</strong>, examining all candidates at the current level before proceeding to the next.</li>
+<li>For example, Apriori first considers all possible itemsets of size 1, then considers all possible itemsets of size 2, and so on.</li>
+<li>By pruning (eliminating) infrequent itemsets at each level, the algorithm reduces the number of candidate itemsets at the next level.</li>
+</ul></li>
+</ol>
+</div>
+<div id="apriori-and-the-bfs-like-approach-in-action" class="section level3 hasAnchor" number="4.1.24">
+<h3><span class="header-section-number">4.1.24</span> <strong>Apriori and the BFS-Like Approach in Action</strong>:<a href="marketing-analysis.html#apriori-and-the-bfs-like-approach-in-action" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>Level 1 (Frequent 1-Itemsets)</strong>:</p>
+<ul>
+<li>The algorithm scans the transaction dataset and counts the occurrence of each individual item.</li>
+<li>Items that meet the minimum support threshold are considered <strong>frequent</strong> 1-itemsets.</li>
+</ul>
+<p>Example: If we have transactions like:</p>
+<pre><code>{Milk, Bread, Butter}
+{Milk, Butter}
+{Bread, Butter}
+{Milk, Bread}</code></pre>
+<p>Frequent 1-itemsets might be:</p>
+<ul>
+<li>Milk (3 times)</li>
+<li>Bread (3 times)</li>
+<li>Butter (3 times)</li>
+</ul></li>
+<li><p><strong>Level 2 (Frequent 2-Itemsets)</strong>:</p>
+<ul>
+<li>The algorithm generates candidate 2-itemsets from the frequent 1-itemsets (e.g., {Milk, Bread}, {Milk, Butter}, {Bread, Butter}).</li>
+<li>It scans the dataset again and counts the occurrences of these pairs.</li>
+<li>Candidate pairs that meet the support threshold are retained as <strong>frequent 2-itemsets</strong>.</li>
+</ul>
+<p>In the above example:</p>
+<ul>
+<li>{Milk, Bread} might occur 2 times</li>
+<li>{Milk, Butter} might occur 2 times</li>
+<li>{Bread, Butter} might occur 2 times</li>
+</ul></li>
+<li><p><strong>Level 3 (Frequent 3-Itemsets)</strong>:</p>
+<ul>
+<li>The algorithm now generates 3-itemsets from the frequent 2-itemsets (e.g., {Milk, Bread, Butter}).</li>
+<li>It checks whether this 3-itemset meets the support threshold.</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>{Milk, Bread, Butter} might occur 1 time</li>
+</ul></li>
+<li><p><strong>Continue until no more frequent itemsets can be found</strong>.</p></li>
+</ol>
+<p>At each level, <strong>Apriori prunes</strong> the search space by removing infrequent itemsets, reducing the computational effort at subsequent levels.</p>
+</div>
+<div id="comparison-to-depth-first-search" class="section level3 hasAnchor" number="4.1.25">
+<h3><span class="header-section-number">4.1.25</span> <strong>Comparison to Depth-First Search</strong>:<a href="marketing-analysis.html#comparison-to-depth-first-search" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In contrast to the <strong>BFS-like level-wise search</strong> used by Apriori, some other algorithms (like <strong>FP-Growth</strong>) use more of a <strong>depth-first search (DFS)</strong> approach, exploring combinations of items in a more recursive and hierarchical manner. FP-Growth builds a tree (frequent pattern tree) that captures the frequency of itemsets and navigates this tree using a depth-first search strategy to find frequent patterns.</p>
+</div>
+<div id="why-breadth-first-search-in-apriori" class="section level3 hasAnchor" number="4.1.26">
+<h3><span class="header-section-number">4.1.26</span> <strong>Why Breadth-First Search in Apriori?</strong>:<a href="marketing-analysis.html#why-breadth-first-search-in-apriori" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The BFS approach in Apriori makes sense because:
+- It <strong>systematically explores all possible itemsets</strong> starting from the smallest (1-itemsets) and incrementally builds up to larger itemsets.
+- It allows for <strong>early pruning</strong> of infrequent itemsets, saving computational effort. Since infrequent itemsets are discarded early, the algorithm doesn’t waste time exploring larger itemsets that are unlikely to be frequent.</p>
+</div>
+<div id="summary-of-bfs-in-market-basket-analysis-apriori" class="section level3 hasAnchor" number="4.1.27">
+<h3><span class="header-section-number">4.1.27</span> <strong>Summary of BFS in Market Basket Analysis (Apriori)</strong>:<a href="marketing-analysis.html#summary-of-bfs-in-market-basket-analysis-apriori" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>BFS</strong> in Apriori refers to the <strong>level-wise search</strong> of frequent itemsets, where the algorithm explores 1-itemsets first, then 2-itemsets, and so on.</li>
+<li>This approach ensures that we systematically explore all possible itemsets, with efficient pruning along the way, making the process computationally manageable for large datasets.</li>
+</ul>
+<p>In contrast to performing many independent searches (e.g., using a for loop), the Apriori algorithm’s <strong>BFS-like structure</strong> allows it to explore and prune itemsets efficiently in a structured manner.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="measurement-in-marketing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="methods-in-marketing-science.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Marketing Analytics.pdf", "Marketing Analytics.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

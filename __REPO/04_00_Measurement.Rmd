@@ -1,0 +1,5 @@
+# Measurement in Marketing
+
+<style> 
+body {text-align: justify} 
+</style>

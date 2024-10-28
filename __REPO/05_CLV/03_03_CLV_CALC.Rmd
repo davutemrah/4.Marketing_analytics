@@ -1,0 +1,200 @@
+## CLV Calculations
+
+
+### From Forbes 
+
+There are four essential steps to calculate CLV.
+
+**1. Determine the average order value**
+
+Determine the average amount customers spend on your business. To get this information get an estimate based on customer transactions in the last few months.
+
+this is the average spending per order.
+
+**2. Identify frequency of transactions**
+
+Next, identify how often customers come to your store. How many times do they come back, given a specific period? Do they return weekly, monthly or annually?
+
+**3. Measure customer retention**
+
+Figure out how long an average customer remains loyal to your business.
+
+Some industries, including restaurants and retail, tend to have a lower CLV because customers tend to go to establishments that offer a better deal.
+
+Meanwhile, industries such as technology and travel have a higher CLV because customers seek updated product features and personalized holiday experiences.
+
+**4. Calculate CLV**
+
+Once you have all this information, calculate CLV with this formula:
+
+    X = average order value
+    Y = number of transactions
+    Z = average length of the customer relationship (in years)
+
+$CLV = X x Y x Z$
+
+Using this information, we can assume a father that regularly purchases smartphones for his family might be worth:
+
+$\$1,000 (per\ smartphone) × 2 (smartphones\ per\ year) × 10 (years) = \$20,000$
+
+The CLV is $20,000.
+
+#### 3 Examples of CLV
+
+CLV varies based on the nature of the product or service. Let’s examine various industries to show how CLV could affect your bottom line.
+
+**1. Grocery Shop**
+
+Grocery stores inspire loyalty among residents within the vicinity. Let’s say a shopper frequents a grocery in New York every week. He spends around $100 per visit. He returned every week, 52 weeks a year, for an average of three years.
+
+$\$100 (purchase\ per\ visit) × 52 (visits\ per\ year) × 3 (years) = \$15,600 (CLV)$
+
+**2. SaaS Service**
+
+A UX designer uses a cloud-based subscription service to conceptualize mobile apps. He spends $70 per month for 10 years on the software. In this example, the SaaS product is a necessary job-related expense, so the subscription lasted a long time.
+
+$\$70 (subscription\ fee\ per\ month) × 12 (payments\ per\ year) × 10 (years) = \$8,400 (CLV)$
+
+**3. Interior Design**
+
+The interior design agency has higher average order values. For example, a homeowner spends $100,000 to renovate their home. Because they liked the initial experience, they became a patron of the interior design firm and renovated their property every 10 years within 20 years.
+
+$\$100,000 (per\ renovation) × 0.1 (annual\ purchase) × 20 (years) = \$200,000 (CLV)$
+
+These examples show CLV varies across industries. 
+
+While day-to-day products such as coffee are bought more frequently, you need to get customers to purchase often to get a high CLV. 
+
+In contrast, some products such as houses, automobiles or interior design agencies have a lower purchase frequency. But due to the nature of the product or service, they rack up thousands of dollars with only a few transactions.
+
+
+### Another example (AI)
+
+Customer Lifetime Value (CLV) can be calculated at both the individual level and the brand level, depending on your objectives and the granularity of your analysis. Here’s how you can approach each:
+
+#### Individual-Level CLV
+
+Calculating CLV at the individual level involves estimating the total revenue that each specific customer will generate over their relationship with the brand. This method provides detailed insights into the value of each customer, which can help in personalizing marketing efforts and customer retention strategies. Here’s how you can calculate it:
+
+1. **Calculate Average Purchase Value (APV):**
+   \[
+   \text{APV} = \frac{\text{Total Revenue}}{\text{Number of Purchases}}
+   \]
+
+2. **Calculate Purchase Frequency (PF):**
+   \[
+   \text{PF} = \frac{\text{Number of Purchases}}{\text{Number of Customers}}
+   \]
+
+3. **Calculate Customer Value (CV):**
+   \[
+   \text{CV} = \text{APV} \times \text{PF}
+   \]
+
+4. **Estimate Customer Lifespan (CL):**
+   \[
+   \text{CL} = \text{Average Customer Lifespan in Years}
+   \]
+
+5. **Calculate Individual CLV:**
+   \[
+   \text{CLV} = \text{CV} \times \text{CL}
+   \]
+
+#### Brand-Level CLV
+
+Calculating CLV at the brand level involves aggregating the CLV of all customers to get an overall estimate of the value that the customer base will generate over time. This method helps in understanding the overall financial health and growth potential of the brand. Here’s how you can calculate it:
+
+1. **Calculate Average Revenue Per User (ARPU):**
+   \[
+   \text{ARPU} = \frac{\text{Total Revenue}}{\text{Total Number of Customers}}
+   \]
+
+2. **Estimate Average Customer Lifespan (CL):**
+   \[
+   \text{CL} = \text{Average Customer Lifespan in Years}
+   \]
+
+3. **Calculate Brand-Level CLV:**
+   \[
+   \text{Brand CLV} = \text{ARPU} \times \text{CL} \times \text{Total Number of Customers}
+   \]
+
+#### Steps to Calculate CLV with Your Data
+
+Given daily transactional individual-level data, here’s a step-by-step approach:
+
+1. **Aggregate the data to calculate total revenue and number of purchases per customer.**
+
+2. **Calculate APV and PF for each customer.**
+
+3. **Estimate the average customer lifespan using historical data.**
+
+4. **Compute the individual CLV for each customer.**
+
+5. **Aggregate individual CLVs to get the overall brand CLV if needed.**
+
+By calculating CLV at the individual level, you gain detailed insights that can be rolled up to understand the overall brand performance. This dual approach allows for both personalized customer engagement strategies and broader financial planning.
+
+Calculating CLV for each individual customer provides a more granular view of your customer base. This approach allows you to:
+
+- Identify your most valuable customers
+- Segment customers based on their lifetime value
+- Tailor marketing strategies for different customer segments
+- Predict future value of specific customers
+
+To calculate individual CLV, you would use each customer's specific purchase history, frequency, and value over the 2-year period, and potentially project this into the future.
+
+Given your dataset, here's how you could approach the calculation:
+
+**Calculate individual CLV:**
+
+- For each customer, determine their total purchase value over the 2-year period
+
+- Calculate their purchase frequency (number of purchases / 2 years)
+
+- Project these values forward to estimate future value
+
+- Sum up the historical and projected values to get individual CLV
+
+
+#### Brand-level CLV:
+
+Calculating CLV at the brand level gives you an average value across all customers. This approach:
+
+- Provides an overall measure of customer value for your chocolate brand
+
+- Helps in strategic decision-making at the brand level
+
+- Allows for easier comparison with industry benchmarks or competitors
+
+To calculate brand-level CLV, you would aggregate data across all customers to determine average purchase value, frequency, and customer lifespan.
+
+Remember that CLV is typically a forward-looking metric, so you may need to use your 2-year historical data to project future customer behavior and value. Additionally, consider factors like customer acquisition costs and profit margins to get a more accurate picture of customer value.
+
+Citations:
+
+[1] https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value
+
+[2] https://www.unionkitchen.com/resources/customer-lifetime-value
+
+[3] https://www.omnisend.com/blog/customer-lifetime-value-clv/
+
+[4] https://getvoip.com/blog/customer-lifetime-value-formula/
+
+[5] https://www.crazyegg.com/blog/customer-lifetime-value/
+
+By calculating CLV, CPG brands can better understand the long-term value of their customers and make informed decisions about marketing strategies, customer retention efforts, and resource allocation. Keep in mind that CLV calculations are estimates and may be subject to adjustments based on changing market conditions and customer behaviors.
+
+The Customer Lifetime Value (CLV) formula provided is typically calculated on a per-customer basis, representing the expected value of an average customer over their entire relationship with a brand. The formula considers the average purchase value, purchase frequency, and customer lifespan for an individual customer.
+
+\[ CLV = \frac{{\text{Average Purchase Value} \times \text{Purchase Frequency} \times \text{Customer Lifespan}}}{{\text{Discount Rate}}} \]
+
+So, each customer will have their own CLV based on their purchasing behavior and the estimated duration of their relationship with the brand. The overall CLV for a brand is often the sum of the CLVs for all its customers.
+
+This individual customer focus allows businesses to understand the value of acquiring and retaining each customer and can inform marketing strategies, customer relationship management, and overall business decisions.
+
+
+
+
+

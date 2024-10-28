@@ -1,6 +1,9 @@
 
 # Marketing Analytics Foundation 
 
+<style> 
+body {text-align: justify} 
+</style>
 
 ## Definitions
 

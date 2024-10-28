@@ -1,0 +1,57 @@
+### CLV Example (hubspot)
+
+[source](https://blog.hubspot.com/service/how-to-calculate-customer-lifetime-value#:~:text=to%20LTV%20ratio.-,Customer%20Lifetime%20Value%20Example,averages%20their%20total%20values%20together.)
+
+Using data from a Kissmetrics report, we can take Starbucks as an example for determining CLTV.
+
+Its report measures the weekly purchasing habits of five customers, then averages their total values together.
+
+By following the steps listed above, we can use this information to calculate the average lifetime value of a Starbucks customer.
+
+**1. Calculate the average purchase value.**
+
+- Measure Average Purchase Value.
+
+- based on Kissmetrics, the average Starbucks customer spends about $5.90 each visit.
+
+- Average the money spent by a customer in each visit during the week.
+
+- For example, a  person goes to Starbucks three times and spent nine dollars total, then average purchase value would be three dollars.
+
+- Repeat the process for the other five customers.
+
+- Then add each average together, divide that value by the number of customers surveyed (five) to get the average purchase value.
+
+**2. Calculate the average purchase frequency rate.**
+
+- Now measure the average purchase frequency rate.
+
+- How many visits the average customer makes to one of a store within a week.
+
+- The average observed across the 5 customers in the report was found to be 4.2 visits.
+
+- This makes our average purchase frequency rate 4.2.
+
+
+**3. Calculate the average customer's value.**
+Now that we know what the average customer spends and how many times they visit in a week, we can determine their customer value.
+To do this, we have to look at all =ve customers individually and then multiply their average purchase value by their average purchase frequency rate. This lets us know how much revenue the customer is worth to Starbucks within a week.
+Once we repeat this calculation for all =ve customers, we average their values to get the average customer's value of $24.30.
+4. Calculate the average customer's lifetime span.
+While it's not explicitly stated how Kissmetrics measured Starbucks' average customer lifetime span, it does list this value as 20 years.
+If we were to calculate Starbucks' average customer lifespan, we would have to look at the number of years each customer frequented Starbucks. Then we could average the values together to get 20 years.
+If you don't have 20 years to wait and verify that, one way to estimate customer lifespan is to divide 1 by your churn rate percentage.
+
+
+5. Calculate your customer's lifetime value.
+
+Once we have determined the average customer value and the average customer lifespan, we can use this data to calculate CLTV.
+
+In this case, we first need to multiply the average customer value by 52.
+
+Since we measured customers on their weekly habits, we need to multiply their customer value by 52 to reflect an annual average.
+
+After that, multiply this number by the customer lifespan value (20) to get CLTV.
+
+For Starbucks customers, that value turns out to be $25,272 (52 x 24.30 x 20= 25,272).
+

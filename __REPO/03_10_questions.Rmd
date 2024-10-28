@@ -1,0 +1,75 @@
+## Question
+
+**How did you use data to inform and optimize marketing strategies especially in the mid-upper funnel (awareness and consideration stages)**
+
+Here’s a framework to guide your response:
+
+### Start with the Objective
+
+- **Explain the Business Goal**: The goal here might have been building awareness, increasing engagement, or nurturing leads.
+
+- **For example**: “The objective was to increase brand awareness and drive qualified traffic to the website in preparation for upcoming sales campaigns. We needed to optimize engagement in the consideration stage to nurture leads more effectively.”
+
+
+### Discuss the Data Sources You Used
+
+**Highlight the Types of Data:** Discuss the data sources you used to gather insights on the target audience.
+
+- **Upper Funnel (Awareness)**: Focus on broad-reaching data such as audience demographics, third-party data (e.g., interests, behaviors), and impressions/engagement metrics.
+
+- **Mid Funnel (Consideration)**: Discuss more refined data such as retargeting data, website interaction (bounce rates, session duration), and engagement rates (CTR, form completions).
+
+- **For example**: “We collected signals from first-party CRM data, web content traffic data, demographics and interests from Transunion population data. This helped identify potential customers who fit our target demographics but hadn’t yet interacted with the brand.”
+
+
+### Describe How You Analyzed the Data
+
+- **Showcase Analytical Techniques**: Talk about specific analyses you performed, such as audience segmentation, A/B testing, or performance comparisons across channels. Mention tools like SQL, Python, or Tableau.
+
+- **For example**: “We performed segmentation based on demographic and behavioral data to identify high-value audiences for our retargeting efforts. By using clustering techniques, we identified which audience segments were more likely to engage with our content.”
+
+### Explain the Strategy and How Data Informed It
+
+- **Link Insights to Actions**: Describe how you used the data to adjust or develop marketing strategies, including channel selection, targeting, and messaging.
+
+- For upper funnel: “Based on audience interest data, we identified key personas and launched targeted display ads on Google Display Network and YouTube to increase awareness. We focused on video ads for brand recall and static banner ads for broader reach.”
+
+- For mid funnel: “In the consideration stage, we deployed retargeting campaigns on Meta (Facebook/Instagram) and personalized email campaigns using engagement data to keep prospects engaged.”
+
+### Discuss How You Optimized the Campaigns
+
+- **Show Iteration and Testing**: Highlight how you continuously monitored performance and ran A/B tests or other experiments to optimize results.
+
+- **For example**: “We set up A/B tests on different ad creatives and CTAs to see which messages resonated more with our audience. By using tools like Google Ads and Facebook Ads Manager, we iterated on campaigns based on CTR and conversion data, optimizing bids and ad placement accordingly.”
+
+### Show the Outcome and Impact
+
+- **Quantify the Results**: Whenever possible, quantify the impact of your data-driven optimization.
+
+- **For example**: “As a result, we improved brand awareness by 25% and reduced bounce rates on our landing page by 15%. Engagement rates on retargeted ads increased by 30%, leading to a significant increase in the number of leads moving further down the funnel.”
+
+### Sample Answer
+
+"In my current role, I was responsible for optimizing mid-upper funnel marketing strategies to drive awareness and consideration. Our objective was to increase brand awareness while generating qualified leads for a new product launch. We leveraged a combination of first-party CRM data and third-party consumer purchase and web content consuming behavior data.
+
+
+We used this data to build out personas and refine our targeting. For example, we segmented audiences by interests and demographics, launching targeted display and video campaigns across Google Display Network and YouTube. We monitored performance in real-time, using metrics like impressions, engagement rates, and click-through rates (CTR) to assess which channels and creatives were most effective.
+
+
+In the consideration stage, we deployed retargeting campaigns using Facebook and Instagram ads to keep our brand top of mind. By analyzing audience engagement and running A/B tests on different messaging and creatives, we optimized our campaigns for higher engagement, which resulted in a 30% increase in click-through rates and a 20% increase in leads moving further down the funnel. This data-driven approach allowed us to efficiently allocate resources and improve ROI."
+
+
+
+1. Use data to create audiences, customer segments
+
+2. launch campaign and monitor performance
+
+3. assess which channels and individuals are more effective and engaged
+
+4. deploy retargeting campaigns
+
+5. test different segments and creative messages and optimize campaigns
+
+
+
+

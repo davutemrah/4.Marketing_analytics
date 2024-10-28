@@ -23,7 +23,7 @@
 <meta name="author" content="DEA" />
 
 
-<meta name="date" content="2024-03-20" />
+<meta name="date" content="2024-10-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,13 +54,77 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 
 <body>
@@ -98,15 +162,119 @@
 <li class="chapter" data-level="1.3.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#tools-to-evaluate-digital-data"><i class="fa fa-check"></i><b>1.3.5</b> Tools to Evaluate Digital Data</a></li>
 <li class="chapter" data-level="1.3.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-and-privacy"><i class="fa fa-check"></i><b>1.3.6</b> Data and Privacy</a></li>
 </ul></li>
+<li class="chapter" data-level="1.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#marketing-analytics"><i class="fa fa-check"></i><b>1.4</b> Marketing Analytics</a></li>
+<li class="chapter" data-level="1.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-analytics"><i class="fa fa-check"></i><b>1.5</b> Data Analytics</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#data-analytics-vs.-data-science"><i class="fa fa-check"></i><b>1.5.1</b> Data Analytics vs. Data Science</a></li>
+<li class="chapter" data-level="1.5.2" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#osemn-framework-overview"><i class="fa fa-check"></i><b>1.5.2</b> OSEMN Framework Overview</a></li>
+<li class="chapter" data-level="1.5.3" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#obtaining-data"><i class="fa fa-check"></i><b>1.5.3</b> Obtaining Data</a></li>
+<li class="chapter" data-level="1.5.4" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#scrub-the-data"><i class="fa fa-check"></i><b>1.5.4</b> Scrub the Data</a></li>
+<li class="chapter" data-level="1.5.5" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#exploring-data"><i class="fa fa-check"></i><b>1.5.5</b> Exploring Data</a></li>
+<li class="chapter" data-level="1.5.6" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#modeling"><i class="fa fa-check"></i><b>1.5.6</b> Modeling</a></li>
+<li class="chapter" data-level="1.5.7" data-path="marketing-analytics-foundation.html"><a href="marketing-analytics-foundation.html#interpreting-the-results"><i class="fa fa-check"></i><b>1.5.7</b> Interpreting the Results</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="marketing-analytics.html"><a href="marketing-analytics.html"><i class="fa fa-check"></i><b>2</b> Marketing Analytics</a></li>
-<li class="chapter" data-level="3" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html"><i class="fa fa-check"></i><b>3</b> Some Concepts and Analysis Types</a>
+</ul></li>
+<li class="chapter" data-level="2" data-path="marketing-tactics.html"><a href="marketing-tactics.html"><i class="fa fa-check"></i><b>2</b> Marketing Tactics</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#customer-lifetime-value"><i class="fa fa-check"></i><b>3.1</b> Customer Lifetime Value</a>
+<li class="chapter" data-level="2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#channels-and-platforms"><i class="fa fa-check"></i><b>2.1</b> Channels and Platforms</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#from-forbes-magazine"><i class="fa fa-check"></i><b>3.1.1</b> From Forbes Magazine</a></li>
-<li class="chapter" data-level="3.1.2" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#from-a-hubspot-blog"><i class="fa fa-check"></i><b>3.1.2</b> From a hubspot blog</a></li>
-<li class="chapter" data-level="3.1.3" data-path="some-concepts-and-analysis-types.html"><a href="some-concepts-and-analysis-types.html#chatgpt"><i class="fa fa-check"></i><b>3.1.3</b> Chatgpt</a></li>
+<li class="chapter" data-level="2.1.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#google-display-network-gdn"><i class="fa fa-check"></i><b>2.1.1</b> Google Display Network (GDN)</a></li>
+<li class="chapter" data-level="2.1.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#meta-facebookinstagram-ads"><i class="fa fa-check"></i><b>2.1.2</b> Meta (Facebook/Instagram Ads)</a></li>
+<li class="chapter" data-level="2.1.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#dv360-googles-display-video-360"><i class="fa fa-check"></i><b>2.1.3</b> DV360 (Google’s Display &amp; Video 360)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#other-channels-and-demand-side-platforms-dsps-to-explore"><i class="fa fa-check"></i><b>2.2</b> Other Channels and Demand-Side Platforms (DSPs) to Explore</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#the-trade-desk"><i class="fa fa-check"></i><b>2.2.1</b> The Trade Desk:</a></li>
+<li class="chapter" data-level="2.2.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#amazon-dsp"><i class="fa fa-check"></i><b>2.2.2</b> Amazon DSP:</a></li>
+<li class="chapter" data-level="2.2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#linkedin-ads"><i class="fa fa-check"></i><b>2.2.3</b> LinkedIn Ads:</a></li>
+<li class="chapter" data-level="2.2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#tiktok-ads"><i class="fa fa-check"></i><b>2.2.4</b> TikTok Ads:</a></li>
+<li class="chapter" data-level="2.2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#snapchat-ads"><i class="fa fa-check"></i><b>2.2.5</b> Snapchat Ads:</a></li>
+<li class="chapter" data-level="2.2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#verizon-media-dsp"><i class="fa fa-check"></i><b>2.2.6</b> Verizon Media DSP:</a></li>
+<li class="chapter" data-level="2.2.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#business-acumen"><i class="fa fa-check"></i><b>2.2.7</b> 2. <strong>Business Acumen</strong></a></li>
+<li class="chapter" data-level="2.2.8" data-path="marketing-tactics.html"><a href="marketing-tactics.html#general-marketing-knowledge"><i class="fa fa-check"></i><b>2.2.8</b> 3. <strong>General Marketing Knowledge</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#upper-funnel-marketing-awareness-stage"><i class="fa fa-check"></i><b>2.3</b> Upper Funnel Marketing (Awareness Stage)</a></li>
+<li class="chapter" data-level="2.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mid-upper-funnel-marketing-consideration-stage"><i class="fa fa-check"></i><b>2.4</b> Mid-Upper Funnel Marketing (Consideration Stage)</a></li>
+<li class="chapter" data-level="2.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#why-mid-and-upper-funnel-are-critical-for-insurance-marketing"><i class="fa fa-check"></i><b>2.5</b> Why Mid and Upper Funnel Are Critical for Insurance Marketing</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#suggested-resources"><i class="fa fa-check"></i><b>2.5.1</b> Suggested Resources:</a></li>
+<li class="chapter" data-level="2.5.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#mock-questions"><i class="fa fa-check"></i><b>2.5.2</b> Mock Questions:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#question"><i class="fa fa-check"></i><b>2.6</b> Question</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="marketing-tactics.html"><a href="marketing-tactics.html#start-with-the-objective"><i class="fa fa-check"></i><b>2.6.1</b> Start with the Objective</a></li>
+<li class="chapter" data-level="2.6.2" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-the-data-sources-you-used"><i class="fa fa-check"></i><b>2.6.2</b> Discuss the Data Sources You Used</a></li>
+<li class="chapter" data-level="2.6.3" data-path="marketing-tactics.html"><a href="marketing-tactics.html#describe-how-you-analyzed-the-data"><i class="fa fa-check"></i><b>2.6.3</b> Describe How You Analyzed the Data</a></li>
+<li class="chapter" data-level="2.6.4" data-path="marketing-tactics.html"><a href="marketing-tactics.html#explain-the-strategy-and-how-data-informed-it"><i class="fa fa-check"></i><b>2.6.4</b> Explain the Strategy and How Data Informed It</a></li>
+<li class="chapter" data-level="2.6.5" data-path="marketing-tactics.html"><a href="marketing-tactics.html#discuss-how-you-optimized-the-campaigns"><i class="fa fa-check"></i><b>2.6.5</b> Discuss How You Optimized the Campaigns</a></li>
+<li class="chapter" data-level="2.6.6" data-path="marketing-tactics.html"><a href="marketing-tactics.html#show-the-outcome-and-impact"><i class="fa fa-check"></i><b>2.6.6</b> Show the Outcome and Impact</a></li>
+<li class="chapter" data-level="2.6.7" data-path="marketing-tactics.html"><a href="marketing-tactics.html#sample-answer"><i class="fa fa-check"></i><b>2.6.7</b> Sample Answer</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html"><i class="fa fa-check"></i><b>3</b> Measurement in Marketing</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#ab-testing-and-experimentation"><i class="fa fa-check"></i><b>3.1</b> A/B Testing and Experimentation:</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#sample-size-calculation"><i class="fa fa-check"></i><b>3.1.1</b> Sample Size Calculation:</a></li>
+<li class="chapter" data-level="3.1.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#randomization"><i class="fa fa-check"></i><b>3.1.2</b> Randomization:</a></li>
+<li class="chapter" data-level="3.1.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#handling-biases"><i class="fa fa-check"></i><b>3.1.3</b> Handling Biases:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#test-duration"><i class="fa fa-check"></i><b>3.1.4</b> Test Duration:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incrementality"><i class="fa fa-check"></i><b>3.2</b> Incrementality</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#incremental-lift-calculation"><i class="fa fa-check"></i><b>3.2.1</b> Incremental Lift Calculation</a></li>
+<li class="chapter" data-level="3.2.2" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#importance-in-marketing-funnel-context"><i class="fa fa-check"></i><b>3.2.2</b> <strong>Importance in Marketing Funnel Context</strong></a></li>
+<li class="chapter" data-level="3.2.3" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#methods-for-household-level-or-dma-level-incrementality-measurement"><i class="fa fa-check"></i><b>3.2.3</b> <strong>Methods for Household-Level or DMA-Level Incrementality Measurement</strong>:</a></li>
+<li class="chapter" data-level="3.2.4" data-path="measurement-in-marketing.html"><a href="measurement-in-marketing.html#real-world-application-in-mid-upper-funnel"><i class="fa fa-check"></i><b>3.2.4</b> <strong>Real-World Application in Mid-Upper Funnel</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="marketing-analysis.html"><a href="marketing-analysis.html"><i class="fa fa-check"></i><b>4</b> Marketing Analysis</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#market-basket-analysis-mba"><i class="fa fa-check"></i><b>4.1</b> Market Basket Analysis (MBA)</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="marketing-analysis.html"><a href="marketing-analysis.html#introduction-to-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to Market Basket Analysis</a></li>
+<li class="chapter" data-level="4.1.2" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-concepts"><i class="fa fa-check"></i><b>4.1.2</b> Key Concepts</a></li>
+<li class="chapter" data-level="4.1.3" data-path="marketing-analysis.html"><a href="marketing-analysis.html#techniques-and-algorithms"><i class="fa fa-check"></i><b>4.1.3</b> Techniques and Algorithms</a></li>
+<li class="chapter" data-level="4.1.4" data-path="marketing-analysis.html"><a href="marketing-analysis.html#use-cases-in-marketing"><i class="fa fa-check"></i><b>4.1.4</b> Use Cases in Marketing</a></li>
+<li class="chapter" data-level="4.1.5" data-path="marketing-analysis.html"><a href="marketing-analysis.html#handling-challenges"><i class="fa fa-check"></i><b>4.1.5</b> Handling Challenges</a></li>
+<li class="chapter" data-level="4.1.6" data-path="marketing-analysis.html"><a href="marketing-analysis.html#evaluation-metrics"><i class="fa fa-check"></i><b>4.1.6</b> Evaluation Metrics</a></li>
+<li class="chapter" data-level="4.1.7" data-path="marketing-analysis.html"><a href="marketing-analysis.html#tools-and-libraries"><i class="fa fa-check"></i><b>4.1.7</b> Tools and Libraries*</a></li>
+<li class="chapter" data-level="4.1.8" data-path="marketing-analysis.html"><a href="marketing-analysis.html#example-problem-statement"><i class="fa fa-check"></i><b>4.1.8</b> 8. <strong>Example Problem Statement</strong></a></li>
+<li class="chapter" data-level="4.1.9" data-path="marketing-analysis.html"><a href="marketing-analysis.html#practical-implementation-example-in-python"><i class="fa fa-check"></i><b>4.1.9</b> 9. <strong>Practical Implementation Example in Python</strong></a></li>
+<li class="chapter" data-level="4.1.10" data-path="marketing-analysis.html"><a href="marketing-analysis.html#interview-takeaways"><i class="fa fa-check"></i><b>4.1.10</b> 10. <strong>Interview Takeaways</strong></a></li>
+<li class="chapter" data-level="4.1.11" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-to-use-for-a-furniture-store"><i class="fa fa-check"></i><b>4.1.11</b> How to use for a Furniture Store</a></li>
+<li class="chapter" data-level="4.1.12" data-path="marketing-analysis.html"><a href="marketing-analysis.html#cross-selling-opportunities-both-in-store-and-online"><i class="fa fa-check"></i><b>4.1.12</b> 1. <strong>Cross-Selling Opportunities (Both In-Store and Online)</strong></a></li>
+<li class="chapter" data-level="4.1.13" data-path="marketing-analysis.html"><a href="marketing-analysis.html#product-bundling-custom-furniture-packages"><i class="fa fa-check"></i><b>4.1.13</b> 2. <strong>Product Bundling (Custom Furniture Packages)</strong></a></li>
+<li class="chapter" data-level="4.1.14" data-path="marketing-analysis.html"><a href="marketing-analysis.html#optimizing-store-layout-and-displays-brick-and-mortar"><i class="fa fa-check"></i><b>4.1.14</b> 3. <strong>Optimizing Store Layout and Displays (Brick-and-Mortar)</strong></a></li>
+<li class="chapter" data-level="4.1.15" data-path="marketing-analysis.html"><a href="marketing-analysis.html#personalized-marketing-campaigns"><i class="fa fa-check"></i><b>4.1.15</b> 4. <strong>Personalized Marketing Campaigns</strong></a></li>
+<li class="chapter" data-level="4.1.16" data-path="marketing-analysis.html"><a href="marketing-analysis.html#online-vs.-offline-purchase-patterns"><i class="fa fa-check"></i><b>4.1.16</b> 5. <strong>Online vs. Offline Purchase Patterns</strong></a></li>
+<li class="chapter" data-level="4.1.17" data-path="marketing-analysis.html"><a href="marketing-analysis.html#omnichannel-strategy-in-store-and-online-integration"><i class="fa fa-check"></i><b>4.1.17</b> 6. <strong>Omnichannel Strategy (In-Store and Online Integration)</strong></a></li>
+<li class="chapter" data-level="4.1.18" data-path="marketing-analysis.html"><a href="marketing-analysis.html#customer-segmentation-and-targeted-discounts"><i class="fa fa-check"></i><b>4.1.18</b> 7. <strong>Customer Segmentation and Targeted Discounts</strong></a></li>
+<li class="chapter" data-level="4.1.19" data-path="marketing-analysis.html"><a href="marketing-analysis.html#enhancing-customer-loyalty-programs"><i class="fa fa-check"></i><b>4.1.19</b> 8. <strong>Enhancing Customer Loyalty Programs</strong></a></li>
+<li class="chapter" data-level="4.1.20" data-path="marketing-analysis.html"><a href="marketing-analysis.html#inventory-management-and-forecasting"><i class="fa fa-check"></i><b>4.1.20</b> 9. <strong>Inventory Management and Forecasting</strong></a></li>
+<li class="chapter" data-level="4.1.21" data-path="marketing-analysis.html"><a href="marketing-analysis.html#key-takeaways-for-the-interview"><i class="fa fa-check"></i><b>4.1.21</b> Key Takeaways for the Interview:</a></li>
+<li class="chapter" data-level="4.1.22" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-algorithm-overview-in-the-context-of-market-basket-analysis"><i class="fa fa-check"></i><b>4.1.22</b> <strong>Apriori Algorithm Overview (in the Context of Market Basket Analysis)</strong>:</a></li>
+<li class="chapter" data-level="4.1.23" data-path="marketing-analysis.html"><a href="marketing-analysis.html#how-breadth-first-search-relates-to-apriori"><i class="fa fa-check"></i><b>4.1.23</b> <strong>How Breadth-First Search Relates to Apriori</strong>:</a></li>
+<li class="chapter" data-level="4.1.24" data-path="marketing-analysis.html"><a href="marketing-analysis.html#apriori-and-the-bfs-like-approach-in-action"><i class="fa fa-check"></i><b>4.1.24</b> <strong>Apriori and the BFS-Like Approach in Action</strong>:</a></li>
+<li class="chapter" data-level="4.1.25" data-path="marketing-analysis.html"><a href="marketing-analysis.html#comparison-to-depth-first-search"><i class="fa fa-check"></i><b>4.1.25</b> <strong>Comparison to Depth-First Search</strong>:</a></li>
+<li class="chapter" data-level="4.1.26" data-path="marketing-analysis.html"><a href="marketing-analysis.html#why-breadth-first-search-in-apriori"><i class="fa fa-check"></i><b>4.1.26</b> <strong>Why Breadth-First Search in Apriori?</strong>:</a></li>
+<li class="chapter" data-level="4.1.27" data-path="marketing-analysis.html"><a href="marketing-analysis.html#summary-of-bfs-in-market-basket-analysis-apriori"><i class="fa fa-check"></i><b>4.1.27</b> <strong>Summary of BFS in Market Basket Analysis (Apriori)</strong>:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html"><i class="fa fa-check"></i><b>5</b> Methods in Marketing Science</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#customer-lifetime-value"><i class="fa fa-check"></i><b>5.1</b> Customer Lifetime Value</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes-magazine"><i class="fa fa-check"></i><b>5.1.1</b> From Forbes Magazine</a></li>
+<li class="chapter" data-level="5.1.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-a-hubspot-blog"><i class="fa fa-check"></i><b>5.1.2</b> From a hubspot blog</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-calculations"><i class="fa fa-check"></i><b>5.2</b> CLV Calculations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#from-forbes"><i class="fa fa-check"></i><b>5.2.1</b> From Forbes</a></li>
+<li class="chapter" data-level="5.2.2" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#another-example-ai"><i class="fa fa-check"></i><b>5.2.2</b> Another example (AI)</a></li>
+<li class="chapter" data-level="5.2.3" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#clv-example-hubspot"><i class="fa fa-check"></i><b>5.2.3</b> CLV Example (hubspot)</a></li>
+<li class="chapter" data-level="5.2.4" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#study-of-customer-lifetime-value-model-based-on-survival-analysis-methods"><i class="fa fa-check"></i><b>5.2.4</b> Study of Customer lifetime value model based on Survival analysis methods</a></li>
+<li class="chapter" data-level="5.2.5" data-path="methods-in-marketing-science.html"><a href="methods-in-marketing-science.html#look-alike-modeling"><i class="fa fa-check"></i><b>5.2.5</b> Look-alike Modeling</a></li>
 </ul></li>
 </ul></li>
 <li class="divider"></li>
@@ -133,13 +301,14 @@
 <div id="header">
 <h1 class="title">Marketing Analytics Notebook</h1>
 <p class="author"><em>DEA</em></p>
-<p class="date"><em>2024-03-20</em></p>
+<p class="date"><em>2024-10-23</em></p>
 </div>
 <div id="acknowledgement" class="section level1 unnumbered hasAnchor">
 <h1>Acknowledgement<a href="index.html#acknowledgement" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="boxy">
+<style> 
+body {text-align: justify} 
+</style>
 <p>This is a collection of notes from Coursera Marketing Analytics Certificate Program by META and some other sources.</p>
-</div>
 <p><a href="https://www.coursera.org/learn/marketing-analytics-foundation/home/week/1">Marketing Analytics Foundation from META</a></p>
 
 </div>

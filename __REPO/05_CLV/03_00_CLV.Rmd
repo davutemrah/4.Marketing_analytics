@@ -1,0 +1,17 @@
+# Methods in Marketing Science
+
+<style> 
+body {text-align: justify} 
+</style>
+
+## Customer Lifetime Value
+
+**What Is Customer Lifetime Value (CLV)?**
+
+Customer Lifetime Value (CLV) is a crucial business metric that estimates the total revenue a business can reasonably expect from a single customer throughout their entire relationship with the company. This metric is essential for understanding how much money customers will spend on your products or services over time.
+
+For example, consider a customer loyal to an auto brand whose vehicles average $30,000 each. If this customer buys three cars from the brand in their lifetime, their CLV is $90,000. Similarly, a person who visits their local coffee chain five days a week and spends $4 on a coffee will have a CLV of $10,400 over the course of 10 years.
+
+Understanding CLV is vital for businesses because it helps determine the appropriate amount of investment in acquiring and retaining customers. It takes into account a customer's revenue value and compares it to the company's predicted customer lifespan.
+
+Customer support and success teams play a significant role in influencing CLV by enhancing the customer's journey. The longer a customer continues to purchase from your company, the greater their lifetime value becomes.

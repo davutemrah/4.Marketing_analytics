@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | Marketing Analytics Notebook</title>
+  <title>Chapter 3 Measurement in Marketing | Marketing Analytics Notebook</title>
   <meta name="description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | Marketing Analytics Notebook" />
+  <meta property="og:title" content="Chapter 3 Measurement in Marketing | Marketing Analytics Notebook" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Marketing Analytics Notebook" />
+  <meta name="twitter:title" content="Chapter 3 Measurement in Marketing | Marketing Analytics Notebook" />
   
   <meta name="twitter:description" content="This is collection of notes from Coursera META Marketing Analytics Certificate Program and some other sources" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="marketing-tactics.html"/>
+<link rel="next" href="marketing-analysis.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -298,19 +298,236 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="measurement-in-marketing" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Measurement in Marketing<a href="measurement-in-marketing.html#measurement-in-marketing" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<style> 
+body {text-align: justify} 
+</style>
+
+<div id="ab-testing-and-experimentation" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> A/B Testing and Experimentation:<a href="measurement-in-marketing.html#ab-testing-and-experimentation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Designing Efficient A/B Tests</strong>: When it comes to A/B testing in marketing, the goal is to rigorously measure the impact of different strategies, whether it’s ad creative, targeting, or messaging. To ensure that the results are valid and actionable, several key principles come into play:</li>
+</ul>
+<div id="sample-size-calculation" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Sample Size Calculation:<a href="measurement-in-marketing.html#sample-size-calculation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Proper sample size is crucial for detecting significant differences between variations. I ensure we calculate the sample size based on the expected effect size, confidence level (usually 95%), and power (commonly 80%). This helps avoid underpowered tests, which may miss meaningful differences, or oversized tests, which waste resources.</p>
+<ul>
+<li><strong>Example</strong>: For a campaign involving display ads, I would calculate the necessary sample size to detect a lift in click-through rate (CTR) of a few percentage points, ensuring the test is sensitive enough to capture small but meaningful improvements in engagement.</li>
+</ul>
+</div>
+<div id="randomization" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Randomization:<a href="measurement-in-marketing.html#randomization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>It’s critical to randomly assign participants to control and treatment groups to eliminate bias. This ensures that any observed differences between the groups are attributable to the variation being tested (e.g., different ad creatives) rather than external factors.</p>
+<ul>
+<li><strong>Example</strong>: When testing different ad creatives on a platform like Google Display Network, I would randomize the exposure to the ads to avoid selection bias, ensuring that all types of users are equally likely to see any of the variations.</li>
+</ul>
+</div>
+<div id="handling-biases" class="section level3 hasAnchor" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Handling Biases:<a href="measurement-in-marketing.html#handling-biases" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A/B tests can be prone to various types of biases, such as <strong>selection bias</strong> (when participants in one group differ systematically from those in another) or <strong>novelty bias</strong> (where people may respond more positively to a new variant simply because it’s new). Mitigating these biases is essential to ensure reliable insights.</p>
+<ul>
+<li><strong>Example</strong>: In retargeting campaigns, I account for recency bias by controlling for the time since the user’s last engagement with the brand, preventing this from skewing results.</li>
+</ul>
+</div>
+<div id="test-duration" class="section level3 hasAnchor" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Test Duration:<a href="measurement-in-marketing.html#test-duration" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Running an A/B test for the right amount of time is important. Ending a test too early may not capture the full effects, while running it too long could introduce external factors that cloud the results. A good practice is to run tests until enough data is collected to reach statistical significance based on the calculated sample size.</p>
+<ul>
+<li><strong>Example</strong>: For a mid-funnel email campaign, I would run the test for at least two weeks, ensuring that we gather enough data across different days of the week to account for cyclical behavior, like higher email open rates on weekdays versus weekends.</li>
+</ul>
+<p>By adhering to these principles, I ensure the A/B tests we run provide actionable, reliable insights into which strategies deliver the best results.</p>
+<hr />
+</div>
+</div>
+<div id="incrementality" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Incrementality<a href="measurement-in-marketing.html#incrementality" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Understanding the <strong>incremental impact</strong> of marketing efforts is crucial in evaluating whether a campaign truly drives additional revenue or engagement, beyond what would have happened without the campaign.</p>
+<p>This concept is especially important in marketing for the <strong>mid- and upper-funnel</strong> because these campaigns target awareness and consideration, often before the user is close to conversion. Here are the key techniques used for measuring incrementality:</p>
+<div id="incremental-lift-calculation" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Incremental Lift Calculation<a href="measurement-in-marketing.html#incremental-lift-calculation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Definition</strong>: Incremental lift refers to the difference in outcomes (e.g., conversions, sales, or profit) between a group exposed to a marketing treatment (e.g., ads) and a control group not exposed to the treatment. The goal is to quantify how much the marketing effort contributes <strong>above and beyond</strong> what would have occurred without it.</p></li>
+<li><p><strong>How It’s Calculated</strong>: Incremental lift is typically calculated by comparing the <strong>conversion rate</strong> (or another key metric) between the <strong>treatment</strong> and <strong>control</strong> groups:</p></li>
+</ul>
+<p><span class="math display">\[
+     \text{Incremental Lift} = \left( \frac{\text{Conv. Rate of Exposed Gr.} - \text{Conv. Rate of Control Gr.}}{\text{Conv. Rate of Control Gr.}} \right) \times 100
+\]</span></p>
+<ul>
+<li><p><strong>Example</strong>: If the exposed group had a 5% conversion rate and the control group had a 3% conversion rate, the incremental lift would be <span class="math inline">\(\frac{5\% - 3\%}{3\%} = 66.7\%\)</span>. This means the campaign resulted in a 66.7% increase in conversions compared to what would have been achieved without exposure to the campaign.</p>
+<ul>
+<li><strong>Importance in the Funnel</strong>: In the <strong>upper funnel</strong>, where conversions are not immediate, incremental lift can measure shifts in <strong>awareness, brand consideration, or engagement</strong>. In the <strong>mid-funnel</strong>, where users may be considering a purchase, it helps determine how well your campaigns push prospects toward conversion.</li>
+</ul></li>
+</ul>
+<hr />
+<div id="uplift-modeling-incremental-response-models" class="section level4 hasAnchor" number="3.2.1.1">
+<h4><span class="header-section-number">3.2.1.1</span> 2. <strong>Uplift Modeling (Incremental Response Models)</strong><a href="measurement-in-marketing.html#uplift-modeling-incremental-response-models" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: Uplift modeling is a machine learning technique designed to predict the <strong>causal impact</strong> of marketing interventions on individual customers. Instead of just predicting whether a customer will convert, uplift models focus on identifying customers who are likely to convert <strong>because of</strong> a specific marketing action.</p></li>
+<li><p><strong>How It Works</strong>: Uplift models typically divide customers into four categories:</p>
+<ul>
+<li><strong>Persuadables</strong>: Customers who would convert only if exposed to the campaign.</li>
+<li><strong>Sure Things</strong>: Customers who would convert regardless of whether they’re exposed.</li>
+<li><strong>Lost Causes</strong>: Customers who won’t convert, even if exposed.</li>
+<li><strong>Do Not Disturbs</strong>: Customers who would convert if not exposed but might be negatively impacted by the campaign (e.g., by seeing an ad too many times).</li>
+</ul>
+<p>Uplift modeling focuses on identifying the <strong>persuadables</strong>, who are the most likely to deliver incremental profit when targeted.</p></li>
+<li><p><strong>Advantages</strong>: Uplift modeling can help <strong>target marketing campaigns more efficiently</strong> by focusing on customers most likely to be influenced by the campaign. This leads to better resource allocation (spending marketing dollars on the right people) and improved return on investment (ROI).</p></li>
+<li><p><strong>Example</strong>: In a mid-funnel campaign for an insurance product, uplift modeling can predict which individuals are likely to move from consideration to purchase because of seeing a particular ad or email. Targeting these persuadable customers can help optimize the campaign’s impact.</p></li>
+</ul>
+<hr />
+</div>
+<div id="experiment-design-for-causality" class="section level4 hasAnchor" number="3.2.1.2">
+<h4><span class="header-section-number">3.2.1.2</span> 3. <strong>Experiment Design for Causality</strong><a href="measurement-in-marketing.html#experiment-design-for-causality" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Randomized Control Trials (RCTs)</strong>: The most robust way to measure incrementality is through <strong>Randomized Control Trials (RCTs)</strong>, where individuals are randomly assigned to <strong>treatment</strong> (exposed) and <strong>control</strong> (non-exposed) groups. This randomization ensures that the only systematic difference between the groups is the exposure to the marketing campaign, which helps isolate the causal effect of the campaign.</p>
+<ul>
+<li><p><strong>Use in Mid-Upper Funnel</strong>: In the upper funnel, RCTs can measure the impact on brand awareness or intent to purchase. In the mid-funnel, they help quantify the impact on moving customers closer to conversion.</p></li>
+<li><p><strong>Example</strong>: In a social media campaign, a group of users is shown targeted ads while a control group is not. By comparing the outcomes (e.g., website visits or form submissions) between the two groups, you can measure the incremental lift caused by the ads.</p></li>
+</ul></li>
+<li><p><strong>Pre/Post Analysis</strong>: Another common experimental method is <strong>pre/post analysis</strong>, where you compare key metrics (e.g., sales, site traffic) before and after the campaign. While this approach can show changes, it doesn’t account for other variables that may have influenced the outcome, which is why RCTs are generally preferred.</p></li>
+<li><p><strong>Quasi-Experimental Designs</strong>: When running fully randomized experiments isn’t feasible (e.g., due to ethical or operational reasons), <strong>quasi-experimental designs</strong> like <strong>matched pairs</strong> or <strong>difference-in-differences</strong> can help approximate the causal impact by comparing similar individuals in treatment and control groups, but without full randomization.</p></li>
+</ul>
+<hr />
+</div>
+<div id="difference-between-incrementality-and-correlation" class="section level4 hasAnchor" number="3.2.1.3">
+<h4><span class="header-section-number">3.2.1.3</span> 4. <strong>Difference Between Incrementality and Correlation</strong><a href="measurement-in-marketing.html#difference-between-incrementality-and-correlation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Causality vs. Correlation</strong>: It’s important to distinguish between a <strong>correlational relationship</strong> (where two variables move together but may not be causally related) and a <strong>causal relationship</strong> (where one variable directly affects the other). Incrementality measurement, through experiments like A/B tests or uplift models, helps separate <strong>causality</strong> from <strong>correlation</strong>.</p>
+<ul>
+<li><strong>Example</strong>: Suppose a marketing campaign for an insurance product targets users who are already researching insurance options. These users may have converted on their own without the campaign, so observing a correlation between exposure and conversion might not indicate a causal effect. Incrementality measures whether the conversions are actually driven by the campaign.</li>
+</ul></li>
+<li><p><strong>Biases to Watch For</strong>: Be mindful of biases such as <strong>selection bias</strong> (e.g., when exposed and non-exposed groups differ systematically) or <strong>time effects</strong> (e.g., seasonal trends) that can obscure the true incremental impact of the campaign. Randomized experiments and uplift modeling can help mitigate these issues.</p></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="importance-in-marketing-funnel-context" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> <strong>Importance in Marketing Funnel Context</strong><a href="measurement-in-marketing.html#importance-in-marketing-funnel-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Upper Funnel (Awareness)</strong>: In the awareness stage, the focus is on increasing <strong>brand recall, engagement, or intent</strong>, rather than immediate conversions. Incrementality in this stage can be measured through metrics like ad recall lift or brand consideration scores. Uplift modeling might focus on identifying audiences who are more likely to remember the brand after exposure.</p></li>
+<li><p><strong>Mid-Funnel (Consideration)</strong>: In the mid-funnel, incrementality measurement often targets <strong>intent to purchase</strong> or <strong>website engagement</strong>, as prospects move closer to conversion. A/B testing and uplift models can help identify whether specific marketing interventions are driving users to engage more deeply with the brand (e.g., visiting product pages, signing up for newsletters).</p></li>
+<li><p><strong>Real-World Application</strong>: For example, in an email campaign, incrementality might be measured by comparing the open and click-through rates of an exposed group versus a control group to determine how much of the engagement is driven by the email versus organic behavior.</p></li>
+</ul>
+<p>For <strong>household-level</strong> or <strong>Designated Market Area (DMA)-level</strong> targeting and incrementality measurement, the methodologies shift slightly to account for the broader aggregation of data. In these cases, the focus is not on individuals but on groups, so certain individual-level techniques may not directly apply. Here’s a breakdown of methods tailored for household or DMA-level targeting and incrementality measurement:</p>
+<hr />
+</div>
+<div id="methods-for-household-level-or-dma-level-incrementality-measurement" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> <strong>Methods for Household-Level or DMA-Level Incrementality Measurement</strong>:<a href="measurement-in-marketing.html#methods-for-household-level-or-dma-level-incrementality-measurement" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<hr />
+<div id="geo-experimentation-geographical-split-testing" class="section level4 hasAnchor" number="3.2.3.1">
+<h4><span class="header-section-number">3.2.3.1</span> 1. <strong>Geo-Experimentation</strong> (Geographical Split Testing)<a href="measurement-in-marketing.html#geo-experimentation-geographical-split-testing" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: Geo-experimentation involves splitting regions (e.g., households, zip codes, or DMAs) into test and control groups. One region (or group of households) receives the marketing treatment, while the other does not. This approach is frequently used when individual-level targeting isn’t feasible or available.</p></li>
+<li><p><strong>How It Works</strong>:</p>
+<ul>
+<li>Randomly select geographic areas (households, zip codes, DMAs) for the <strong>treatment group</strong>, which receives the marketing exposure (e.g., ads, promotions).</li>
+<li>Use other similar areas as a <strong>control group</strong> that doesn’t receive the exposure.</li>
+<li>Measure the performance in both groups over time, looking at metrics like <strong>sales lift, engagement, or store visits</strong>.</li>
+</ul></li>
+<li><p><strong>Advantages</strong>:</p>
+<ul>
+<li><strong>Scalability</strong>: It works well for larger campaigns where individual-level data is either unavailable or too costly to manage.</li>
+<li><strong>Minimal Bias</strong>: Randomizing geographical units helps minimize selection bias, ensuring a more reliable comparison.</li>
+</ul></li>
+<li><p><strong>Example</strong>: A household-level geo-experiment could measure the impact of a TV advertising campaign in specific regions by comparing the sales performance of households in treated DMAs against those in non-exposed areas.</p></li>
+</ul>
+<hr />
+</div>
+<div id="difference-in-differences-did" class="section level4 hasAnchor" number="3.2.3.2">
+<h4><span class="header-section-number">3.2.3.2</span> 2. <strong>Difference-in-Differences (DiD)</strong><a href="measurement-in-marketing.html#difference-in-differences-did" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: This quasi-experimental technique is commonly used to estimate causal effects at an aggregated level. It compares the changes in outcomes over time between a treatment group (e.g., a DMA or household exposed to a campaign) and a control group that was not exposed.</p></li>
+<li><p><strong>How It Works</strong>:</p>
+<ul>
+<li>First, establish baseline measurements for both <strong>treatment</strong> and <strong>control groups</strong>.</li>
+<li>Introduce the marketing campaign to the treatment group.</li>
+<li>After the campaign period, measure the change in key outcomes (e.g., sales, brand recall, visits) for both groups.</li>
+<li>The difference in performance between the groups over time is attributed to the marketing intervention.</li>
+</ul></li>
+<li><p><strong>Advantages</strong>:</p>
+<ul>
+<li><strong>Controls for Time-Based Trends</strong>: This method controls for external factors (like seasonality or economic changes) that might affect both groups simultaneously.</li>
+<li><strong>Simplicity</strong>: It’s relatively easy to implement using pre- and post-campaign data at the household or DMA level.</li>
+</ul></li>
+<li><p><strong>Example</strong>: A retail store could apply DiD to measure the impact of a display ad campaign targeted to households in one DMA, compared to households in a similar DMA that did not receive the ad exposure. By tracking sales data before and after the campaign, the incremental lift can be isolated.</p></li>
+</ul>
+<hr />
+</div>
+<div id="regression-based-uplift-modeling-aggregate-level" class="section level4 hasAnchor" number="3.2.3.3">
+<h4><span class="header-section-number">3.2.3.3</span> 3. <strong>Regression-Based Uplift Modeling (Aggregate-Level)</strong><a href="measurement-in-marketing.html#regression-based-uplift-modeling-aggregate-level" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: While uplift modeling is typically used at the individual level, it can be adapted for household or DMA-level targeting by aggregating data. Regression techniques, such as linear or logistic regression, can estimate the relationship between exposure (e.g., whether a household or DMA was exposed to a campaign) and the outcome (e.g., sales, engagement).</p></li>
+<li><p><strong>How It Works</strong>:</p>
+<ul>
+<li>Aggregate relevant data at the household or DMA level (e.g., total sales, ad impressions, demographic factors).</li>
+<li>Use regression models to estimate the effect of exposure to the campaign on the desired outcome, controlling for other confounding variables (e.g., household income, past purchasing behavior, or location-specific factors).</li>
+<li>You can include interaction terms to model the <strong>differential effects</strong> of exposure on different regions or household groups.</li>
+</ul></li>
+<li><p><strong>Advantages</strong>:</p>
+<ul>
+<li><strong>Flexible</strong>: Can be adapted for a wide range of marketing channels and aggregated datasets.</li>
+<li><strong>Allows for Control Variables</strong>: By including covariates like household demographics or DMA characteristics, you can better control for other factors influencing outcomes.</li>
+</ul></li>
+<li><p><strong>Example</strong>: A furniture retailer might use regression to assess the lift in sales for DMAs exposed to a marketing campaign while controlling for household income and previous purchase patterns in each DMA.</p></li>
+</ul>
+<hr />
+</div>
+<div id="synthetic-control-method" class="section level4 hasAnchor" number="3.2.3.4">
+<h4><span class="header-section-number">3.2.3.4</span> 4. <strong>Synthetic Control Method</strong><a href="measurement-in-marketing.html#synthetic-control-method" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: This method is particularly useful for DMA-level targeting and incrementality measurement when there’s only a <strong>single treatment region</strong> and no well-defined control group. The idea is to create a “synthetic” control group by combining other DMAs or households that weren’t exposed to the marketing campaign, simulating what would have happened without the campaign.</p></li>
+<li><p><strong>How It Works</strong>:</p>
+<ul>
+<li>Identify the <strong>treated DMA</strong> that received the campaign.</li>
+<li>Build a synthetic control group by combining data from other DMAs that closely resemble the treated region before the campaign (in terms of key metrics like sales, demographics, and engagement).</li>
+<li>Compare the post-campaign performance of the treated DMA against the synthetic control group to estimate the incremental impact.</li>
+</ul></li>
+<li><p><strong>Advantages</strong>:</p>
+<ul>
+<li><strong>Effective for Small-Scale Interventions</strong>: It’s especially useful when there aren’t many control regions available for comparison.</li>
+<li><strong>Rigorous Control</strong>: It accounts for time trends and allows for the construction of a custom control group, improving the validity of the analysis.</li>
+</ul></li>
+<li><p><strong>Example</strong>: If a marketing campaign was launched in only one DMA due to budget constraints, a synthetic control method could be used to create a weighted average of similar DMAs to estimate what the treated DMA’s sales would have been without the campaign.</p></li>
+</ul>
+<hr />
+</div>
+<div id="propensity-score-matching-aggregate" class="section level4 hasAnchor" number="3.2.3.5">
+<h4><span class="header-section-number">3.2.3.5</span> 5. <strong>Propensity Score Matching (Aggregate)</strong><a href="measurement-in-marketing.html#propensity-score-matching-aggregate" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li><p><strong>Definition</strong>: Similar to individual-level propensity score matching (PSM), this technique can be applied at the household or DMA level to create comparable treatment and control groups. It helps control for pre-existing differences between groups before estimating the incremental effect of the campaign.</p></li>
+<li><p><strong>How It Works</strong>:</p>
+<ul>
+<li>Use household or DMA-level attributes (e.g., demographics, past purchasing behavior, geography) to calculate <strong>propensity scores</strong>, which indicate the likelihood of being exposed to the campaign.</li>
+<li>Match households or DMAs in the <strong>treatment group</strong> (those exposed to the campaign) to similar households or DMAs in the <strong>control group</strong> (unexposed) based on these propensity scores.</li>
+<li>Compare outcomes between the matched groups to estimate the incremental lift caused by the campaign.</li>
+</ul></li>
+<li><p><strong>Advantages</strong>:</p>
+<ul>
+<li><strong>Addresses Selection Bias</strong>: By matching treatment and control groups based on similar characteristics, PSM helps account for differences that could confound the results.</li>
+<li><strong>Aggregate-Level Adaptability</strong>: Can be used for aggregated datasets, making it useful for household or DMA-level campaigns.</li>
+</ul></li>
+<li><p><strong>Example</strong>: For a national marketing campaign, you could use PSM to match households in exposed DMAs to similar households in unexposed DMAs, ensuring the groups are comparable before measuring the sales impact of the campaign.</p></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="real-world-application-in-mid-upper-funnel" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> <strong>Real-World Application in Mid-Upper Funnel</strong><a href="measurement-in-marketing.html#real-world-application-in-mid-upper-funnel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In mid- and upper-funnel campaigns, these methods help <strong>quantify the impact on awareness, consideration, or engagement</strong> at a larger scale. For example, DMA-level geo-experiments could measure the <strong>brand lift</strong> or <strong>site traffic increase</strong> from a digital video campaign or display ads across households in various regions. In these broader contexts, the goal is often to assess whether awareness-building campaigns are effectively pushing users down the funnel towards intent and conversion, and these techniques allow for reliable measurement at aggregated levels.</p>
+<hr />
+<p>By applying these techniques, you can show how you’re capable of measuring the <strong>incremental impact</strong> of campaigns at the household or DMA level, which is critical for large-scale marketing strategies, especially when individual-level targeting isn’t feasible.</p>
+
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="marketing-tactics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="marketing-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
