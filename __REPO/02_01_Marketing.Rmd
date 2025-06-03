@@ -18,6 +18,7 @@ Strategic challenge: how do we improve rental prospects for our hosts and identi
 Mental Model: 
 
 Profit per Property Gross Margin (%)
+
 Profit per Property <- Price, # of rentals, minimum stay
 
 

@@ -1,0 +1,97 @@
+## Comparing Audiences
+
+To measure the performance of your LAL (Lookalike Audience) over purchased audiences in terms of website visits and inquiry starts (your conversions), you can proceed as follows:
+
+---
+
+### Define KPIs (Key Performance Indicators):
+
+Identify and define measurable KPIs to compare the two audiences. For example:
+
+- **Visit Rate:** \((\text{Website Visits} / \text{Impressions}) \times 100\)
+
+- **Inquiry Start Rate:** \((\text{Inquiry Starts} / \text{Website Visits}) \times 100\)
+
+- **Conversion Rate (Overall):** \((\text{Inquiry Starts} / \text{Impressions}) \times 100\)
+
+---
+
+### Gather the Data:
+
+For both LAL and purchased audiences, collect:
+
+- Total impressions
+
+- Website visits
+
+- Inquiry starts
+
+- Spend (if applicable, to evaluate cost efficiency)
+
+
+### Calculate Performance Metrics:
+
+Using the KPIs above, calculate the performance for both audiences:
+
+- Compare raw performance metrics.
+
+- Normalize by impressions, cost, or other relevant factors to ensure comparability.
+
+
+### Run Statistical Tests:
+
+Perform significance tests to evaluate if observed differences in performance are statistically meaningful:
+
+- **Chi-square test:** For comparing visit and inquiry rates.
+
+- **T-test:** For comparing average spend per conversion (if applicable).
+
+
+### Control for Other Variables:
+
+Account for potential confounding factors such as:
+
+- Seasonal trends
+
+- Campaign design differences (e.g., creative quality, timing)
+
+Using a regression-based approach (e.g., logistic regression), you can predict conversion likelihood while controlling for these factors:
+
+\[
+P(\text{conversion}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 \cdot \text{Audience} + \beta_2 \cdot \text{Spend} + \ldots)}}
+\]
+
+Here, **Audience** is a binary variable (1 = LAL, 0 = Purchased).
+
+
+### Calculate Incrementality (Optional):
+
+- If you have a holdout group for either audience, calculate **incremental lift**:
+
+\[
+\text{Lift} = \frac{\text{Conversion Rate (Exposed Audience)} - \text{Conversion Rate (Holdout)}}{\text{Conversion Rate (Holdout)}}
+\]
+
+
+### Create Visualizations:
+
+- Bar charts to compare conversion metrics side-by-side.
+
+- Line graphs or cohort analyses to show trends over time.
+
+- Funnel charts to display audience progression from impressions to inquiry starts.
+
+
+### Deliverable Example:
+
+| Metric                  | LAL Audience | Purchased Audience | Comparison (LAL vs Purchased) |
+|-------------------------|--------------|--------------------|--------------------------------|
+| Impressions             | X,XXX,XXX   | Y,YYY,YYY          | —                              |
+| Website Visits          | A,AAA       | B,BBB              | (+xx%)                        |
+| Inquiry Starts          | C,CCC       | D,DDD              | (+yy%)                        |
+| Visit Rate              | xx%         | yy%                | (+zz%)                        |
+| Inquiry Start Rate      | xx%         | yy%                | (+zz%)                        |
+
+---
+
+By following this structure, you can demonstrate whether the LAL audience performs better and provide actionable insights to your client. 

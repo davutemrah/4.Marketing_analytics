@@ -1,0 +1,191 @@
+
+# Marketing Analytics Foundation 
+
+<style> 
+body {text-align: justify} 
+</style>
+
+## Definitions
+
+**Retail Media**
+
+Retail media refers to advertising and promotional activities that take place within retail environments, both online and offline. It involves brands and advertisers collaborating with retailers to reach their target audience directly through various advertising channels within the retail space. The goal is to influence consumer behavior, drive sales, and enhance brand visibility at the point of purchase.
+
+In the context of e-commerce, retail media often involves advertising on the websites or platforms of online retailers. Brands may pay for sponsored product listings, display ads, or other promotional placements on these platforms to increase their products' visibility to potential customers.
+
+In physical retail settings, retail media can include in-store displays, product placements, and other advertising methods within brick-and-mortar stores. This form of advertising is designed to capture the attention of shoppers while they are in the process of making purchasing decisions.
+
+Overall, retail media aims to leverage the retail environment to deliver targeted and relevant advertising messages to consumers, ultimately driving sales and creating a mutually beneficial relationship between brands and retailers.
+
+**Brick-and-mortar store** 
+
+It refers to a physical retail location where business is conducted in person with customers. The term "brick-and-mortar" is used to distinguish these traditional stores from online or e-commerce businesses. In a brick-and-mortar store, customers can visit the physical location, browse products on shelves or displays, make purchases in person, and interact with store staff.
+
+
+## Introduction to Marketing Analytics
+
+
+### Role of marketer
+
+If you spend time online, you've likely noticed that many of the ads you encounter are for products you genuinely find interesting. Some of these ads may even have influenced you to make a purchase. This is no coincidence. These ads often result from data-driven marketing analysis that enables advertisers to understand your potential interest in their products.
+
+This exemplifies how marketing analytics powers marketing efforts. In fact, it’s accurate to say that all marketing benefits significantly from data and analytics.
+
+Marketing involves promoting and selling the products a company offers, usually through the following steps:
+
+**Identifying the Right Customers:** Marketers start by determining who might be interested in buying a product. They conduct research to understand their target customers' needs and assess how the product might meet those needs. This often involves conducting interviews, surveys, and questionnaires to collect insights about customers.
+
+**Building Customer Profiles:** Marketers work to build a clearer picture of the lives and preferences of potential customers. This process, known as market or consumer research, is critical. Marketing analytics is indispensable here, helping marketers analyze the data gathered during research.
+
+**Crafting a Message:** Based on their research, marketers create messages and stories about their products. They decide where these messages should appear to effectively reach the target audience. This might include developing a website, a Facebook page, or an Instagram account. It could also involve creating ads for magazines, TV, the web, and more. The creative aspect of marketing often involves collaboration with advertising or creative agencies. Crafting the right message and visual elements to support it is an art, and marketing analytics plays a role here, too.
+
+**Testing and Optimization:** Marketers frequently test their messages and gather data from their ads and promotions to understand what resonates best with their audience. This iterative process ensures continuous improvement in messaging and outreach strategies.
+
+**Strategic Planning:** To share their message, marketers create detailed plans for selecting platforms and channels. If advertising is part of the plan, marketers develop strategies to use their budgets most efficiently. Marketing analysts provide critical insights during this phase, leveraging data and analytics to save both time and resources.
+
+**Monitoring Campaigns:** As campaigns and promotions go live, marketers closely monitor their performance by analyzing metrics such as ad clicks and sales. This real-time evaluation enables them to make real-time updates and optimize campaigns for better results—a capability especially valuable given the prevalence of online marketing.
+
+**Post-Campaign Evaluation:** After a campaign ends, marketers assess whether their spending was effective. They analyze results and report back to stakeholders on the campaign's success. These evaluations not only inform stakeholders but also provide insights to optimize future campaigns. This continuous learning process is essential for improving marketing strategies.
+
+#### Why Marketing Analytics Matters
+
+Analytics is integral to modern marketing. A marketer who is well-equipped with good data and analytics becomes more effective in every aspect of their role. Online interactions generate vast amounts of data, offering a goldmine of insights for marketers who know how to use it. Consequently, marketing analytics skills are highly sought after, and today’s top marketers rely heavily on analytics to guide their decisions.
+
+By excelling in marketing analytics, you can:
+
+- Reach the right people with tailored messages
+
+- Optimize strategies efficiently
+
+- Achieve measurable outcomes
+
+
+
+### What is marketing analytics? 
+
+It is the practice of measuring and analyzing data to inform, evaluate, and improve the performance of your marketing initiatives. Marketing analytics is all about gathering and analyzing data to make your marketing better. 
+
+5 Main Uses of Marketing Analytics
+
+1.	 Identifying the target audience
+2.	 Planning and forecasting
+3.	 Evaluate marketing effectiveness
+4.	 Marketing optimization
+5.	 Optimizing the sales funnel
+
+
+**1. Identifying the target audience:** Marketers have limited budgets, so they want to make sure that their marketing message reaches a **receptive** audience. Or in other words, they want to talk to people that may have an interest in buying their product. In marketing, they refer to that as your target audience. So how do marketers find that audience? Well, they use research. 
+
+Imagine a marketer for a mattress company. They could use surveys to get a better understanding of when people buy mattresses, what they find important when buying a mattress, how much they would spend on a mattress, and so on. They might also use some databases that exist about mattress sales, and the demographics of the people who buy them. All of this will help describe who the best target audience is for the mattresses.    
+
+- What are their characteristics?   
+- Where do they live? 
+- What phase of their life are they in, and so on? 
+
+All the information the marketer gathers comes in the form of data. And marketing analytics will help to make sense of that data and paint the detailed picture of the target audience the marketer needs to create the marketing message and get in front of the interested people. 
+
+**2. Planning and forecasting:**  Marketing and advertising are costly, so marketers carefully evaluate where and when to deliver their messages before allocating budgets. They consider how much time and budget to invest across channels such as **social media**, **TV**, **radio**, and **search engines**. By reviewing past campaigns and assessing their success, they determine which channels deserve more or less investment in the future.
+
+For example, a mattress company might analyze last year’s data to adjust its advertising strategy. If TV and social media performed well, but radio ads showed little return, they could focus their budget accordingly. This process often includes forecasting expected sales based on planned spending, guided by marketing analytics to improve outcomes.
+
+After a campaign, marketers evaluate its effectiveness to identify what worked and what didn’t. This analysis informs future strategies and supports reporting to stakeholders.  
+
+**3. Evaluate marketing effectiveness:**  Marketers must report on budget usage and campaign success. For a mattress marketer, this might involve presenting quarterly results, such as sales generated by the campaign and data on which ads and placements performed best.
+
+Demonstrating marketing effectiveness is vital, as it helps secure future budgets and supports ongoing success.
+
+**4. Marketing optimization:** Even with thorough planning, marketing campaigns can always be improved. As campaigns run and performance data is collected, marketers have an opportunity to optimize. The more data and analytical expertise available, the better the fine-tuning.
+
+For example, if a mattress company finds that certain **search engine ads** drive more sales, they can shift their budget towards those ads and away from underperforming ones. This process optimizes spending and maximizes results, showcasing the power of data and analytics to improve efficiency and save money.
+
+
+
+**5. Optimizing the sales funnel:** Optimizing the sales funnel ensures that potential customers can smoothly transition through the purchasing process. Marketers break this process into the following stages:
+
+**Awareness – Interest – Consideration – Intent – Decision – Action**
+
+
+**Awareness:** The stage where a person first becomes aware of a product or brand.
+
+**Interest:** When they actively show curiosity and explore more details.
+
+**Consideration:** Evaluating the product's features and comparing it with alternatives.
+
+**Intent:** Expressing intent to purchase, such as adding items to a cart or requesting a quote.
+
+**Decision:** Finalizing their choice to buy.
+
+**Action:** Completing the purchase transaction.
+
+This progression is visualized as a funnel because the group of people narrows at each stage due to drop-offs.
+
+The funnel is also categorized into two key segments:
+
+**Upper Funnel:** Covers the stages of **awareness** and **interest**, where the focus is on capturing attention and generating leads.
+
+**Lower Funnel:** Includes **intent**, **decision**, and **action**, emphasizing converting leads into customers.
+
+For example, a mattress marketer strives to increase the proportion of individuals advancing from awareness to purchase. If a large drop-off occurs during the interest or consideration stage, strategies such as targeted content, retargeting ads, or personalized messaging can help retain potential customers.
+
+Data and analytics play a crucial role in optimizing the funnel by identifying bottlenecks, understanding reasons behind drop-offs, and enabling marketers to refine their approaches. This results in more efficient use of resources and higher conversion rates.
+
+
+
+### The Future of Marketing is Data
+
+The future of marketing will be shaped by analytics. Marketers must leverage data to understand customers more accurately and predict their future behavior.
+
+Marketing is about making personal connections. It’s about meeting customer needs with relevant products or services and delivering value in the process. Yet, too often, companies make assumptions about their customers, focusing on product features rather than the benefits, or they try to appeal to everyone, missing the chance to engage their true target audience—those who will not only benefit but become brand ambassadors.
+
+Today's consumers expect personalized experiences—from tailored product offerings to unique in-store and online interactions. A one-size-fits-all approach no longer works.
+
+Marketers need better tools to foster personal connections. There’s a shift from focusing on product performance to evaluating the value of each customer, and data is essential for achieving this. By using data, marketers can understand:
+
+- Past purchase behavior
+
+- Impact of social media on sales
+
+- Customer search keywords
+
+- Demographics and interests
+
+- How to market effectively to each customer in the future
+
+In the end, marketing's future will be defined by data-driven insights. The companies that succeed will be those that smartly apply data to truly understand their customers and predict their behavior.
+
+
+### Marketing Trends for a Data-Driven Future
+
+As we see an increase in data-driven customer connections, here are some trends we'll see in the future of marketing.
+
+**Smarter use of data**   
+
+Marketing teams will increase their use of data in order to learn more about their customers, which will create better targeting, personalization, and connection. More personalized marketing means more returns, as 80% of consumers say they'd be more likely to purchase from a brand that offers personalized experiences, and 72% say they only engage with marketing messages that are specific to their interests.
+
+**Growth of AI** 
+
+There will be an increase in use of AI, machine learning, and algorithms in marketing, as it can predict patterns and make recommendations based on the insights it sees. Already, algorithms choose 70% of what viewers watch on YouTube and 75% of what viewers watch on Netflix, and recommendation algorithms drive 35% of sales on Amazon. Additionally, automation will increase as well, with Gartner predicting that "By 2023, autonomous marketing systems will issue 55% of multichannel marketing messages based on marketer criteria and real-time consumer behavior, resulting in a 25% increase in response rates."
+
+**Shift to first-party data** 
+
+As Google is phasing out its use of cookies, organizations will shift from third-party data to first- and second-party data, which will help them understand their customer more precisely.   
+
+Giving customers transparency into how data is collected will be a priority as well. According to Kevin Cochrane, the CMO of SAP Customer Experience, "*To initiate a more trustworthy relationship, organizations must start by eliminating internal processes of acquiring third-party data. They must use only data that they have earned through explicit customer consent. ... Moving forward, consumers should (and will) have full visibility into how extensively their personal data is being monetized.*"    
+
+**More online data**  
+
+As the COVID-19 pandemic shifted life online, organizations suddenly saw an increase in new data they could collect about their customers, and the trend will only increase. "In the absence of the face-to-face, we had to lean in on digital, and that allowed us to have the information, the data, to then better serve our customers," notes Kevin Warren, CMO of UPS. "This year really has revealed that strategic importance of analytics that maybe wasn't quite there pre-COVID." 
+
+**Better budget optimization** 
+
+As marketing teams are able to better target their customers, they'll be able to better optimize their budgets. In wanting to optimize its marketing budget, `DoorDash first looked at which ads brought in new customers`, drew channel-level cost curves based on the data, and created better ways to deliver. "Accurate, timely, and fine-grained attribution data is the key to understanding and optimizing our marketing," they explain.
+
+
+
+
+
+
+
+
+
+

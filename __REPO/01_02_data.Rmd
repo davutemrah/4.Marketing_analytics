@@ -11,7 +11,9 @@ Then, we'll walk through an example of how a marketing team collects digital dat
 
 #### Data Related to Offline Behavior
 
-Where does the data marketers use come from? Since we're such a digital world, you may think collecting data only happens online, and we'll talk about online data in our next video. But there's plenty of useful customer data that can be found offline too which can help give you a complete picture of who your customers are and how they behave. 
+Where does the data marketers use come from? 
+
+Since we're such a digital world, you may think collecting data only happens online. But there's plenty of useful customer data that can be found offline too which can help give you a complete picture of who your customers are and how they behave. 
 
 While the **customer journey** is shifting more and more online, there's still a significant part of that journey that happens in a physical location, whether it be a store purchase or engaging in a service. In fact, according to Statista, only 14.1% of retail sales in 2019 were made online, which means that 86% of customer purchases are happening in a physical location. 
 

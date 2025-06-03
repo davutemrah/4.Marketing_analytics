@@ -1,0 +1,197 @@
+## Marketing Mix Modeling (MMM): A Refresher
+
+
+
+**Marketing Mix Modeling** (MMM) is a statistical approach used by businesses to measure the impact of various marketing efforts on sales or other key business metrics. It helps in understanding the effectiveness of different channels and guiding budget allocation to maximize ROI.
+
+
+[pyMC - nice](https://www.pymc-marketing.io/en/stable/notebooks/mmm/mmm_example.html)
+
+
+[META - Robyn](https://facebookexperimental.github.io/Robyn/docs/analysts-guide-to-MMM/)
+
+[google](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/data-and-measurement/marketing-measurement-handbook/)
+
+[meridian - new](https://developers.google.com/meridian)
+
+[lightgbm - bayesian](https://github.com/google/lightweight_mmm?tab=readme-ov-file)
+
+
+
+
+
+### Key Concepts to Know  
+
+#### Objective of MMM
+
+- Quantify the contribution of **media channels** (TV, digital, social, radio, print, etc.) and **non-media factors** (pricing, promotions, seasonality, macroeconomic trends) to outcomes like **sales, revenue, or customer engagement**.  
+
+- Answer questions like:  
+
+  - What is the ROI of each marketing channel?  
+
+  - How should I reallocate my marketing budget for better performance?  
+
+
+####  How MMM Works
+
+- Uses **historical data** on marketing spend, sales, and external factors to build **regression-based models**.  
+
+- An MMM is typically run using weekly level observations (e.g. the KPI could be sales per week), however, it can also be run at the daily level.
+
+- The response variable is typically **sales/revenue**.  
+
+- Independent variables include:  
+
+  - **Marketing activities** (spend by channel).  
+
+  - **Control variables** (price, promotions, competition, economic trends).  
+
+  - **Seasonality and trends** (month of the year, holiday spikes).  
+
+**Model Example**:  
+
+\[ Sales = \beta_0 + \beta_1(\text{TV Spend}) + \beta_2(\text{Digital Spend}) + \beta_3(\text{Price Discount}) + \ldots + \epsilon \]  
+
+
+#### Key Techniques in MMM
+
+1. **Log-Log Models**:  
+   
+In **Marketing Mix Modeling (MMM)**, **log-log models** are commonly used. Why **Log-Log Models** Are Popular in MMM:
+
+a. **Elasticity Interpretation**:
+ 
+   - **Log-log models** provide a straightforward interpretation of the results in terms of elasticity. In MMM, you're often interested in understanding how changes in marketing spend (or other factors) affect sales in a relative, rather than absolute, sense.
+ 
+   - For example, if TV spend is increased by 1%, the estimated % change in sales (coefficient of \(\ln(TV Spend)\)) can be directly interpreted from the model coefficient.
+
+b. **Diminishing Returns**:
+ 
+   - When working with marketing activities like **TV Spend, Online Ads, Promotions, etc.**, the relationship between these activities and their impact on sales is often not linear. The **log transformation** helps model diminishing returns, meaning that as you increase the spend, the incremental return decreases.
+ 
+   - In a **log-log model**, this phenomenon is captured naturally by the logarithmic relationships between inputs (marketing spend) and outputs (sales).
+
+c. **Stabilizing Variance**:
+ 
+   - Log transformations are used to stabilize variance across a wide range of values. In marketing, sales or revenue might vary across a wide range, and a log-log model can handle the variation better, especially when there are high-impact spikes in marketing spend or sales.
+
+d. **Identify elasticity**: The coefficient \(\beta_1\) in a log-log model represents the elasticity, i.e., the percentage change in the dependent variable resulting from a 1% change in the independent variable. If \(\beta_1 = 0.5\), it means that a 1% increase in TV Spend will lead to a 0.5% increase in Sales.
+  
+
+
+**Typical Form of an MMM Log-Log Model:**
+
+In a typical MMM scenario, the model equation would look like:
+
+\[
+\ln(Sales) = \beta_0 + \beta_1(\ln(TV Spend)) + \beta_2(\ln(Online Ads Spend)) + \beta_3(\ln(Promotions Spend)) + \dots + \epsilon
+\]
+
+Where:
+
+- **Sales** is the dependent variable (sales volume or revenue).
+
+- The independent variables like **TV Spend**, **Online Ads Spend**, and **Promotions Spend** are also logged.
+
+- The coefficients \(\beta_1, \beta_2, \dots\) represent the elasticity of each marketing factor on sales.
+
+**Benefits of Using Log-Log Models in MMM:**
+
+- They **simplify interpretation** by making it easier to understand percentage changes in sales due to percentage changes in marketing inputs.
+
+- They **capture diminishing returns** in the relationship between marketing spend and sales.
+
+- They offer **statistical advantages**, especially when the data exhibits skewness or heteroscedasticity (non-constant variance across levels of the variables).
+
+
+   
+2. **Adstock/Decay Effects**:  
+   - Models the **delayed effect** of advertising (impact persists after spend).  
+   - Commonly uses **Lag or Adstock transformation**:  
+     \[ Adstock_t = Spend_t + \lambda(Adstock_{t-1}) \]  
+
+3. **Saturation Effects**:  
+   - Handles diminishing returns where incremental spend has decreasing impact.  
+
+4. **Multicollinearity Management**:  
+   - Marketing data often has overlapping or correlated channels (e.g., TV and digital).  
+   - Techniques like **Ridge regression** or **variance inflation factors (VIF)** are used.  
+
+
+
+#### Standard and Hierarchical models
+
+The LightweightMMM can either be run using data aggregated at the national level (standard approach) or using data aggregated at a geo level (sub-national hierarchical approach).
+
+- National level (standard approach). This approach is appropriate if the data available is only aggregated at the national level (e.g. The KPI could be national sales per time period). This is the most common format used in MMMs.
+
+- Geo level (sub-national hierarchical approach). This approach is appropriate if the data can be aggregated at a sub-national level (e.g. the KPI could be sales per time period for each state within a country). This approach can yield more accurate results compared to the standard approach because it uses more data points to fit the model. We recommend using a sub-national level model for larger countries such as the US if possible.
+
+
+
+
+#### 4. **Steps in MMM Development**  
+1. **Data Collection**: Gather data on:  
+   - Marketing spend by channel.  
+   - Sales or other KPIs (e.g., website visits, leads).  
+   - External factors (e.g., GDP, weather).  
+   
+2. **Data Preparation**:  
+   - Normalize spend data.  
+   - Create lag/adstock transformations for channels with delayed effects.  
+
+3. **Model Building**:  
+   - Use statistical software/tools (e.g., Python, R) to build regression models.  
+   - Test for multicollinearity, p-values, and fit metrics (e.g., R²).  
+
+4. **Model Evaluation**:  
+   - Validate model predictions using holdout datasets or time-series cross-validation.  
+
+5. **Insights Generation**:  
+   - ROI estimation for each channel:  
+     \[ ROI = \frac{\text{Incremental Sales}}{\text{Spend}} \]  
+   - Identify underperforming channels and optimal budget reallocations.  
+
+---
+
+#### 5. **Key Outputs of MMM**  
+1. **ROI Metrics**: Channel-wise and overall marketing ROI.  
+2. **Budget Recommendations**: Suggestions for spend reallocation to maximize sales.  
+3. **Scenario Simulations**: "What-if" analyses for different budget scenarios.  
+4. **Base vs. Incremental Sales**: Understanding sales driven by external factors vs. marketing efforts.  
+
+---
+
+#### 6. **Practical Questions You May Be Asked in the Interview**  
+1. **How would you handle seasonality and trend components in an MMM?**  
+   - Incorporate dummy variables or time-series decomposition.  
+
+2. **How do you address multicollinearity in MMM?**  
+   - Use Ridge regression or regularization techniques.  
+
+3. **What is Adstock modeling, and why is it important?**  
+   - It captures the lingering effect of advertising spend over time.  
+
+4. **How do you validate an MMM?**  
+   - Use holdout samples, cross-validation, or comparison to business intuition.  
+
+5. **How do you handle diminishing returns in your model?**  
+   - Use transformations like logarithms or polynomial terms.  
+
+---
+
+#### 7. **Advanced Topics for MMM Expertise**  
+- Incorporating **non-linear effects** with machine learning models (e.g., XGBoost).  
+- Combining MMM with **digital attribution models** (e.g., multi-touch attribution).  
+- Working with **real-time MMM** tools like Marketing Mix Modeling in Databricks or specialized platforms (e.g., Nielsen Compass).  
+
+---
+
+#### Preparation Resources  
+- Tools: Excel, R, Python, Google Analytics, and any familiarity with software like SAS or Nielsen tools.  
+- Statistical methods: Ridge regression, cross-validation, and understanding residual diagnostics.  
+- Frameworks: Bayes’ Theorem and Time Series Forecasting basics can also be useful.
+
+Do you have any specifics you'd like to dive deeper into?
+

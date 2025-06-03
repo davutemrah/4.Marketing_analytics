@@ -1,0 +1,59 @@
+## Attribution Modeling
+
+**What Is an Attribution Model?**
+
+Attribution models measure the impact of digital marketing channels on a customer’s journey to conversion. Conversion is a marketing term which refers to a customer taking the action desired by the marketer (e.g., buys an item, joins a group, enrolls in a service). This knowledge can inform the manufacturer’s strategy, focus their approach, and align their advertising spend accordingly.
+
+A conversion attribution model helps marketers understand which marketing campaigns or tactics were most effective in driving user engagement, retention, and revenue. It is also how advertisers determine which of their traffic sources are delivering value (and which are the best performing).
+
+By identifying these successful channels and tactics, mobile marketers can optimize their marketing strategies and allocate resources more effectively to achieve their desired outcomes.
+
+**Attribution model types**
+
+Each can be used to assign credit to various marketing channels and touchpoints while offering its own unique pros and cons.
+
+
+### First touch
+
+First-click attribution, also known as a first-touch attribution model, awards credit to the first point of contact a user has with a campaign. This single-touch attribution model is based on the assumption that the first touchpoint played the most important role in influencing the user's decision to convert.
+
+First-click attribution can be useful for mobile marketers who want to understand the initial source of their app users and the channels that are most effective in top-of-funnel campaigns at the brand awareness stage. However, it may not provide a complete picture of the user journey and the impact of other marketing channels that users may have engaged with further down the funnel.
+
+First-touch attribution model example: A user first discovers a mobile app through a Google search ad and later installs the app after clicking on a Facebook ad. The first-click attribution model would assign all credit for the conversion to the Google search ad.
+
+
+
+
+### Last touch
+
+
+
+
+What is last-click attribution?
+
+Last-click attribution, also known as a last-interaction attribution model or a last-touch attribution model, awards credit to the final point of contact a user has with a campaign. This single-touch attribution model is based on the assumption that the last touchpoint had the most significant impact on the user's decision to convert.
+
+Last-click attribution can be useful for mobile marketers who want to optimize their marketing campaigns for immediate results and focus on the most effective channels for driving user conversions. However, it may overlook the impact of other marketing channels that users may have engaged with earlier in the funnel, potentially leading to missed opportunities for optimization and growth.
+
+
+
+Last-click attribution model example: A user first discovers a mobile app through a Facebook ad and later installs the app after clicking on a push notification. The last-click attribution model would assign all credit for the conversion to the push notification.
+
+What is multi-touch attribution?
+
+The multi-touch attribution model assigns varying weights to different traffic sources for an advertising interaction, leading to multiple channels benefitting when a user interacts with a campaign.
+
+Multi-touch attribution can provide a more comprehensive understanding of the user journey and the impact of different marketing channels, allowing mobile marketers to optimize their campaigns more effectively and allocate resources more efficiently.
+
+Multi-touch attribution model example: A user discovers a mobile app through a TikTok ad and clicks on the ad, which takes them to the app store. The user doesn't download the app right away but comes back a few days later and searches for the app on Google, then clicks on a search ad and goes to the app store again. They still don't download the app but later while browsing the App Store they are served an Apple Search Ad for the app, which prompts them to download it.
+
+The multi-touch attribution model would assign credit to all three touchpoints–the Facebook ad, the Google search ad, and the Apple Search Ad–for contributing to the user's decision to download the app. Depending on the type of multi-touch attribution model, more weight might be assigned to the Apple Search Ad since it occurred closer to the time of the conversion, but it would still acknowledge the impact of the earlier touchpoints.
+
+Learn about the several types of multi-touch attribution models.
+
+
+
+Attribution modeling and Adjust: What is the best attribution model?
+Adjust eases the challenge of attribution modeling by doing it on behalf of advertisers. At Adjust, we believe the best attribution model is the last-click attribution model. Not only is it the current industry standard for mobile measurement, but we strongly consider the last clicked ad as the source that effectively led to the install.
+
+However, we understand there are situations when other engagements should also be considered, such as CTV campaigns, so we also offer our Adjust Multi-Touch solution, which allows marketers to analyze the power of assisting channels. We’re also strong advocates for enabling view-through-attribution (VTA) to unlock full-journey insight on the power of impressions in driving an eventual conversion/understanding which channels most effectively uplift other channels.
